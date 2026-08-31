@@ -1,4 +1,4 @@
 ---
-{"dg-publish":true,"permalink":"/test/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/test/","noteIcon":"","dg-note-properties":{}}
 ---
 
