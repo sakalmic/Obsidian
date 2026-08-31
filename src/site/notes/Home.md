@@ -105,6 +105,7 @@
 > [!note]
 >  | File                                                                          | Created                    |
 > | ----------------------------------------------------------------------------- | -------------------------- |
+> | [[Home test\|Home test]]                                                   | 11:37 PM - August 31, 2026 |
 > | [[test\|test]]                                                             | 11:28 PM - August 31, 2026 |
 > | [[TEMPLATES/(TEMPLATE) ZK-Permanent_Note\|(TEMPLATE) ZK-Permanent_Note]]   | 10:54 PM - August 31, 2026 |
 > | [[TEMPLATES/(TEMPLATE) ZK-Literature_Note\|(TEMPLATE) ZK-Literature_Note]] | 10:54 PM - August 31, 2026 |
@@ -114,7 +115,6 @@
 > | [[TEMPLATES/(TEMPLATE) Review\|(TEMPLATE) Review]]                         | 10:54 PM - August 31, 2026 |
 > | [[TEMPLATES/(TEMPLATE) Reflection\|(TEMPLATE) Reflection]]                 | 10:54 PM - August 31, 2026 |
 > | [[TEMPLATES/(TEMPLATE) Project\|(TEMPLATE) Project]]                       | 10:54 PM - August 31, 2026 |
-> | [[TEMPLATES/(TEMPLATE) Idea\|(TEMPLATE) Idea]]                             | 10:54 PM - August 31, 2026 |
 > 
 { .block-language-dataview}
 ---
