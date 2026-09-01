@@ -81,23 +81,23 @@
 ## 📝 Latest Notes
 
 > [!note]
->  | File                                                                          | Created                    |
-> | ----------------------------------------------------------------------------- | -------------------------- |
-> | [[test\|test]]                                                             | 11:28 PM - August 31, 2026 |
-> | [[Home\|Home]]                                                             | 10:54 PM - August 31, 2026 |
-> | [[TEMPLATES/(TEMPLATE) ZK-Permanent_Note\|(TEMPLATE) ZK-Permanent_Note]]   | 10:54 PM - August 31, 2026 |
-> | [[TEMPLATES/(TEMPLATE) ZK-Literature_Note\|(TEMPLATE) ZK-Literature_Note]] | 10:54 PM - August 31, 2026 |
-> | [[TEMPLATES/(TEMPLATE) ZK-Fleeting_Note\|(TEMPLATE) ZK-Fleeting_Note]]     | 10:54 PM - August 31, 2026 |
-> | [[TEMPLATES/(TEMPLATE) Task\|(TEMPLATE) Task]]                             | 10:54 PM - August 31, 2026 |
-> | [[TEMPLATES/(TEMPLATE) Studies\|(TEMPLATE) Studies]]                       | 10:54 PM - August 31, 2026 |
-> | [[TEMPLATES/(TEMPLATE) Review\|(TEMPLATE) Review]]                         | 10:54 PM - August 31, 2026 |
-> | [[TEMPLATES/(TEMPLATE) Reflection\|(TEMPLATE) Reflection]]                 | 10:54 PM - August 31, 2026 |
-> | [[TEMPLATES/(TEMPLATE) Project\|(TEMPLATE) Project]]                       | 10:54 PM - August 31, 2026 |
+>  | File                                                                      | Created                    |
+> | ------------------------------------------------------------------------- | -------------------------- |
+> | [[test\|test]]                                                         | 11:28 PM - August 31, 2026 |
+> | [[TEMPLATES/(TEMPLATE) Daily\|(TEMPLATE) Daily]]                       | 10:54 PM - August 31, 2026 |
+> | [[TEMPLATES/(TEMPLATE) Review\|(TEMPLATE) Review]]                     | 10:54 PM - August 31, 2026 |
+> | [[TEMPLATES/(TEMPLATE) Reflection\|(TEMPLATE) Reflection]]             | 10:54 PM - August 31, 2026 |
+> | [[TEMPLATES/(TEMPLATE) Project\|(TEMPLATE) Project]]                   | 10:54 PM - August 31, 2026 |
+> | [[TEMPLATES/(TEMPLATE) Idea\|(TEMPLATE) Idea]]                         | 10:54 PM - August 31, 2026 |
+> | [[TEMPLATES/(TEMPLATE) ZK-Fleeting_Note\|(TEMPLATE) ZK-Fleeting_Note]] | 10:54 PM - August 31, 2026 |
+> | [[TEMPLATES/(TEMPLATE) Task\|(TEMPLATE) Task]]                         | 10:54 PM - August 31, 2026 |
+> | [[TEMPLATES/(TEMPLATE) Studies\|(TEMPLATE) Studies]]                   | 10:54 PM - August 31, 2026 |
+> | [[System/General guide\|General guide]]                                | 10:54 PM - August 31, 2026 |
 > 
 { .block-language-dataview}
 ---
 ## 🔗 Quick Links
 
 <p><span><ul>
-<li dir="auto"><strong>Dnes:</strong> <a data-tooltip-position="top" aria-label="Daily/2026-08-31" data-href="Daily/2026-08-31" href="Daily/2026-08-31" class="internal-link" target="_blank" rel="noopener nofollow">Dnešní deník (2026-08-31)</a></li>
+<li dir="auto"><strong>Dnes:</strong> <a data-tooltip-position="top" aria-label="Daily/2026-09-01" data-href="Daily/2026-09-01" href="Daily/2026-09-01" class="internal-link" target="_blank" rel="noopener nofollow">Dnešní deník (2026-09-01)</a></li>
 </ul></span></p>
