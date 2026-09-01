@@ -1,5 +1,5 @@
 /* =========================================================
-   Sakalmic-PhD Digital Garden Theme & Pixel-Perfect Layout
+   Sakalmic-PhD Digital Garden Theme & Wide Navigation Layout
    ========================================================= */
 
 /* 1. Global Dark Theme Variables & Reset */
@@ -21,10 +21,10 @@ html, body {
   padding: 0;
 }
 
-/* 2. Desktop Layout (>= 900px): Compact 250px sidebar + 255px body offset */
-@media (min-width: 900px) {
+/* 2. Desktop Layout (>= 1050px): Wide 380px Navigation Sidebar + 395px Body Offset */
+@media (min-width: 1050px) {
   html, body {
-    padding-left: 255px !important;
+    padding-left: 395px !important;
     box-sizing: border-box !important;
   }
 
@@ -33,15 +33,15 @@ html, body {
     left: 0 !important;
     top: 0 !important;
     bottom: 0 !important;
-    width: 250px !important;
-    min-width: 250px !important;
-    max-width: 250px !important;
+    width: 380px !important;
+    min-width: 380px !important;
+    max-width: 380px !important;
     height: 100vh !important;
     overflow-y: auto !important;
     background-color: #1e293b !important;
     border-right: 1px solid #334155 !important;
     z-index: 9999 !important;
-    padding: 1.2rem 0.8rem !important;
+    padding: 1.5rem 1.2rem !important;
     box-sizing: border-box !important;
   }
 
@@ -50,8 +50,8 @@ html, body {
     padding-top: 1.8rem !important;
     padding-right: 2.5rem !important;
     padding-bottom: 3rem !important;
-    padding-left: 0.5rem !important;
-    max-width: 1150px !important;
+    padding-left: 0.8rem !important;
+    max-width: 1200px !important;
     width: 100% !important;
     display: block !important;
     box-sizing: border-box !important;
@@ -63,6 +63,43 @@ html, body {
     top: 0 !important;
     width: 230px !important;
     background-color: #1e293b !important;
+  }
+}
+
+/* Medium screens (900px - 1049px) */
+@media (min-width: 900px) and (max-width: 1049px) {
+  html, body {
+    padding-left: 310px !important;
+    box-sizing: border-box !important;
+  }
+
+  .filetree-wrapper, .filetree-sidebar {
+    position: fixed !important;
+    left: 0 !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    width: 300px !important;
+    min-width: 300px !important;
+    max-width: 300px !important;
+    height: 100vh !important;
+    overflow-y: auto !important;
+    background-color: #1e293b !important;
+    border-right: 1px solid #334155 !important;
+    z-index: 9999 !important;
+    padding: 1.2rem 1rem !important;
+    box-sizing: border-box !important;
+  }
+
+  main.content, .content, main {
+    margin: 0 !important;
+    padding-top: 1.8rem !important;
+    padding-right: 2rem !important;
+    padding-bottom: 3rem !important;
+    padding-left: 0.5rem !important;
+    max-width: 1000px !important;
+    width: 100% !important;
+    display: block !important;
+    box-sizing: border-box !important;
   }
 }
 
@@ -89,7 +126,7 @@ html, body {
 h1, .filetree-sidebar h1, .navbar h1 {
   color: #38bdf8 !important;
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1.55rem;
   line-height: 1.3;
 }
 
@@ -119,7 +156,9 @@ a:hover, a.internal-link:hover, .notelink a:hover {
 /* Folder tree items */
 .foldername, .filename {
   color: #cbd5e1 !important;
-  font-size: 0.91rem;
+  font-size: 0.93rem;
+  white-space: normal;
+  word-break: break-word;
 }
 
 .foldername:hover, .filename:hover {
