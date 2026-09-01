@@ -1,5 +1,5 @@
 /* =========================================================
-   Sakalmic-PhD Digital Garden Theme & Responsive Layout
+   Sakalmic-PhD Digital Garden Theme & Pixel-Perfect Layout
    ========================================================= */
 
 /* 1. Global Dark Theme Variables & Reset */
@@ -10,7 +10,7 @@
   --text-normal: #e2e8f0;
   --text-muted: #94a3b8;
   --text-accent: #38bdf8;
-  --file-margins: 24px;
+  --file-margins: 20px;
 }
 
 html, body {
@@ -21,10 +21,10 @@ html, body {
   padding: 0;
 }
 
-/* 2. Desktop Layout (>= 900px): Body padding-left guarantees zero overlap */
+/* 2. Desktop Layout (>= 900px): Clean 260px sidebar + 275px body offset */
 @media (min-width: 900px) {
   html, body {
-    padding-left: 320px !important;
+    padding-left: 275px !important;
     box-sizing: border-box !important;
   }
 
@@ -33,15 +33,15 @@ html, body {
     left: 0 !important;
     top: 0 !important;
     bottom: 0 !important;
-    width: 290px !important;
-    min-width: 290px !important;
-    max-width: 290px !important;
+    width: 260px !important;
+    min-width: 260px !important;
+    max-width: 260px !important;
     height: 100vh !important;
     overflow-y: auto !important;
     background-color: #1e293b !important;
     border-right: 1px solid #334155 !important;
     z-index: 9999 !important;
-    padding: 1.5rem 1rem !important;
+    padding: 1.5rem 0.9rem !important;
     box-sizing: border-box !important;
   }
 
@@ -50,8 +50,8 @@ html, body {
     padding-top: 2rem !important;
     padding-right: 3rem !important;
     padding-bottom: 3rem !important;
-    padding-left: 1rem !important;
-    max-width: 1050px !important;
+    padding-left: 1.5rem !important;
+    max-width: 1100px !important;
     width: 100% !important;
     display: block !important;
     box-sizing: border-box !important;
@@ -61,7 +61,7 @@ html, body {
     position: fixed !important;
     right: 0 !important;
     top: 0 !important;
-    width: 240px !important;
+    width: 230px !important;
     background-color: #1e293b !important;
   }
 }
@@ -89,6 +89,8 @@ html, body {
 h1, .filetree-sidebar h1, .navbar h1 {
   color: #38bdf8 !important;
   font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 1.3;
 }
 
 h2 {
@@ -96,6 +98,7 @@ h2 {
   border-bottom: 1px solid #334155;
   padding-bottom: 0.3rem;
   margin-top: 1.8rem;
+  font-size: 1.3rem;
 }
 
 h3, h4, h5, h6 {
@@ -116,7 +119,7 @@ a:hover, a.internal-link:hover, .notelink a:hover {
 /* Folder tree items */
 .foldername, .filename {
   color: #cbd5e1 !important;
-  font-size: 0.95rem;
+  font-size: 0.92rem;
 }
 
 .foldername:hover, .filename:hover {
@@ -127,7 +130,7 @@ a:hover, a.internal-link:hover, .notelink a:hover {
 table {
   border-collapse: collapse;
   width: 100%;
-  margin: 1.5rem 0;
+  margin: 1.2rem 0;
   border: 1px solid #334155 !important;
 }
 
@@ -154,7 +157,7 @@ tr:nth-child(even) {
 /* Callouts / Info boxes */
 .callout {
   border-radius: 8px;
-  margin: 1.5rem 0;
+  margin: 1.2rem 0;
   background-color: rgba(30, 41, 59, 0.8) !important;
   border: 1px solid #334155 !important;
 }
