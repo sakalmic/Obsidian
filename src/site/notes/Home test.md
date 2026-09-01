@@ -1,6 +1,5 @@
 ---
 dg-publish: true
-dg-home: true
 dg-render-dataview: true
 ---
 
