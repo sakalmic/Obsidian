@@ -10,4 +10,26 @@ body {
     //  h1 {
     //   color: black;
     //  }
+}    
+SCSS
+html, body {
+    background-color: #ffffff !important;
+    color: #1a202c !important;
+    }
+
+    /* Barva odkazů a textu */
+    a, .internal-link {
+    color: #2b6cb0 !important;
+    }
+
+    /* Levý panel stromu souborů */
+    .filetree-sidebar {
+    background-color: #f7fafc !important;
+    display: block !important;
+}
+
+
+
+
+    
 }
