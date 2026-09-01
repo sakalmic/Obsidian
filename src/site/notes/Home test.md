@@ -1,8 +1,6 @@
 ---
-dg-publish: true
-dg-render-dataview: true
+{"dg-publish":true,"permalink":"/home-test/","tags":["gardenEntry"],"noteIcon":"","dg-note-properties":{}}
 ---
-
 
 ## 🗺️ Maps of Context (MOCs)
 
@@ -82,18 +80,18 @@ dg-render-dataview: true
 ## 📝 Latest Notes
 
 > [!note]
->  | File                                                                      | Created                    |
-> | ------------------------------------------------------------------------- | -------------------------- |
-> | [[test\|test]]                                                         | 11:28 PM - August 31, 2026 |
-> | [[TEMPLATES/(TEMPLATE) Daily\|(TEMPLATE) Daily]]                       | 10:54 PM - August 31, 2026 |
-> | [[TEMPLATES/(TEMPLATE) Review\|(TEMPLATE) Review]]                     | 10:54 PM - August 31, 2026 |
-> | [[TEMPLATES/(TEMPLATE) Reflection\|(TEMPLATE) Reflection]]             | 10:54 PM - August 31, 2026 |
-> | [[TEMPLATES/(TEMPLATE) Project\|(TEMPLATE) Project]]                   | 10:54 PM - August 31, 2026 |
-> | [[TEMPLATES/(TEMPLATE) Idea\|(TEMPLATE) Idea]]                         | 10:54 PM - August 31, 2026 |
-> | [[TEMPLATES/(TEMPLATE) ZK-Fleeting_Note\|(TEMPLATE) ZK-Fleeting_Note]] | 10:54 PM - August 31, 2026 |
-> | [[TEMPLATES/(TEMPLATE) Task\|(TEMPLATE) Task]]                         | 10:54 PM - August 31, 2026 |
-> | [[TEMPLATES/(TEMPLATE) Studies\|(TEMPLATE) Studies]]                   | 10:54 PM - August 31, 2026 |
-> | [[System/General guide\|General guide]]                                | 10:54 PM - August 31, 2026 |
+>  | File                                                                        | Created                    |
+> | --------------------------------------------------------------------------- | -------------------------- |
+> | [[test\|test]]                                                           | 11:28 PM - August 31, 2026 |
+> | [[TEMPLATES/(TEMPLATE) Daily\|(TEMPLATE) Daily]]                         | 10:54 PM - August 31, 2026 |
+> | [[TEMPLATES/(TEMPLATE) Review\|(TEMPLATE) Review]]                       | 10:54 PM - August 31, 2026 |
+> | [[TEMPLATES/(TEMPLATE) Reflection\|(TEMPLATE) Reflection]]               | 10:54 PM - August 31, 2026 |
+> | [[TEMPLATES/(TEMPLATE) Project\|(TEMPLATE) Project]]                     | 10:54 PM - August 31, 2026 |
+> | [[TEMPLATES/(TEMPLATE) Idea\|(TEMPLATE) Idea]]                           | 10:54 PM - August 31, 2026 |
+> | [[TEMPLATES/(TEMPLATE) ZK-Fleeting_Note\|(TEMPLATE) ZK-Fleeting_Note]]   | 10:54 PM - August 31, 2026 |
+> | [[TEMPLATES/(TEMPLATE) Task\|(TEMPLATE) Task]]                           | 10:54 PM - August 31, 2026 |
+> | [[TEMPLATES/(TEMPLATE) Studies\|(TEMPLATE) Studies]]                     | 10:54 PM - August 31, 2026 |
+> | [[TEMPLATES/(TEMPLATE) ZK-Permanent_Note\|(TEMPLATE) ZK-Permanent_Note]] | 10:54 PM - August 31, 2026 |
 > 
 { .block-language-dataview}
 ---
