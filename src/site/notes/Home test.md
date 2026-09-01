@@ -1,6 +1,9 @@
 ---
-{"dg-publish":true,"permalink":"/home-test/","tags":["gardenEntry"],"noteIcon":"","dg-note-properties":{}}
+dg-publish: true
+dg-home: true
+dg-render-dataview: true
 ---
+
 
 ## 🗺️ Maps of Context (MOCs)
 
