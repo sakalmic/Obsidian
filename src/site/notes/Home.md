@@ -4,6 +4,7 @@ aliases:
   - Home
   - Dashboard
 tags:
+  - gardenEntry
   - type/moc
   - context/phd
 date: 2026-09-01
