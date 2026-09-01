@@ -1,93 +1,98 @@
-/* Clean Custom Styling for sakalmic-PhD Digital Garden */
+/* =========================================================
+   Sakalmic-PhD Digital Garden Theme & Responsive Layout
+   ========================================================= */
 
+/* 1. Global Dark Theme Variables & Reset */
 :root {
-  --font-default: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  --text-normal: #e2e8f0;
-  --text-muted: #94a3b8;
-  --text-accent: #38bdf8;
   --background-primary: #0f172a;
   --background-secondary: #1e293b;
   --background-modifier-border: #334155;
+  --text-normal: #e2e8f0;
+  --text-muted: #94a3b8;
+  --text-accent: #38bdf8;
+  --file-margins: 24px;
 }
 
-body {
-  font-family: var(--font-default);
-  line-height: 1.6;
-}
-
-/* Global Dark Theme Consistency */
-body, body.theme-dark, body.theme-light {
+html, body {
   background-color: #0f172a !important;
   color: #e2e8f0 !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-/* 1. Desktop Layout Fix: File Tree and Content sit side-by-side cleanly without overlapping */
-@media (min-width: 900px) {
-  body:not(.no-filetree) {
-    display: flex !important;
-    flex-direction: row !important;
-    min-height: 100vh;
-    margin: 0 !important;
-    padding: 0 !important;
-  }
-
+/* 2. Desktop Layout: Fixed Sidebar on the left + Content properly offset */
+@media (min-width: 1000px) {
   body:not(.no-filetree) .filetree-wrapper {
-    width: 290px !important;
-    min-width: 290px !important;
-    max-width: 290px !important;
-    flex: 0 0 290px !important;
-    position: sticky !important;
+    position: fixed !important;
+    left: 0 !important;
     top: 0 !important;
+    bottom: 0 !important;
+    width: 280px !important;
     height: 100vh !important;
     overflow-y: auto !important;
-    z-index: 100 !important;
     background-color: #1e293b !important;
     border-right: 1px solid #334155 !important;
+    z-index: 100 !important;
   }
 
   body:not(.no-filetree) .filetree-sidebar {
     width: 100% !important;
-    position: relative !important;
-    height: 100% !important;
-    box-sizing: border-box !important;
     padding: 1.5rem 1rem !important;
+    box-sizing: border-box !important;
     background-color: #1e293b !important;
   }
 
   body:not(.no-filetree) main.content {
-    flex: 1 1 auto !important;
-    min-width: 0 !important;
-    margin-left: 0 !important;
-    padding: 2.5rem 4rem !important;
+    margin-left: 310px !important;
+    margin-right: auto !important;
+    padding: 2.5rem 2rem !important;
     max-width: 960px !important;
-    background-color: #0f172a !important;
+    display: block !important;
   }
 
-  aside, .sidebar {
-    width: 260px !important;
-    min-width: 260px !important;
-    flex: 0 0 260px !important;
+  aside .sidebar {
+    position: fixed !important;
+    right: 0 !important;
+    top: 0 !important;
+    width: 250px !important;
+    background-color: #1e293b !important;
   }
 }
 
-/* 2. Headings and Site Title Styling */
+/* 3. Mobile Layout (< 1000px) */
+@media (max-width: 999px) {
+  main.content {
+    margin-left: 0 !important;
+    padding: 1.5rem 1.2rem !important;
+    display: block !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+  }
+
+  .filetree-sidebar {
+    background-color: #1e293b !important;
+  }
+}
+
+/* 4. Typography, Colors & Header */
 h1, .filetree-sidebar h1, .navbar h1 {
-  color: #38bdf8 !important; /* Sky Blue */
-  font-weight: 700 !important;
+  color: #38bdf8 !important;
+  font-weight: 700;
 }
 
 h2 {
   color: #60a5fa !important;
-  font-weight: 600 !important;
   border-bottom: 1px solid #334155;
   padding-bottom: 0.3rem;
+  margin-top: 1.8rem;
 }
 
 h3, h4, h5, h6 {
   color: #93c5fd !important;
 }
 
-/* 3. Links and Navigation */
+/* Links */
 a, a.internal-link, .notelink a {
   color: #38bdf8 !important;
   text-decoration: none;
@@ -98,17 +103,17 @@ a:hover, a.internal-link:hover, .notelink a:hover {
   text-decoration: underline;
 }
 
-/* 4. Folder Names and Tree */
+/* Folder tree items */
 .foldername, .filename {
   color: #cbd5e1 !important;
-  font-size: 0.93rem;
+  font-size: 0.95rem;
 }
 
 .foldername:hover, .filename:hover {
   color: #38bdf8 !important;
 }
 
-/* 5. Tables and Dataview styling */
+/* Tables */
 table {
   border-collapse: collapse;
   width: 100%;
@@ -119,10 +124,10 @@ table {
 th {
   background-color: #1e293b !important;
   color: #38bdf8 !important;
-  font-weight: 600;
   padding: 10px 14px;
   border-bottom: 2px solid #38bdf8 !important;
   border-right: 1px solid #334155 !important;
+  text-align: left;
 }
 
 td {
@@ -136,10 +141,16 @@ tr:nth-child(even) {
   background-color: #161f30 !important;
 }
 
-/* 6. Callouts */
+/* Callouts / Info boxes */
 .callout {
   border-radius: 8px;
   margin: 1.5rem 0;
-  background-color: rgba(30, 41, 59, 0.7) !important;
+  background-color: rgba(30, 41, 59, 0.8) !important;
   border: 1px solid #334155 !important;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #1e293b !important;
+  border-bottom: 1px solid #334155 !important;
 }
