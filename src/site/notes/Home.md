@@ -1,5 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/home/","dgShowFileTree":true,"noteIcon":"","dg-note-properties":{}}
+dg-publish:true
+dgShowFileTree:true
 ---
 
 
