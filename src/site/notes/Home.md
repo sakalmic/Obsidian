@@ -1,22 +1,7 @@
 ---
-title: Home
-aliases:
-  - Home
-  - Dashboard
-tags:
-  - gardenEntry
-  - type/moc
-  - context/phd
-date: 2026-09-01
-last_updated: 2026-09-01
-dg-publish: true
-dg-home: true
-dgHome: true
-dg-home-link: true
-dg-show-file-tree: true
-dgShowFileTree: true
-dg-render-dataview: true
+{"dg-publish":true,"permalink":"/home/","title":"Home","tags":["gardenEntry","type/moc","context/phd"],"dgHomeLink":true,"dgShowFileTree":true,"noteIcon":"","created":"2026-09-01","updated":"2026-09-01","dg-note-properties":{"title":"Home","aliases":["Home","Dashboard"],"tags":["gardenEntry","type/moc","context/phd"],"date":"2026-09-01","last_updated":"2026-09-01","dgHome":true,"dgShowFileTree":true}}
 ---
+
 
 # 🎓 Doktorské studium & Vědecký výzkum
 
@@ -32,151 +17,77 @@ dg-render-dataview: true
 
 | Oborová oblast | Popis | Rychlý odkaz |
 | :--- | :--- | :---: |
-| 🔬 **Výzkum & Metodologie** | Fyzika plazmatu, laserové spínání (LTSG), COMSOL simulace, diagnostika | [[01_MOC\|Otevřít 01_MOC]] |
-| 📖 **Disertační práce** | Kapitoly disertace, Claim Ledger, hypotézy, vazba na LaTeX v `PhD/thesis` | [[02_MOC\|Otevřít 02_MOC]] |
-| 📑 **Publikace & Konference** | Pipeline článků (IEEE, APL, ICOLSE), recenzní řízení, spoluautorství | [[03_MOC\|Otevřít 03_MOC]] |
-| 🏛️ **Administrace & ISP** | ISP, KOS, státní doktorská zkouška / minimum, směrnice FEL, školitel | [[04_MOC\|Otevřít 04_MOC]] |
-| 🎓 **Výuka & Vedení prací** | Pedagogická činnost, vedení cvičení, témata BP/DP | [[05_MOC\|Otevřít 05_MOC]] |
-| 💰 **Granty & Financování** | SGS ČVUT, GAČR, finanční výkazy a cestovní příkazy | [[06_MOC\|Otevřít 06_MOC]] |
+| 🔬 **Výzkum & Metodologie** | Fyzika plazmatu, laserové spínání (LTSG), COMSOL simulace, diagnostika | [[II Areas/01_Research/01_MOC\|Otevřít 01_MOC]] |
+| 📖 **Disertační práce** | Kapitoly disertace, Claim Ledger, hypotézy, vazba na LaTeX v `PhD/thesis` | [[II Areas/02_Thesis/02_MOC\|Otevřít 02_MOC]] |
+| 📑 **Publikace & Konference** | Pipeline článků (IEEE, APL, ICOLSE), recenzní řízení, spoluautorství | [[II Areas/03_Publications/03_MOC\|Otevřít 03_MOC]] |
+| 🏛️ **Administrace & ISP** | ISP, KOS, státní doktorská zkouška / minimum, směrnice FEL, školitel | [[II Areas/04_Administration/04_MOC\|Otevřít 04_MOC]] |
+| 🎓 **Výuka & Vedení prací** | Pedagogická činnost, vedení cvičení, témata BP/DP | [[II Areas/05_Teaching/05_MOC\|Otevřít 05_MOC]] |
+| 💰 **Granty & Financování** | SGS ČVUT, GAČR, finanční výkazy a cestovní příkazy | [[II Areas/06_Grants_Funding/06_MOC\|Otevřít 06_MOC]] |
 
 ---
 
 ## 🎛️ Aktivní PhD projekty a úkoly v řešení
 
-> [!abstract] **Projekty dle priorit**
-> ```dataviewjs
-> const tagIcons = { 
->      "#context/research": "🔬", 
->      "#context/thesis": "📖", 
->      "#context/publications": "📑", 
->      "#context/admin": "🏛️", 
->      "#context/teaching": "🎓", 
->      "#context/grants": "💰",
->      "#context/phd": "⚡"
-> };
-> 
-> const priorityLevels = [
->      { tag: "#priority/critical", title: "🔥 Kritické deadliny (Critical)" },
->      { tag: "#priority/high", title: "⚡ Vysoká priorita (High)" },
->      { tag: "#priority/normal", title: "📌 Běžné projekty (Normal)" },
->      { tag: "#priority/low", title: "☕ Nízká priorita (Low)" },
->      { tag: "UNSET", title: "❗️ Bez nastavené priority" }
-> ];
-> 
-> let projects = dv.pages('"I Projects" and #type/project and #status/in-progress');
-> 
-> let processedProjects = new Set(); 
-> 
-> priorityLevels.forEach(prio => {
->      let prioPages = projects.filter(p => {
->          if (processedProjects.has(p.file.path)) return false;
->          let tags = p.file.tags || [];
->          let hasPriority = tags.some(t => t.startsWith("#priority/"));
->          
->          if (prio.tag === "UNSET") { 
->              if (!hasPriority) { processedProjects.add(p.file.path); return true; } 
->              return false; 
->          }
->          if (tags.includes(prio.tag)) { 
->              processedProjects.add(p.file.path); 
->              return true; 
->          }
->          return false;
->      });
->      
->      if (prioPages.length > 0) {
->          dv.header(4, prio.title);
->          
->          prioPages.forEach(p => {
->              let icons = "";
->              for (let tag of p.file.tags) { if (tagIcons[tag]) icons += " " + tagIcons[tag]; }
->              
->              let linkedTasks = p.file.tasks.where(t => !t.completed);
->              
->              const container = dv.el("div", "", { cls: "proj-box" });
->              const linkHtml = `<a class="internal-link" href="${p.file.path}"><b>${p.file.name}</b></a>`;
->              
->              if (linkedTasks.length > 0) {
->                  const row = dv.el("div", `<span class="symbol-container"><span class="proj-arrow" style="color: #6366f1 !important; font-size: 1.1em !important;">▶</span></span>&nbsp;${linkHtml}${icons}`, { container, cls: "proj-row" });
->                  const bin = dv.el("div", "", { container, cls: "task-bin" });
->                  bin.style.display = "none"; 
->                  
->                  let taskMd = "";
->                  linkedTasks.forEach(t => {
->                      taskMd += `- [ ] ${t.text}\n`;
->                  });
->                  dv.paragraph(taskMd, { container: bin });
->                  
->                  row.addEventListener("click", (e) => {
->                      if (e.target.tagName === 'A' || e.target.parentElement.tagName === 'A') return;
->                      const arrowSpan = row.querySelector(".proj-arrow");
->                      if (bin.style.display === "none") {
->                          bin.style.display = "block";
->                          arrowSpan.innerText = "▼";
->                      } else {
->                          bin.style.display = "none";
->                          arrowSpan.innerText = "▶";
->                      }
->                  });
->              } else {
->                  dv.el("div", `<span class="symbol-container"><span style="color: #10b981 !important; font-size: 1.2em !important; line-height: 0.6; margin-left: -2px !important;">●</span></span>&nbsp;${linkHtml}${icons}`, { container, cls: "no-task-row" });
->              }
->          });
->      }
-> });
-> ```
+| File                                                                                   | Priorita | Stav | Změněno                      |
+| -------------------------------------------------------------------------------------- | -------- | ---- | ---------------------------- |
+| [[I Projects/COMSOL Plasma Simulation Model\|COMSOL Plasma Simulation Model]]       | \-       | \-   | 8:31 PM - September 01, 2026 |
+| [[I Projects/Dissertation Manuscript\|Dissertation Manuscript]]                     | \-       | \-   | 8:31 PM - September 01, 2026 |
+| [[I Projects/Experimental Diagnostics Campaign\|Experimental Diagnostics Campaign]] | \-       | \-   | 8:31 PM - September 01, 2026 |
+| [[I Projects/Grant SGS 2026-2027\|Grant SGS 2026-2027]]                             | \-       | \-   | 8:31 PM - September 01, 2026 |
+| [[I Projects/ISP & Milestone Tracking\|ISP & Milestone Tracking]]                   | \-       | \-   | 8:31 PM - September 01, 2026 |
+| [[I Projects/Paper - IEEE Transactions 2026\|Paper - IEEE Transactions 2026]]       | \-       | \-   | 8:31 PM - September 01, 2026 |
+| [[I Projects/Teaching & Labs Support\|Teaching & Labs Support]]                     | \-       | \-   | 8:31 PM - September 01, 2026 |
+
+{ .block-language-dataview}
 
 ---
 
 ## 📑 Publikační Pipeline & Články
 
-```dataview
-TABLE 
-    target_journal_conference as "Cílový časopis / Konference", 
-    status as "Stav", 
-    submission_deadline as "Deadline",
-    authors as "Autoři"
-FROM "I Projects" OR "II Areas/03_Publications"
-WHERE contains(tags, "type/paper")
-SORT submission_deadline ASC
-```
+| File                                                                             | Cílový časopis / Konference                          | Stav | Deadline          | Autoři                                         |
+| -------------------------------------------------------------------------------- | ---------------------------------------------------- | ---- | ----------------- | ---------------------------------------------- |
+| [[I Projects/Paper - IEEE Transactions 2026\|Paper - IEEE Transactions 2026]] | IEEE Transactions on Power Delivery / Plasma Science | \-   | December 15, 2026 | Ing. Michal Sakala, doc. Ing. Jan Mikeš, Ph.D. |
+
+{ .block-language-dataview}
 
 ---
 
 ## ⏳ Nadcházející akademické milníky a zkoušky
 
-```dataview
-TABLE 
-    file.mtime as "Poslední úprava",
-    tags as "Kategorie"
-FROM "I Projects" OR "II Areas/04_Administration"
-WHERE contains(tags, "type/project") OR contains(tags, "type/admin")
-SORT file.name ASC
-LIMIT 6
-```
+| File                                                                                                               | Poslední úprava              | Kategorie                                                                                                                                    |
+| ------------------------------------------------------------------------------------------------------------------ | ---------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[I Projects/COMSOL Plasma Simulation Model\|COMSOL Plasma Simulation Model]]                                   | 8:31 PM - September 01, 2026 | <ul><li>type/project</li><li>context/research</li><li>theme/comsol-simulation</li><li>priority/high</li><li>status/in-progress</li></ul>     |
+| [[II Areas/04_Administration/Credits & Exam Tracker\|Credits & Exam Tracker]]                                   | 8:33 PM - September 01, 2026 | <ul><li>type/admin</li><li>context/admin</li><li>status/in-progress</li></ul>                                                                |
+| [[I Projects/Dissertation Manuscript\|Dissertation Manuscript]]                                                 | 8:31 PM - September 01, 2026 | <ul><li>type/project</li><li>context/thesis</li><li>theme/plasma-dynamics</li><li>priority/high</li><li>status/in-progress</li></ul>         |
+| [[II Areas/04_Administration/Doctoral Study Regulations & Directives\|Doctoral Study Regulations & Directives]] | 8:33 PM - September 01, 2026 | <ul><li>type/admin</li><li>context/admin</li><li>status/evergreen</li></ul>                                                                  |
+| [[I Projects/Experimental Diagnostics Campaign\|Experimental Diagnostics Campaign]]                             | 8:31 PM - September 01, 2026 | <ul><li>type/project</li><li>context/research</li><li>theme/optical-diagnostics</li><li>priority/normal</li><li>status/in-progress</li></ul> |
+| [[I Projects/Grant SGS 2026-2027\|Grant SGS 2026-2027]]                                                         | 8:31 PM - September 01, 2026 | <ul><li>type/project</li><li>type/grant</li><li>context/grants</li><li>priority/high</li><li>status/in-progress</li></ul>                    |
+
+{ .block-language-dataview}
 
 ---
 
 ## 💡 Poslední Zettelkasten koncepty a literární poznámky
 
-```dataview
-TABLE 
-    file.ctime as "Vytvořeno",
-    tags as "Tagy"
-FROM "III Resources"
-WHERE file.name != this.file.name
-SORT file.ctime DESC
-LIMIT 8
-```
+| File                                                                                                                                                                           | Vytvořeno                    | Tagy                                                                                                               |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| [[III Resources/Conferences_and_Events/Academic Conferences Directory\|Academic Conferences Directory]]                                                                     | 8:34 PM - September 01, 2026 | <ul><li>type/study</li><li>context/publications</li><li>status/evergreen</li></ul>                                 |
+| [[III Resources/Data_and_Simulations/Experimental Measurements Archive\|Experimental Measurements Archive]]                                                                 | 8:34 PM - September 01, 2026 | <ul><li>type/study</li><li>context/research</li><li>theme/optical-diagnostics</li><li>status/in-progress</li></ul> |
+| [[III Resources/Data_and_Simulations/COMSOL Multiphysics Setups\|COMSOL Multiphysics Setups]]                                                                               | 8:34 PM - September 01, 2026 | <ul><li>type/study</li><li>context/research</li><li>theme/comsol-simulation</li><li>status/in-progress</li></ul>   |
+| [[III Resources/Data_and_Simulations/Simulation Datasets & Models\|Simulation Datasets & Models]]                                                                           | 8:34 PM - September 01, 2026 | <ul><li>type/study</li><li>context/research</li><li>theme/comsol-simulation</li><li>status/in-progress</li></ul>   |
+| [[III Resources/Zettelkasten/202609011030 - Techno-Economic Valuation of Ultrafast Grid Protection\|202609011030 - Techno-Economic Valuation of Ultrafast Grid Protection]] | 8:34 PM - September 01, 2026 | <ul><li>type/permanent</li><li>context/research</li><li>theme/techno-economics</li><li>status/evergreen</li></ul>  |
+| [[III Resources/Zettelkasten/202609011015 - Arc Quenching Dynamics in Hybrid Breakers\|202609011015 - Arc Quenching Dynamics in Hybrid Breakers]]                           | 8:34 PM - September 01, 2026 | <ul><li>type/permanent</li><li>context/research</li><li>theme/arc-quenching</li><li>status/evergreen</li></ul>     |
+| [[III Resources/Zettelkasten/202609011000 - Optical Breakdown Mechanism in Air\|202609011000 - Optical Breakdown Mechanism in Air]]                                         | 8:34 PM - September 01, 2026 | <ul><li>type/permanent</li><li>context/research</li><li>theme/breakdown-physics</li><li>status/evergreen</li></ul> |
+| [[III Resources/Zettelkasten/Zettelkasten Index\|Zettelkasten Index]]                                                                                                       | 8:34 PM - September 01, 2026 | <ul><li>type/moc</li><li>context/research</li></ul>                                                                |
+
+{ .block-language-dataview}
 
 ---
 
 ## 🔗 Rychlé akademické akce
 
-```dataviewjs
-let today = moment().format("YYYY-MM-DD");
-dv.paragraph(`- 📅 **Dnešní výzkumný deník:** [[Daily/${today}|Výzkumný záznam (${today})]]`);
-dv.paragraph(`- 🔬 **Claim Ledger & Důkazní matice:** [[Claim Ledger & Evidence Matrix]]`);
-dv.paragraph(`- 🤝 **Zápis ze schůzky se školitelem:** [[Supervisor Meetings Log]]`);
-dv.paragraph(`- 📖 **Struktura dizertace (LaTeX sync):** [[Thesis Structure & Chapter Outline]]`);
-```
+- 🔬 **Claim Ledger & Důkazní matice:** [[II Areas/02_Thesis/Claim Ledger & Evidence Matrix\|Claim Ledger & Evidence Matrix]]
+- 🤝 **Zápis ze schůzky se školitelem:** [[II Areas/04_Administration/Supervisor Meetings Log\|Supervisor Meetings Log]]
+- 📖 **Struktura disertace (LaTeX sync):** [[II Areas/02_Thesis/Thesis Structure & Chapter Outline\|Thesis Structure & Chapter Outline]]
+- 📑 **Publikační strategie:** [[II Areas/03_Publications/Publication Strategy & Targets\|Publication Strategy & Targets]]
+- 🏛️ **Zkoušky a kredity:** [[II Areas/04_Administration/Credits & Exam Tracker\|Credits & Exam Tracker]]
