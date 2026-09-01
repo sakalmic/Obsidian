@@ -1,5 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/home/","dgShowFileTree":true,"noteIcon":"","dg-note-properties":{}}
+dg-publish: true
+dg-home: true
+dg-render-dataview: true
 ---
 
 
