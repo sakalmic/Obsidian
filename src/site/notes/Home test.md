@@ -2,7 +2,6 @@
 {"dg-publish":true,"permalink":"/home-test/","tags":["gardenEntry"],"noteIcon":"","dg-note-properties":{}}
 ---
 
-
 ## 🗺️ Maps of Context (MOCs)
 
 🩸 [[II Areas/01_Physical/01_MOC\|Physical]]
