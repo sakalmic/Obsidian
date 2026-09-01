@@ -108,7 +108,7 @@ module.exports = async (data) => {
     noteIconsSettings,
     timestampSettings,
     baseTheme: process.env.BASE_THEME || "dark",
-    siteName: process.env.SITE_NAME_HEADER || "sakalmic-PhD",
+    siteName: process.env.SITE_NAME_HEADER || "Michal Sakala | PhD Research & Studies",
     siteLogoPath: logoPath,
     logoHeight,
     mainLanguage: process.env.SITE_MAIN_LANGUAGE || "en",
