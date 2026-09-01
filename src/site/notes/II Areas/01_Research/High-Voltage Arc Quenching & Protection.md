@@ -3,21 +3,21 @@
 ---
 
 
-# ⚡ High-Voltage Arc Quenching & Protection
+# High-Voltage Arc Quenching & Protection
 
-## 📌 Význam pro ochranu sítí
-Rychlé potlačení a zhášení elektrického oblouku při zkratových událostech a bleskových přepětích představuje klíčový požadavek moderní elektroenergetiky s vysokým podílem obnovitelných zdrojů.
-
----
-
-## 🔬 Fyzikální procesy obnovy dielektrické pevnosti
-- **Teplotní deionizace**: Odvod tepla z osy oblouku konvekcí a turbulencí.
-- **Elektronová rekombinace a záchyt (Attachment)**: Využití elektronegativních plynů k zachycení volných elektronů na záporné ionty s nízkou pohyblivostí.
-- **Laserové řízení dráhy výboje**: Směrování oblouku do určených zhášecích komor mimo hlavní kontakty.
+## Relevance to grid protection
+Rapid suppression and quenching of electrical arcs during short circuits and lightning overvoltages is a critical requirement for modern power systems with a high share of renewable generation.
 
 ---
 
-## 🔗 Související odkazy
+## Physical processes of dielectric recovery
+- **Thermal deionisation:** Heat removal from the arc axis through convection and turbulence.
+- **Electron recombination and attachment:** Use of electronegative gases to capture free electrons as low-mobility negative ions.
+- **Laser-guided discharge path:** Steering the arc into dedicated quenching chambers away from the main contacts.
+
+---
+
+## Related notes
 - [[II Areas/01_Research/Laser-Induced Plasma Dynamics\|Laser-Induced Plasma Dynamics]]
 - [[II Areas/01_Research/Techno-Economic Modeling of Grid Switching\|Techno-Economic Modeling of Grid Switching]]
 - [[III Resources/Zettelkasten/202609011015 - Arc Quenching Dynamics in Hybrid Breakers\|202609011015 - Arc Quenching Dynamics in Hybrid Breakers]]

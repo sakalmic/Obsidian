@@ -3,26 +3,26 @@
 ---
 
 
-# 💡 Techno-Economic Valuation of Ultrafast Grid Protection
+# Techno-Economic Valuation of Ultrafast Grid Protection
 
-## 🧠 Základní koncept
-Technicko-ekonomické modelování ochranných prvků v elektroenergetice vyžaduje převod fyzikálních veličin (zkrácení vypínací doby z $50\text{ ms}$ na $5\ \mu\text{s}$, snížení integrálu proudu $\int i^2 t \, dt$) do monetárních ukazatelů spolehlivosti a životnosti zařízení.
+## Core concept
+Techno-economic modelling of power-system protection requires physical quantities—such as reducing interruption time from $50\text{ ms}$ to $5\ \mu\text{s}$ or lowering the current integral $\int i^2 t \, dt$)—to be translated into monetary measures of reliability and asset life.
 
 ---
 
-## 📈 Kvantifikace ekonomického přínosu
-Ekonomická hodnota $V_{tot}$ je dána součtem úspor:
+## Quantifying economic value
+The total economic value $V_{tot}$ is the sum of the relevant savings:
 $$
 V_{tot} = \Delta C_{maint} + \Delta C_{outage} + \Delta C_{asset} - C_{laser\_sys}
 $$
-kde:
-- $\Delta C_{maint}$: Úspory na servisních cyklech zhášecích komor.
-- $\Delta C_{outage}$: Snížení penalizací za nedodanou elektřinu (VOLL - Value of Lost Load) vztažené k indexům SAIDI/SAIFI.
-- $\Delta C_{asset}$: Prodloužení životnosti transformátorů a spínačů díky potlačení dynamických zkratových sil.
-- $C_{laser\_sys}$: CAPEX a OPEX laserového a optického řídicího podsystému.
+where:
+- $\Delta C_{maint}$ is the saving in quenching-chamber maintenance cycles.
+- $\Delta C_{outage}$ is the reduction in interruption costs, expressed through the value of lost load and SAIDI/SAIFI indices.
+- $\Delta C_{asset}$ is the extension of transformer and switch service life through reduced dynamic short-circuit forces.
+- $C_{laser\_sys}$ is the CAPEX and OPEX of the laser and optical control subsystem.
 
 ---
 
-## 🔗 Zettelkasten propojení
-- **Nadřazený koncept (Up)**: [[II Areas/01_Research/Techno-Economic Modeling of Grid Switching\|Techno-Economic Modeling of Grid Switching]] | [[II Areas/01_Research/01_MOC\|01_Research MOC]]
-- **Vazba na disertaci**: [[II Areas/02_Thesis/Claim Ledger & Evidence Matrix#CL-04\|CL-04]] | [[II Areas/02_Thesis/Thesis Structure & Chapter Outline#Chapter 5\|Thesis Structure & Chapter Outline#Chapter 5]]
+## Knowledge-graph connections
+- **Parent concept:** [[II Areas/01_Research/Techno-Economic Modeling of Grid Switching\|Techno-Economic Modeling of Grid Switching]] · [[II Areas/01_Research/01_MOC\|01_Research MOC]]
+- **Dissertation link:** [[II Areas/02_Thesis/Claim Ledger & Evidence Matrix#CL-04\|CL-04]] · [[II Areas/02_Thesis/Thesis Structure & Chapter Outline#Chapter 5\|Thesis Structure & Chapter Outline — Chapter 5]]

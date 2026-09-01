@@ -2,44 +2,51 @@
 {"dg-publish":true,"permalink":"/system/research-methodology-and-workflows/","tags":["type/guide","context/phd","theme/system"],"dgHomeLink":true,"noteIcon":"","created":"2026-09-01","updated":"2026-09-01","dg-note-properties":{"aliases":["Research Methodology & Workflows","Scientific Workflow"],"tags":["type/guide","context/phd","theme/system"],"date":"2026-09-01","last_updated":"2026-09-01"}}
 ---
 
+# Research Methodology & Workflows
 
-# 🔬 Research Methodology & Workflows
-
-Tento dokument definuje osvědčené vědecké a znalostní pracovní postupy (workflows) integrované do systému **Obsidian-PhD**:
+This document defines the scientific and knowledge-management workflows used throughout **Obsidian-PhD**.
 
 ---
 
-## 1. Znalostní cyklus: Zettelkasten & Claim Ledger
+## 1. Knowledge cycle: Zettelkasten and claim ledger
 
 ```mermaid
 graph TD
-    A[Čtení literatury / Článek PDF] -->|Extrakce poznámek| B[Literature Note\nLN - ...]
-    B -->|Syntéza do vlastních slov| C[Permanent Zettel\nYYYYMMDDHHmm - ...]
-    D[Experiment / COMSOL simulace] -->|Záznam dat a protokol| E[Exp/Sim Log]
-    C --> F[Claim Ledger & Evidence Matrix\nCL-01, CL-02...]
+    A[Read paper or book] -->|Extract evidence| B[Literature note\nLN - ...]
+    B -->|Synthesis in own words| C[Permanent note\nYYYYMMDDHHmm - ...]
+    D[Experiment or COMSOL simulation] -->|Record data and protocol| E[Experiment / simulation log]
+    C --> F[Claim ledger and evidence matrix\nCL-01, CL-02...]
     E --> F
-    F -->|Kapitolový draft| G[Dissertation Chapter\nObsidian]
-    G -->|Finální sazba a kompilace| H[LaTeX Disertace\nPhD/thesis/main.tex]
+    F -->|Chapter draft| G[Dissertation chapter\nObsidian]
+    G -->|Final typesetting| H[LaTeX dissertation\nPhD/thesis/main.tex]
 ```
 
-### Pravidla pro tvorbu Zettelů:
-1. **Jedna myšlenka na poznámku (Atomicita)**: Poznámka musí dávat smysl sama o sobě i za 5 let.
-2. **Vlastní formulace**: Nikdy nekopírujte doslovný text bez parafráze; skutečné porozumění vzniká formulací vlastních vět.
-3. **Obousměrné propojení**: Každý Zettel musí mít odkaz na nadřazený koncept (Up), související koncepty (Side) a zdrojový článek (Literature source).
+### Rules for permanent notes
+
+1. **One idea per note:** A permanent note must remain intelligible on its own.
+2. **Original wording:** Paraphrase the source and record the reasoning; do not substitute copied passages for understanding.
+3. **Bidirectional context:** Link every note to a parent concept, related concepts and its literature source.
+4. **Evidence traceability:** Distinguish clearly between published evidence, measured data, simulation results and working hypotheses.
 
 ---
 
-## 2. Claim Ledger (Matice tvrzení a důkazů)
+## 2. Claim ledger
 
-Pro doktorskou práci je klíčová evidence-based kontrola. Žádné tvrzení v dizertaci nesmí být nepodložené:
-- **Claim ID** (např. `CL-01`): Formulace vědecké hypotézy / závěru.
-- **Důkaz (Primary Evidence)**: Číslo datasetu z měření nebo COMSOL parametrického sweepu.
-- **Publikační výstup**: Článek v IEEE / APL s recenzním řízením potvrzující platnost.
+Every principal dissertation claim is recorded with:
+
+- a stable **Claim ID** such as `CL-01`;
+- a precise scientific statement or hypothesis;
+- primary evidence from an experiment, dataset or simulation;
+- the dissertation chapter that uses the claim;
+- a publication output and current verification status.
+
+The [[II Areas/02_Thesis/Claim Ledger & Evidence Matrix\|Claim Ledger & Evidence Matrix]] is the authoritative map between data, arguments and publications.
 
 ---
 
-## 3. Rytmus hluboké práce (Ultradian Research Sessions)
+## 3. Deep-work rhythm
 
-- **90 minut Deep Work**: Plné soustředění na psaní kódu COMSOLu, odvozování rovnic nebo psaní kapitol.
-- **20 minut Active Break**: Pohyb, protažení, reflexe.
-- **Denní logbook (`Daily/`)**: Zápis ranního cíle, dokončených bloků a 3 priorit na další den.
+- **90-minute research block:** Focused work on modelling, equations, experiments or writing.
+- **20-minute active break:** Movement, recovery and short reflection.
+- **Daily log:** Record the main objective, completed blocks, decisions, open questions and the next three priorities.
+- **Weekly review:** Reconcile project notes, evidence records and the dissertation outline.

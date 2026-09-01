@@ -3,21 +3,20 @@
 ---
 
 
-# ⚡ Laser-Triggered Spark Gaps (LTSG)
+# Laser-Triggered Spark Gaps (LTSG)
 
-## 📌 Princip a význam pro spínací techniku
-Laserem spouštěná jiskřiště (LTSG) představují vysokonapěťové spínače schopné spínat proudy v řádu desítek kA při napětích stovek kV s minimálním zpožděním ($< 10\text{ ns}$) a sub-nanosekundovým jitterem. Na rozdíl od elektricky spouštěných jiskřišť (Trigatron) poskytuje LTSG **galvanické oddělení** řídicího pulzu a eliminuje erozi pomocné elektrody.
-
----
-
-## 🎯 Výzkumné otázky pro disertaci
-1. Jak struktura a tvarování laserového svazku (Bessel vs. Gauss) ovlivňuje stabilitu spínání při podpětí ($V_{app} < 0.6 V_{sb}$)?
-2. Jaké jsou limitní parametry pro opakované spínání s vysokou frekvencí?
-3. Jaké plynové směsi (ekologické alternativy k SF6) dosahují optimální dielektrické obnovy po zhasnutí výboje?
+## Operating principle and switching relevance
+Laser-triggered spark gaps (LTSGs) are high-voltage switches capable of commutating currents of tens of kiloamperes at hundreds of kilovolts, with delays below $10\text{ ns}$ and sub-nanosecond jitter. Unlike electrically triggered trigatrons, an LTSG provides **galvanic isolation** of the control pulse and eliminates erosion of the trigger electrode.
 
 ---
 
-## 🔗 Související odkazy
+## Dissertation research questions
+1. How do laser-beam structure and shaping (Bessel versus Gaussian) affect switching stability at reduced voltage ($V_{app} < 0.6 V_{sb}$)?
+2. What parameter limits govern high-repetition-rate switching?
+3. Which gas mixtures, including environmentally preferable alternatives to SF6, achieve the best dielectric recovery after current interruption?
+
+---
+
+## Related notes
 - [[II Areas/01_Research/Laser-Induced Plasma Dynamics\|Laser-Induced Plasma Dynamics]]
 - [[II Areas/01_Research/High-Voltage Arc Quenching & Protection\|High-Voltage Arc Quenching & Protection]]
-- [[I Projects/COMSOL Plasma Simulation Model\|COMSOL Plasma Simulation Model]]

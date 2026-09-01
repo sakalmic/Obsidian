@@ -5,15 +5,15 @@
 
 # 📑 Project / Paper: IEEE Transactions 2026
 
-## 🎯 Cíl článku
-Publikace původních výsledků v impaktovaném časopise (Q1/Q2 dle WoS) zaměřených na dynamiku laserem indukovaného výboje v plynných dielektrikách pro rychlé spínání v elektroenergetice.
+## 🎯 Manuscript objective
+Publish original results in a Web of Science Q1/Q2 journal, focusing on the dynamics of laser-induced discharges in gaseous dielectrics for ultrafast switching in electrical power systems.
 
 ## 📋 Actionable Tasks
-- [ ] Dokončit parametrickou simulační studii v COMSOLu pro různé napěťové úrovně
-- [ ] Zpracovat komparaci naměřených zpoždění s numerickými předpověďmi
-- [ ] Napsat draft metodické sekce a popisu experimentu
-- [ ] Předložit draft školiteli k prvnímu kolu revize
+- [ ] Complete the COMSOL parametric study across multiple voltage levels
+- [ ] Compare the measured switching delays with the numerical predictions
+- [ ] Draft the methods section and experimental description
+- [ ] Submit the draft to the supervisor for the first review round
 
-## 🔗 Vazba na disertaci
-- Přímo tvoří jádro pro [[II Areas/02_Thesis/Thesis Structure & Chapter Outline#Chapter 4\|Kapitolu 4 (Výsledky & Validace)]].
-- Podporuje tvrzení [[II Areas/02_Thesis/Claim Ledger & Evidence Matrix#CL-01\|CL-01]] a [[II Areas/02_Thesis/Claim Ledger & Evidence Matrix#CL-02\|CL-02]].
+## 🔗 Dissertation contribution
+- Forms the core of [[II Areas/02_Thesis/Thesis Structure & Chapter Outline#Chapter 4\|Chapter 4 (Results & Validation)]].
+- Supports claims [[II Areas/02_Thesis/Claim Ledger & Evidence Matrix#CL-01\|CL-01]] and [[II Areas/02_Thesis/Claim Ledger & Evidence Matrix#CL-02\|CL-02]].
