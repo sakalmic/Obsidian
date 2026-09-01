@@ -3,23 +3,23 @@
 ---
 
 
-# 💡 Arc Quenching Dynamics in Hybrid Breakers
+# Arc Quenching Dynamics in Hybrid Breakers
 
-## 🧠 Základní koncept
-V hybridních stejnosměrných a střídavých vysokonapěťových vypínačích (Hybrid Circuit Breakers) je mechanický kontakt rozpojován při nulovém nebo minimálním proudu, zatímco proud je komutován do paralelní polovodičové nebo laserem řízené spínací větve.
+## Core concept
+In hybrid high-voltage AC and DC circuit breakers, the mechanical contact opens at zero or minimal current while the current is commutated into a parallel semiconductor or laser-controlled switching branch.
 
 ---
 
-## ⚡ Dynamika obnovy napětí a zhášení
-Zhášení oblouku je limitováno rychlostí nárůstu zotaveného napětí (Rate of Rise of Recovery Voltage - RRRV):
+## Recovery-voltage and quenching dynamics
+Arc quenching is limited by the rate of rise of recovery voltage (RRRV):
 $$
 \text{RRRV} = \left.\frac{du_{TRV}}{dt}\right|_{t=0} \le \left(\frac{du_{diel}}{dt}\right)_{crit}
 $$
-Laserové směrování a iniciace plazmatu umožňuje umělé vytvoření nulového proudu s přesností na nanosekundy, čímž eliminuje hoření dlouhotrvajícího oblouku na hlavních mechanických kontaktech.
+Laser guidance and plasma initiation can create an artificial current zero with nanosecond precision, preventing a long-duration arc from burning across the main mechanical contacts.
 
 ---
 
-## 🔗 Zettelkasten propojení
-- **Nadřazený koncept (Up)**: [[II Areas/01_Research/High-Voltage Arc Quenching & Protection\|High-Voltage Arc Quenching & Protection]] | [[II Areas/01_Research/01_MOC\|01_Research MOC]]
-- **Aplikace (Down)**: [[II Areas/01_Research/Techno-Economic Modeling of Grid Switching\|Techno-Economic Modeling of Grid Switching]]
-- **Vazba na disertaci**: [[II Areas/02_Thesis/Claim Ledger & Evidence Matrix#CL-03\|CL-03]]
+## Knowledge-graph connections
+- **Parent concept:** [[II Areas/01_Research/High-Voltage Arc Quenching & Protection\|High-Voltage Arc Quenching & Protection]] · [[II Areas/01_Research/01_MOC\|01_Research MOC]]
+- **Application:** [[II Areas/01_Research/Techno-Economic Modeling of Grid Switching\|Techno-Economic Modeling of Grid Switching]]
+- **Dissertation link:** [[II Areas/02_Thesis/Claim Ledger & Evidence Matrix#CL-03\|CL-03]]

@@ -3,15 +3,15 @@
 ---
 
 
-# 🌐 Academic Conferences Directory
+# Academic Conferences Directory
 
-Adresář a odkazy na klíčové světové konference v oblastech vysokonapěťového inženýrství, plazmatu a energetiky.
+A curated directory of major international conferences in high-voltage engineering, plasma science and electrical power engineering.
 
 ---
 
-## 🏛️ Konferenční série
+## Conference series
 - **ICOLSE**: International Conference on Lightning and Static Electricity
 - **IEEE APL**: Asia-Pacific International Conference on Lightning
 - **IEEE PES GM**: Power & Energy Society General Meeting
-- **Cigré Technical Sessions**: Paris Session (Vysokonapěťová spínací technika)
+- **CIGRE Technical Sessions**: Paris Session — high-voltage switching technology
 - **ICPIG**: International Conference on Phenomena in Ionized Gases

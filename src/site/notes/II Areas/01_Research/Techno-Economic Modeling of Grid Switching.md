@@ -3,23 +3,23 @@
 ---
 
 
-# 💰 Techno-Economic Modeling of Grid Switching
+# Techno-Economic Modeling of Grid Switching
 
-## 📌 Výzkumný kontext
-Disertační práce spojuje fyzikální dynamiku výboje s ekonomickým hodnocením v rámci oboru *Ekonomika energetiky a elektrotechniky* (ČVUT FEL). Zkrácení reakční doby ochranných a spínacích prvků z desítek milisekund na mikrosekundovou úroveň přináší měřitelné ekonomické úspory.
-
----
-
-## 📊 Modelované ekonomické dimenze
-1. **Snížení opotřebení spínacích kontaktů (Asset Life Extension)**:
-   - Menší integrál energie oblouku $\int i^2 t \, dt$ ➔ prodloužení servisních intervalů a životnosti vypínačů.
-2. **Prevence kaskádových výpadků (Outage Cost Reduction - SAIDI / SAIFI)**:
-   - Kvantifikace škod na distribučních transformátorech a citlivých průmyslových technologiích při bleskových a spínacích přepětích.
-3. **Analýza nákladů životního cyklu (LCC & CAPEX/OPEX)**:
-   - Pořizovací náklady na laserové a optické subsystémy vs. úspory na údržbě a eliminaci ekologických poplatků za SF6.
+## Research context
+The dissertation connects discharge physics with economic evaluation within the *Economics of Energy and Electrical Engineering* doctoral programme at CTU FEE. Reducing the response time of protection and switching devices from tens of milliseconds to the microsecond range creates measurable economic value.
 
 ---
 
-## 🔗 Související Zettely
+## Modelled economic dimensions
+1. **Reduced switching-contact wear and asset-life extension:**
+   - A lower arc-energy integral $\int i^2 t \, dt$ extends maintenance intervals and circuit-breaker service life.
+2. **Prevention of cascading outages and reduction of outage costs:**
+   - Quantification of damage to distribution transformers and sensitive industrial equipment during lightning and switching overvoltages, including SAIDI and SAIFI impacts.
+3. **Life-cycle cost analysis (LCC, CAPEX and OPEX):**
+   - Comparison of the acquisition cost of laser and optical subsystems with maintenance savings and the avoided environmental cost of SF6.
+
+---
+
+## Related permanent notes
 - [[III Resources/Zettelkasten/202609011030 - Techno-Economic Valuation of Ultrafast Grid Protection\|202609011030 - Techno-Economic Valuation of Ultrafast Grid Protection]]
 - [[II Areas/02_Thesis/Thesis Structure & Chapter Outline#Chapter 5\|Thesis Structure & Chapter Outline#Chapter 5]]

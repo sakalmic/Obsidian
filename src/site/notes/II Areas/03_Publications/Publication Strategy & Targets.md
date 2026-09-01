@@ -1,34 +1,36 @@
 ---
-{"dg-publish":true,"permalink":"/ii-areas/03-publications/publication-strategy-and-targets/","title":"Publication Strategy & Targets","tags":["type/study","context/publications","status/in-progress"],"dgHomeLink":true,"noteIcon":"","created":"2026-09-01","updated":"2026-09-01","dg-note-properties":{"title":"Publication Strategy & Targets","aliases":["Publication Strategy & Targets","Publikační strategie"],"tags":["type/study","context/publications","status/in-progress"],"date":"2026-09-01","last_updated":"2026-09-01"}}
+{"dg-publish":true,"permalink":"/ii-areas/03-publications/publication-strategy-and-targets/","title":"Publication Strategy & Targets","tags":["type/study","context/publications","status/in-progress"],"dgHomeLink":true,"noteIcon":"","created":"2026-09-01","updated":"2026-09-01","dg-note-properties":{"title":"Publication Strategy & Targets","aliases":["Publication Strategy & Targets","Publication Strategy"],"tags":["type/study","context/publications","status/in-progress"],"status":"in-progress","date":"2026-09-01","last_updated":"2026-09-01"}}
 ---
 
 
-# 📑 Publication Strategy & Targets
+# Publication Strategy & Targets
 
-Publikační strategie pro splnění podmínek obhajoby na FEL ČVUT v programu *Ekonomika energetiky a elektrotechniky*.
-
----
-
-## 🎯 Formální požadavky ČVUT FEL
-1. **Minimální požadavky k obhajobě**:
-   - Minimálně 2 publikace v časopisech indexovaných ve **Web of Science** (z toho alespoň 1 článek v Q1/Q2 a alespoň u 1 článku první autorství doktoranda).
-   - Minimálně 2 příspěvky na mezinárodních vědeckých konferencích indexovaných ve Scopus/WoS (např. IEEE).
+Publication plan supporting the dissertation requirements of the *Economics of Energy and Electrical Engineering* doctoral programme at CTU FEE.
 
 ---
 
-## 🎯 Cílové impaktované časopisy (WoS)
-1. **IEEE Transactions on Power Delivery** (Q1, IF ~4.5)
-   - *Zaměření*: Rychlá spínací technika, dynamika oblouku, přepěťové ochrany.
-2. **IEEE Transactions on Plasma Science** (Q2, IF ~1.8)
-   - *Zaměření*: Fyzika dielektrického průrazu, laserová ionizace plynu.
-3. **Applied Sciences / Energies (MDPI)** (Q2, IF ~3.0)
-   - *Zaměření*: Rychlá publikace aplikovaných výsledků, techno-ekonomické modelování.
-4. **Energy Economics / Utilities Policy** (Q1/Q2)
-   - *Zaměření*: Ekonomické dopady spolehlivosti a ochrany moderních sítí.
+## Working publication requirements
+
+1. **Journal publications:** At least two articles indexed in the Web of Science, including at least one Q1/Q2 article and first authorship by the doctoral candidate on at least one article.
+2. **Conference outputs:** At least two contributions to international scientific conferences indexed in Scopus or Web of Science.
 
 ---
 
-## 🔗 Související odkazy
+## Target journals
+
+1. **IEEE Transactions on Power Delivery** — Q1, IF approximately 4.5
+   - *Scope:* Ultrafast switching, arc dynamics and overvoltage protection.
+2. **IEEE Transactions on Plasma Science** — Q2, IF approximately 1.8
+   - *Scope:* Dielectric breakdown physics and laser ionisation of gases.
+3. **Applied Sciences / Energies** — Q2, IF approximately 3.0
+   - *Scope:* Applied results and techno-economic modelling.
+4. **Energy Economics / Utilities Policy** — Q1/Q2
+   - *Scope:* Economic impacts of reliability and protection in modern power systems.
+
+---
+
+## Related notes
+
 - [[II Areas/03_Publications/Conference Pipeline\|Conference Pipeline]]
-- [[II Areas/03_Publications/Co-Authorship & Contribution Records\|Co-Authorship & Contribution Records]]
 - [[I Projects/Paper - IEEE Transactions 2026\|Paper - IEEE Transactions 2026]]
+- [[II Areas/03_Publications/03_MOC\|03_Publications MOC]]

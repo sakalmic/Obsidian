@@ -1,31 +1,34 @@
 ---
-{"dg-publish":true,"permalink":"/ii-areas/03-publications/03-moc/","title":"03_MOC: Publikace & Konference","tags":["type/moc","context/publications"],"dgHomeLink":true,"noteIcon":"","created":"2026-09-01","updated":"2026-09-01","dg-note-properties":{"title":"03_MOC: Publikace & Konference","aliases":["03_MOC","Publications MOC"],"tags":["type/moc","context/publications"],"date":"2026-09-01","last_updated":"2026-09-01"}}
+{"dg-publish":true,"permalink":"/ii-areas/03-publications/03-moc/","title":"03_MOC: Publications & Conferences","tags":["type/moc","context/publications"],"dgHomeLink":true,"noteIcon":"","created":"2026-09-01","updated":"2026-09-01","dg-note-properties":{"title":"03_MOC: Publications & Conferences","aliases":["03_MOC","Publications MOC"],"tags":["type/moc","context/publications"],"date":"2026-09-01","last_updated":"2026-09-01"}}
 ---
 
 
-# 📑 03_MOC: Publikace & Konference
+# 03_MOC: Publications & Conferences
 
-Tento rozcestník řídí celou publikační pipeline doktorského studia na ČVUT FEL – od prvotních konceptů přes konferenční příspěvky (ICOLSE, IEEE) až po impaktované časopisecké články (WoS Q1/Q2).
-
----
-
-## 🗺️ Přehledové dokumenty
-- [[II Areas/03_Publications/Publication Strategy & Targets\|Publikační strategie & Cílové časopisy FEL ČVUT]]
-- [[II Areas/03_Publications/Conference Pipeline\|Konferenční pipeline & Termíny podání]]
-- [[II Areas/03_Publications/Co-Authorship & Contribution Records\|Záznamy o spoluautorství & Procentuální podíly]]
+This map coordinates the doctoral publication pipeline, from early research concepts and conference papers to peer-reviewed Web of Science journal articles.
 
 ---
 
-## 📊 Přehled článků a rukopisů (Publikační Pipeline)
-| File                                                                             | Cílový časopis / Konference                          | Stav | Termín podání     | Autoři                                         |
-| -------------------------------------------------------------------------------- | ---------------------------------------------------- | ---- | ----------------- | ---------------------------------------------- |
-| [[I Projects/Paper - IEEE Transactions 2026\|Paper - IEEE Transactions 2026]] | IEEE Transactions on Power Delivery / Plasma Science | \-   | December 15, 2026 | Ing. Michal Sakala, doc. Ing. Jan Mikeš, Ph.D. |
+## Planning documents
+
+- [[II Areas/03_Publications/Publication Strategy & Targets\|Publication strategy and target journals]]
+- [[II Areas/03_Publications/Conference Pipeline\|Conference pipeline and submission dates]]
+- Co-authorship and contribution records — private workspace
+
+---
+
+## Manuscript pipeline
+
+| Manuscript                                                                       | Target venue                                         | Status      | Submission deadline |
+| -------------------------------------------------------------------------------- | ---------------------------------------------------- | ----------- | ------------------- |
+| [[I Projects/Paper - IEEE Transactions 2026\|Paper - IEEE Transactions 2026]] | IEEE Transactions on Power Delivery / Plasma Science | in-progress | December 15, 2026   |
 
 { .block-language-dataview}
 
 ---
 
-## 📚 Integrované publikace & rešerše
-- [[III Resources/Literature/LN - Sakala2025 - APL Lightning Protection\|Sakala et al. (APL 2025)]] – DOI: `10.1109/APL65034.2025.11108944`
-- [[III Resources/Literature/LN - Mikes2024 - Laser Spark Gaps\|Mikes & Sakala (2024)]] – ICOLSE 2024 prezentace a sborník
-- [[I Projects/Paper - IEEE Transactions 2026\|IEEE Transactions 2026]] – Rukopis v přípravě
+## Published and active outputs
+
+- [[III Resources/Literature/LN - Sakala2025 - APL Lightning Protection\|Sakala et al. (IEEE APL 2025)]] — DOI: `10.1109/APL65034.2025.11108944`
+- [[III Resources/Literature/LN - Mikes2024 - Laser Spark Gaps\|Mikeš & Sakala (ICOLSE 2024)]]
+- [[I Projects/Paper - IEEE Transactions 2026\|IEEE Transactions manuscript]] — in preparation

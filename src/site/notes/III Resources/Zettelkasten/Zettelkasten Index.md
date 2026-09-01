@@ -3,9 +3,9 @@
 ---
 
 
-# 🧠 Zettelkasten: Atomická vědecká znalostní báze
+# Zettelkasten: Atomic Scientific Knowledge Base
 
-Přehled trvalých, propojených konceptů (Permanent Notes) tvořících myšlenkové jádro disertační práce.
+Index of permanent, interconnected concepts that form the intellectual core of the dissertation.
 
 - [[III Resources/Zettelkasten/202609011000 - Optical Breakdown Mechanism in Air\|202609011000 - Optical Breakdown Mechanism in Air]]
 - [[III Resources/Zettelkasten/202609011015 - Arc Quenching Dynamics in Hybrid Breakers\|202609011015 - Arc Quenching Dynamics in Hybrid Breakers]]

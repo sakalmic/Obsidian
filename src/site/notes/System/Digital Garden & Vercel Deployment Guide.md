@@ -3,77 +3,70 @@
 ---
 
 
-# 🌐 Digital Garden & Vercel Deployment Guide
+# Digital Garden & Vercel Deployment Guide
 
-Tento návod krok za krokem vysvětluje, jak publikovat vybrané části vašeho doktorského vaultu **Obsidian-PhD** na internet jako moderní, rychlou a responzivní digitální zahradu pomocí **GitHubu** a **Vercelu**.
+This guide describes how selected notes from the **Obsidian-PhD** vault are published as a fast, responsive digital garden through GitHub and Vercel.
 
 ---
 
-## 🏗️ Architektura publikace
+## Publication architecture
 
 ```mermaid
 graph LR
-    A[Obsidian Vault\nObsidian-PhD] -->|Plugin: Digital Garden\nOdeslání označených poznámek| B[GitHub Repozitář\nsakalmic/Obsidian-PhD]
-    B -->|Automatický webhook / deploy| C[Vercel Serverless / SSG\nNext.js Digital Garden]
-    C -->|Globální CDN| D[Veřejná stránka\nphd.sakal.cz nebo vercel.app]
+    A[Obsidian vault\nObsidian-PhD] -->|Digital Garden plugin\nPublish selected notes| B[GitHub repository\nsakalmic/Obsidian-PhD]
+    B -->|Automatic deployment| C[Vercel\nEleventy static site]
+    C -->|Global CDN| D[Public research garden\nsakalmic-phd.vercel.app]
 ```
 
 ---
 
-## 🚀 Postup zprovoznění (One-Time Setup)
+## One-time setup
 
-### 1. Krok: Vytvoření repozitáře na GitHubu
-1. Přihlaste se na GitHub (`sakalmic`).
-2. Vytvořte nový repozitář s názvem např. `Obsidian-PhD` (může být Public i Private).
-3. Vygenerujte si **GitHub Personal Access Token (classic)** nebo **Fine-grained Token**:
-   - Oprávnění: `repo` (Full control of private repositories).
-   - Zkopírujte vygenerovaný token (začíná např. `ghp_...` nebo `github_pat_...`).
+1. Create or connect the GitHub repository used by the Digital Garden template.
+2. Import that repository into Vercel and enable automatic deployments from the main branch.
+3. In **Obsidian → Settings → Digital Garden**, configure the repository name, GitHub user, access token and garden base URL.
+4. Test the connection before publishing notes.
 
-### 2. Krok: Nasazení na Vercel (1-Click Deployment)
-1. Přejděte na oficiální šablonu [oleeskild/digitalgarden na GitHubu](https://github.com/oleeskild/digitalgarden).
-2. Klikněte na tlačítko **Deploy with Vercel**.
-3. Propojte svůj GitHub účet a zvolte repozitář pro Digital Garden (nebo nechte Vercel vytvořit fork do vašeho účtu).
-4. Vercel automaticky zbuildí a nasadí web. Získáte URL adresu (např. `https://phd-sakalmic.vercel.app`).
-
-### 3. Krok: Nastavení pluginu v Obsidianu
-1. V Obsidianu otevřete `Nastavení` ➔ `Digital Garden`.
-2. Vyplňte pole:
-   - **GitHub Repo Name**: `Obsidian-PhD`
-   - **GitHub User Name**: `sakalmic`
-   - **GitHub Token**: Vložte váš vygenerovaný token.
-   - **Garden Base URL**: Zadejte vaši Vercel URL (např. `https://phd-sakalmic.vercel.app`).
-3. Klikněte na **Test connection**. Jakmile se objeví zelené potvrzení, propojení je hotové!
+> [!important]
+> Store access tokens only in the local Digital Garden plugin configuration. Never commit them to the site repository or publish the configuration file.
 
 ---
 
-## 📝 Jak publikovat poznámky
+## Publishing notes
 
-Publikaci každé jednotlivé poznámky plně ovládáte přímo v jejím frontmatteru (YAML):
+Every public note must include the following frontmatter:
 
 ```yaml
 ---
-dg-publish: true        # Způsobí publikaci této poznámky na web
-dg-home-link: true      # Zobrazí odkaz na domovskou stránku v záhlaví
-dg-show-backlinks: true  # Zobrazí zpětné odkazy na konci článku
-dg-show-local-graph: true# Zobrazí interaktivní graf sousedních poznámek
+dg-publish: true
+dg-home-link: true
+dg-show-backlinks: true
+dg-show-local-graph: true
 ---
 ```
 
-### Hromadná publikace a synchronizace:
-1. V levém postranním panelu nebo příkazové paletě (`Ctrl+P`) zvolte:  
-   `Digital Garden: Publication Center` (Centrum publikací).
-2. Zobrazí se seznam poznámek:
-   - **Zelené**: Nové poznámky s `dg-publish: true` připravené k nahrání.
-   - **Žluté**: Změněné poznámky připravené k aktualizaci.
-   - **Červené**: Poznámky, které byly z webu odebrány.
-3. Klikněte na **Publish Changed Notes** (Publikovat změněné poznámky).
-4. Do několika sekund Vercel stránku aktualizuje.
+To publish changes:
+
+1. Open the command palette in Obsidian.
+2. Select **Digital Garden: Publication Center**.
+3. Review new, changed and removed notes.
+4. Select **Publish Changed Notes**.
+5. Wait for the Vercel deployment to complete.
 
 ---
 
-## 🔒 Bezpečnost a soukromí
+## Language and visual configuration
 
-> [!IMPORTANT]
-> - Pouze poznámky obsahující `dg-publish: true` budou odeslány na GitHub / Vercel.
-> - Interní dokumenty (finance, rozpočty grantů, zápisy ze schůzek, osobní deníky) mají v šablonách nastaveno `dg-publish: false` a **nikdy se na web nedostanou**.
-> - Citlivé konfigurační soubory jsou chráněny v souboru `.gitignore`.
+- Site language and interface strings are configured in the Digital Garden plugin and the site repository's `.env` file.
+- The deployed visual theme is maintained in `src/site/styles/custom-style.scss`.
+- Vault-only styling is maintained in `.obsidian/snippets/phd-styles.css`.
+- Keep public navigation links restricted to notes with `dg-publish: true` to avoid unresolved links and 404 pages.
+
+---
+
+## Privacy checklist
+
+- Publish only notes explicitly marked `dg-publish: true`.
+- Keep meeting minutes, budgets, student records, internal administration and unpublished datasets private.
+- Review Dataview results before publication; a public dashboard must not reveal titles or metadata from private notes.
+- Rotate an access token immediately if it is ever exposed outside the local plugin configuration.
