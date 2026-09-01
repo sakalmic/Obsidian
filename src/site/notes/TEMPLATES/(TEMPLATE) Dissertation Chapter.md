@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/templates/template-dissertation-chapter/","tags":["type/chapter","context/thesis","theme/plasma-dynamics","status/draft","priority/high"],"dgHomeLink":true,"noteIcon":"","created":"<% tp.date.now(\"YYYY-MM-DD\") %>","updated":"<% tp.date.now(\"YYYY-MM-DD\") %>","dg-note-properties":{"aliases":["Chapter - <% tp.file.title %>"],"tags":["type/chapter","context/thesis","theme/plasma-dynamics","status/draft","priority/high"],"date":"<% tp.date.now(\"YYYY-MM-DD\") %>","last_updated":"<% tp.date.now(\"YYYY-MM-DD\") %>","chapter_number":null,"latex_file":"chapters/chXX.tex","target_words":8000,"current_words":0}}
+{"dg-publish":true,"permalink":"/templates/template-dissertation-chapter/","tags":["type/chapter","context/thesis","theme/plasma-dynamics","status/draft","priority/high"],"dgHomeLink":true,"dgShowFileTree":true,"noteIcon":"","created":"<% tp.date.now(\"YYYY-MM-DD\") %>","updated":"<% tp.date.now(\"YYYY-MM-DD\") %>","dg-note-properties":{"aliases":["Chapter - <% tp.file.title %>"],"tags":["type/chapter","context/thesis","theme/plasma-dynamics","status/draft","priority/high"],"date":"<% tp.date.now(\"YYYY-MM-DD\") %>","last_updated":"<% tp.date.now(\"YYYY-MM-DD\") %>","chapter_number":null,"latex_file":"chapters/chXX.tex","target_words":8000,"current_words":0}}
 ---
 
 

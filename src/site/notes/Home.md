@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/home/","title":"Michal Sakala – PhD Research & Study Dashboard","tags":["type/moc","context/phd","gardenEntry"],"dgHomeLink":true,"noteIcon":"","created":"2026-09-01","updated":"2026-09-01","dg-note-properties":{"title":"Michal Sakala – PhD Research & Study Dashboard","aliases":["Home","Dashboard"],"tags":["type/moc","context/phd","gardenEntry"],"date":"2026-09-01","last_updated":"2026-09-01","dgHome":true}}
+{"dg-publish":true,"permalink":"/home/","title":"Michal Sakala – PhD Research & Study Dashboard","tags":["type/moc","context/phd","gardenEntry"],"dgHomeLink":true,"dgShowFileTree":true,"noteIcon":"","created":"2026-09-01","updated":"2026-09-01","dg-note-properties":{"title":"Michal Sakala – PhD Research & Study Dashboard","aliases":["Home","Dashboard"],"tags":["type/moc","context/phd","gardenEntry"],"date":"2026-09-01","last_updated":"2026-09-01","dgHome":true,"dgShowFileTree":true}}
 ---
 
 

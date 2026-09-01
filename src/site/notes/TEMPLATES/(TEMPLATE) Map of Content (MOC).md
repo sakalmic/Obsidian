@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/templates/template-map-of-content-moc/","tags":["type/moc","context/phd"],"dgHomeLink":true,"noteIcon":"","created":"<% tp.date.now(\"YYYY-MM-DD\") %>","updated":"<% tp.date.now(\"YYYY-MM-DD\") %>","dg-note-properties":{"aliases":["MOC - <% tp.file.title %>"],"tags":["type/moc","context/phd"],"date":"<% tp.date.now(\"YYYY-MM-DD\") %>","last_updated":"<% tp.date.now(\"YYYY-MM-DD\") %>"}}
+{"dg-publish":true,"permalink":"/templates/template-map-of-content-moc/","tags":["type/moc","context/phd"],"dgHomeLink":true,"dgShowFileTree":true,"noteIcon":"","created":"<% tp.date.now(\"YYYY-MM-DD\") %>","updated":"<% tp.date.now(\"YYYY-MM-DD\") %>","dg-note-properties":{"aliases":["MOC - <% tp.file.title %>"],"tags":["type/moc","context/phd"],"date":"<% tp.date.now(\"YYYY-MM-DD\") %>","last_updated":"<% tp.date.now(\"YYYY-MM-DD\") %>"}}
 ---
 
 
