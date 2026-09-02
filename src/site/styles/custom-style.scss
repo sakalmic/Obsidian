@@ -504,16 +504,12 @@ a.tag {
   border-radius: var(--radius-sm);
 }
 
-.filetree-sidebar > .site-title-link.is-home-active {
-  background: rgba(255, 255, 255, 0.08);
-}
-
-.filetree-sidebar > .site-title-link.is-home-active h1 {
-  color: #fffaf0 !important;
-}
-
 .filetree-sidebar .folder {
   margin: 0;
+}
+
+.home-navigation {
+  margin: 0.15rem 0 0.65rem;
 }
 
 .foldername-wrapper {
@@ -717,14 +713,6 @@ aside,
   .navbar .site-title-link {
     padding-inline: 0.7rem;
     border-radius: var(--radius-sm);
-  }
-
-  .navbar .site-title-link.is-home-active {
-    background: var(--blue-soft);
-  }
-
-  .navbar .site-title-link.is-home-active h1 {
-    color: var(--navy-deep) !important;
   }
 
   .filetree-wrapper {

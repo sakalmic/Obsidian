@@ -48,6 +48,6 @@ Obsidian-PhD/
 | [[II Areas/01_Research/01_MOC\|01_Research]] | Research & Methodology | Plasma physics, LTSG, COMSOL, diagnostics and techno-economics | Public |
 | [[II Areas/02_Thesis/02_MOC\|02_Dissertation]] | Dissertation | Structure, claims, hypotheses and LaTeX integration | Public |
 | [[II Areas/03_Publications/03_MOC\|03_Publications]] | Publications & Conferences | Manuscripts, venues and conference planning | Public |
-| [[II Areas/04_Administration/04_MOC\|04_Administration]] | Administration & ISP | Study obligations, meetings and deadlines | Private |
-| [[II Areas/05_Teaching/05_MOC\|05_Teaching]] | Teaching & Supervision | Courses and supervised theses | Private |
-| [[II Areas/06_Grants_Funding/06_MOC\|06_Grants]] | Grants & Funding | Applications, budgets and travel | Private |
+| `04_Administration` | Administration & ISP | Study obligations, meetings and deadlines | Private |
+| `05_Teaching` | Teaching & Supervision | Courses and supervised theses | Private |
+| `06_Grants` | Grants & Funding | Applications, budgets and travel | Private |
