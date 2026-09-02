@@ -21,34 +21,34 @@ This document defines the organisation and operating standards of the **Obsidian
 
 ## Folder structure
 
-<pre class="folder-tree-container" style="overflow-x: auto; scrollbar-width: thin; -webkit-overflow-scrolling: touch; background: var(--background-secondary, #fffdf8); border: 1px solid var(--background-modifier-border, #d9d4c9); border-radius: 8px; padding: 1.1rem 1.25rem; font-family: var(--font-monospace, 'Consolas', monospace); font-size: 0.88em; line-height: 1.65; white-space: pre; color: var(--text-normal, #18242e); margin: 1rem 0;">
-<span style="font-weight: 700; color: var(--text-normal, #18242e);">Obsidian-PhD/</span>
-├── <span style="font-weight: 600; color: var(--text-normal, #18242e);">Home.md</span>                         <span style="color: var(--text-muted, #717b82); font-style: italic;"># Public research dashboard & entry point</span>
-├── <span style="font-weight: 600; color: var(--text-normal, #18242e);">Keystones/</span>                      <span style="color: var(--text-muted, #717b82); font-style: italic;"># Core scientific contributions, claims & synthesis</span>
-├── <span style="color: var(--text-muted, #717b82); opacity: 0.45;">_</span><span style="font-weight: 600; color: var(--text-normal, #18242e);">System/</span>                         <span style="color: var(--text-muted, #717b82); font-style: italic;"># Vault architecture, tagging & publishing guides</span>
-├── <span style="color: var(--text-muted, #717b82); opacity: 0.45;">_Inbox/                         # Fleeting notes, rapid captures & raw clippings (private)</span>
-├── <span style="color: var(--text-muted, #717b82); opacity: 0.45;">_Daily/                         # Daily research logs & time blocks (private)</span>
-├── <span style="font-weight: 600; color: var(--text-normal, #18242e);">I Projects/</span>                     <span style="color: var(--text-muted, #717b82); font-style: italic;"># Active manuscripts, COMSOL models & milestones</span>
-├── <span style="font-weight: 600; color: var(--text-normal, #18242e);">II Areas/</span>                       <span style="color: var(--text-muted, #717b82); font-style: italic;"># Long-term academic spheres of responsibility (Model A flat)</span>
-│   ├── <span style="font-weight: 600; color: var(--text-normal, #18242e);">01_Research/</span>                <span style="color: var(--text-muted, #717b82); font-style: italic;"># 4 scientific pillars: plasma, switching, diagnostics, techno-economics</span>
-│   ├── <span style="font-weight: 600; color: var(--text-normal, #18242e);">02_Thesis/</span>                  <span style="color: var(--text-muted, #717b82); font-style: italic;"># Monograph architecture, claim ledger & LaTeX links</span>
-│   ├── <span style="font-weight: 600; color: var(--text-normal, #18242e);">03_Publications/</span>            <span style="color: var(--text-muted, #717b82); font-style: italic;"># Journal pipeline, conference targets & authorship</span>
-│   ├── <span style="color: var(--text-muted, #717b82); opacity: 0.45;">04_Administration/          # ISP, KOS credits, regulations & supervisor syncs (private)</span>
-│   ├── <span style="color: var(--text-muted, #717b82); opacity: 0.45;">05_Teaching/                # Laboratory courses, seminars & thesis supervision (private)</span>
-│   └── <span style="color: var(--text-muted, #717b82); opacity: 0.45;">06_Grants_Funding/          # SGS grants, GAČR proposals & mobility budgets (private)</span>
-├── <span style="font-weight: 600; color: var(--text-normal, #18242e);">III Resources/</span>                  <span style="color: var(--text-muted, #717b82); font-style: italic;"># Reusable knowledge base</span>
-│   ├── <span style="font-weight: 600; color: var(--text-normal, #18242e);">Conferences_and_Events/</span>     <span style="color: var(--text-muted, #717b82); font-style: italic;"># Academic conference directory & deadlines</span>
-│   ├── <span style="color: var(--text-muted, #717b82); opacity: 0.45;">Data_and_Simulations/       # Measurement datasets & raw COMSOL files (private)</span>
-│   ├── <span style="font-weight: 600; color: var(--text-normal, #18242e);">Literature/</span>                 <span style="color: var(--text-muted, #717b82); font-style: italic;"># Structured literature notes (LN - AuthorYear)</span>
-│   └── <span style="font-weight: 600; color: var(--text-normal, #18242e);">Zettelkasten/</span>               <span style="color: var(--text-muted, #717b82); font-style: italic;"># Atomic permanent notes (YYYYMMDDHHmm - ...)</span>
-├── <span style="color: var(--text-muted, #717b82); opacity: 0.45;">IV Archives/                    # Completed projects & closed study periods (private)</span>
-└── <span style="color: var(--text-muted, #717b82); opacity: 0.45;">TEMPLATES/                      # Reusable note structures for Templater (private)</span>
+<pre class="folder-tree-container" style="overflow-x: auto; scrollbar-width: thin; -webkit-overflow-scrolling: touch; background: #0c1822; border: 1px solid #1f303f; border-radius: 8px; padding: 1.1rem 1.25rem; font-family: var(--font-monospace, 'Consolas', monospace); font-size: 0.88em; line-height: 1.65; white-space: pre; color: #ffffff; margin: 1rem 0;">
+<span style="color: #ffffff; font-weight: 700;">Obsidian-PhD/</span>
+<span style="color: #ffffff;">├── Home.md                         # Public research dashboard & entry point</span>
+<span style="color: #ffffff;">├── Keystones/                      # Core scientific contributions, claims & synthesis</span>
+<span style="color: #8c9ba5;">├── _</span><span style="color: #ffffff;">System/                        # Vault architecture, tagging & publishing guides</span>
+<span style="color: #8c9ba5;">├── _Inbox/                         # Fleeting notes, rapid captures & raw clippings (private)</span>
+<span style="color: #8c9ba5;">├── _Daily/                         # Daily research logs & time blocks (private)</span>
+<span style="color: #ffffff;">├── I Projects/                     # Active manuscripts, COMSOL models & milestones</span>
+<span style="color: #ffffff;">├── II Areas/                       # Long-term academic spheres of responsibility (Model A flat)</span>
+<span style="color: #ffffff;">│   ├── 01_Research/                # 4 scientific pillars: plasma, switching, diagnostics, techno-economics</span>
+<span style="color: #ffffff;">│   ├── 02_Thesis/                  # Monograph architecture, claim ledger & LaTeX links</span>
+<span style="color: #ffffff;">│   ├── 03_Publications/            # Journal pipeline, conference targets & authorship</span>
+<span style="color: #8c9ba5;">│   ├── 04_Administration/          # ISP, KOS credits, regulations & supervisor syncs (private)</span>
+<span style="color: #8c9ba5;">│   ├── 05_Teaching/                # Laboratory courses, seminars & thesis supervision (private)</span>
+<span style="color: #8c9ba5;">│   └── 06_Grants_Funding/          # SGS grants, GAČR proposals & mobility budgets (private)</span>
+<span style="color: #ffffff;">├── III Resources/                  # Reusable knowledge base</span>
+<span style="color: #ffffff;">│   ├── Conferences_and_Events/     # Academic conference directory & deadlines</span>
+<span style="color: #8c9ba5;">│   ├── Data_and_Simulations/       # Measurement datasets & raw COMSOL files (private)</span>
+<span style="color: #ffffff;">│   ├── Literature/                 # Structured literature notes (LN - AuthorYear)</span>
+<span style="color: #ffffff;">│   └── Zettelkasten/               # Atomic permanent notes (YYYYMMDDHHmm - ...)</span>
+<span style="color: #8c9ba5;">├── IV Archives/                    # Completed projects & closed study periods (private)</span>
+<span style="color: #8c9ba5;">└── TEMPLATES/                      # Reusable note structures for Templater (private)</span>
 </pre>
 
 > [!note] **Vysvětlivky k viditelnosti složek (Digital Garden vs. lokální trezor):**
-> - **Výrazné / tučné písmo:** Složky a poznámky publikované na veřejném webu ([sakalmic-phd.vercel.app](https://sakalmic-phd.vercel.app/)).
-> - <span style="color: var(--text-muted, #717b82); opacity: 0.55;">**Světle šedé písmo:**</span> Privátní složky a interní agenda (zůstávají pouze lokálně v Obsidianu).
-> - <span style="color: var(--text-muted, #717b82); opacity: 0.55;">**_**</span>**System:** Šedé podtržítko značí lokální systémový název ve filesystému, zatímco obsah složky je vypublikován pod URL cestou `/system/`.
+> - <span style="color: #ffffff; background: #0c1822; padding: 2px 6px; border-radius: 4px; font-family: monospace;">**Bílé písmo (celý řádek):**</span> Složky a poznámky publikované na veřejném webu ([sakalmic-phd.vercel.app](https://sakalmic-phd.vercel.app/)).
+> - <span style="color: #8c9ba5; background: #0c1822; padding: 2px 6px; border-radius: 4px; font-family: monospace;">**Světle šedé písmo:**</span> Privátní složky a interní agenda (zůstávají pouze lokálně v Obsidianu).
+> - <span style="background: #0c1822; padding: 2px 6px; border-radius: 4px; font-family: monospace;"><span style="color: #8c9ba5;">**_**</span><span style="color: #ffffff;">**System:**</span></span> Šedé podtržítko značí lokální systémový název ve filesystému, zatímco obsah složky je vypublikován pod URL cestou `/system/`.
 
 ---
 
