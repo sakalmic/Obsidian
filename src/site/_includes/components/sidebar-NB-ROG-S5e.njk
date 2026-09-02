@@ -5,7 +5,7 @@
                   {% for imp in dynamics.sidebar.top %}
                         {% include imp %}
                   {% endfor %}
-                  {%if settings.dgShowToc === true%}
+{%if settings.dgShowToc === true%}
                         {%set tocHtml= (content and (content | hideDataview | link | toc)) %}
                         {%if tocHtml %}
                               <div class="toc">

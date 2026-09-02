@@ -40,11 +40,11 @@
                         {% include imp %}
                     {% endfor %}
                     {% if meta.siteLogoPath %}
-                    <a href="/" class="site-title-link{{ ' is-home-active' if permalink === '/' }}" style="text-decoration: none; flex: 1; display: flex; justify-content: center;"{% if permalink === '/' %} aria-current="page"{% endif %}>
+                    <a href="/" class="site-title-link" style="text-decoration: none; flex: 1; display: flex; justify-content: center;">
                             <img class="site-logo" src="{{meta.siteLogoPath}}" alt="{{meta.siteName}}">
                     </a>
                     {% else %}
-                    <a href="/" class="site-title-link{{ ' is-home-active' if permalink === '/' }}" style="text-decoration: none; text-align: center;"{% if permalink === '/' %} aria-current="page"{% endif %}>
+                    <a href="/" class="site-title-link" style="text-decoration: none; text-align: center;">
                             <h1 style="margin: 15px !important;">{{meta.siteName}}</h1>
                     </a>
                     {% endif %}
@@ -71,21 +71,24 @@
             {% include imp %}
         {% endfor %}
          {% if meta.siteLogoPath %}
-         <a href="/" class="site-title-link{{ ' is-home-active' if permalink === '/' }}" style="text-decoration: none; display: flex; justify-content: center;"{% if permalink === '/' %} aria-current="page"{% endif %}>
+         <a href="/" class="site-title-link" style="text-decoration: none; display: flex; justify-content: center;">
                    <img class="site-logo" src="{{meta.siteLogoPath}}" alt="{{meta.siteName}}">
          </a>
          {% else %}
-         <a href="/" class="site-title-link{{ ' is-home-active' if permalink === '/' }}" style="text-decoration: none; text-align: center;"{% if permalink === '/' %} aria-current="page"{% endif %}>
+         <a href="/" class="site-title-link" style="text-decoration: none; text-align: center;">
                    <h1 style="text-align:center;">{{meta.siteName}}</h1>
          </a>
          {% endif %}
          {% for imp in dynamics.filetree.afterTitle %}
             {% include imp %}
         {% endfor %}
-         {% set slotName = "filetree.actions" %}{% include "components/pluginSlot.njk" %}
+        {% set slotName = "filetree.actions" %}{% include "components/pluginSlot.njk" %}
+         <div class="notelink home-navigation{{ ' active-note' if permalink === '/' }}">
+           <a data-note-icon="" class="filename" href="/"{% if permalink === '/' %} aria-current="page"{% endif %}>Home</a>
+         </div>
          <div class="folder" x-data="{isOpen: true}">
                {%- for fileOrFolderName, fileOrFolder in filetree -%}
-                  {%- if not (fileOrFolder.isNote and (fileOrFolder.permalink === "/" or fileOrFolder.permalink === "/home/" or fileOrFolderName === "Home")) -%}
+                  {%- if not (fileOrFolder.isNote and fileOrFolder.permalink === "/") -%}
                      {{menuItem(fileOrFolderName, fileOrFolder, 0, fileOrFolderName)}}
                   {%- endif -%}
                {%- endfor -%}

@@ -72,4 +72,4 @@ This garden documents the development of ultrafast plasma-based switching and pr
 - **Evidence and traceability:** [[II Areas/02_Thesis/Claim Ledger & Evidence Matrix\|Claim Ledger & Evidence Matrix]]
 - **Dissertation structure:** [[II Areas/02_Thesis/Thesis Structure & Chapter Outline\|Thesis Structure & Chapter Outline]]
 - **Publication strategy:** [[II Areas/03_Publications/Publication Strategy & Targets\|Publication Strategy & Targets]]
-- **Research methodology:** [[_System/Research Methodology & Workflows\|Research Methodology & Workflows]]
+- **Research methodology:** [[System/Research Methodology & Workflows\|Research Methodology & Workflows]]
