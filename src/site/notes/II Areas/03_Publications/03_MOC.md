@@ -19,9 +19,9 @@ This map coordinates the doctoral publication pipeline, from early research conc
 
 ## Manuscript pipeline
 
-| Manuscript                                                                       | Target venue                                         | Status  | Submission deadline |
-| -------------------------------------------------------------------------------- | ---------------------------------------------------- | ------- | ------------------- |
-| [[I Projects/Paper - IEEE Transactions 2026\|Paper - IEEE Transactions 2026]] | IEEE Transactions on Power Delivery / Plasma Science | planned | April 30, 2028      |
+| Manuscript                                                                       | Target venue                                         | Status      | Submission deadline |
+| -------------------------------------------------------------------------------- | ---------------------------------------------------- | ----------- | ------------------- |
+| [[I Projects/Paper - IEEE Transactions 2026\|Paper - IEEE Transactions 2026]] | IEEE Transactions on Power Delivery / Plasma Science | in-progress | December 15, 2026   |
 
 { .block-language-dataview}
 
