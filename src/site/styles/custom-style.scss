@@ -499,6 +499,18 @@ a.tag {
   letter-spacing: 0.15em;
 }
 
+.filetree-sidebar > .site-title-link.is-home-active {
+  padding: 0.8rem 0.85rem;
+  border: 1px solid rgba(213, 160, 124, 0.48);
+  border-radius: var(--radius-sm);
+  background: rgba(168, 90, 52, 0.14);
+  box-shadow: inset 3px 0 0 var(--copper);
+}
+
+.filetree-sidebar > .site-title-link.is-home-active h1 {
+  color: #d5a07c !important;
+}
+
 .filetree-sidebar .folder {
   margin: 0;
 }
@@ -699,6 +711,10 @@ aside,
     color: var(--navy-deep) !important;
     font-family: var(--font-editorial);
     font-size: 1.02rem !important;
+  }
+
+  .navbar .site-title-link.is-home-active h1 {
+    color: var(--copper) !important;
   }
 
   .filetree-wrapper {
