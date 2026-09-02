@@ -13,8 +13,8 @@ const allSettings = [
 
 // The PhD garden is meant to retain the two main spatial cues from Obsidian:
 // the vault hierarchy on the left and the linked-note graph on the right.
-// Individual notes (or deployment environment variables) can still override
-// these defaults explicitly with true/false.
+// Individual notes can still override these defaults explicitly with false.
+// These project defaults intentionally outrank legacy deployment variables.
 const gardenDefaults = {
   dgShowFileTree: true,
   dgShowLocalGraph: true,
@@ -52,10 +52,12 @@ module.exports = {
         let settingValue;
         if (typeof noteSetting === "boolean") {
           settingValue = noteSetting;
+        } else if (gardenDefaults[setting] === true) {
+          settingValue = true;
         } else if (globalSetting !== undefined) {
           settingValue = globalSetting === "true";
         } else {
-          settingValue = gardenDefaults[setting] === true;
+          settingValue = false;
         }
         noteSettings[setting] = settingValue;
       });
