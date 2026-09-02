@@ -3,28 +3,28 @@
 ---
 
 
-# 🚀 Project: Dissertation Manuscript
+# Project: Dissertation Manuscript
 
-## 🎯 Executive Summary & Objectives
+## Executive Summary & Objectives
 - **Title**: *Laser-Induced Plasma Structures for Protection and Switching in Electrical Power Engineering: Physical Dynamics and Techno-Economic Modeling*
 - **Format**: Monograph (or an annotated collection of publications, subject to agreement with the supervisor)
 - **Language**: English, with the required Czech and English abstracts
 - **Repository / LaTeX**: `PhD/thesis/main.tex`
 
-## ⏳ Timeline & Key Milestones
+## Timeline & Key Milestones
 - [ ] **M1**: Consolidate the literature review and theoretical foundations ([[II Areas/02_Thesis/Thesis Structure & Chapter Outline#Chapter 1\|Chapters 1 & 2]])
 - [ ] **M2**: Develop and verify the multiphysics numerical model ([[II Areas/02_Thesis/Thesis Structure & Chapter Outline#Chapter 3\|Chapter 3]])
 - [ ] **M3**: Complete the experimental results and parametric studies ([[II Areas/02_Thesis/Thesis Structure & Chapter Outline#Chapter 4\|Chapter 4]])
 - [ ] **M4**: Complete the techno-economic assessment and evaluate its impact on switching technology ([[II Areas/02_Thesis/Thesis Structure & Chapter Outline#Chapter 5\|Chapter 5]])
 - [ ] **M5**: Final review, external assessment and submission (2028)
 
-## 📋 Actionable Tasks
+## Actionable Tasks
 - [ ] Complete Chapter 1 in LaTeX (`PhD/thesis/chapters/ch01_introduction.tex`)
 - [ ] Map every supporting hypothesis in the [[II Areas/02_Thesis/Claim Ledger & Evidence Matrix\|Claim Ledger & Evidence Matrix]]
 - [ ] Generate vector diagrams of the discharge-chamber geometry
 - [ ] Update `PhD/thesis/references.bib` with the latest IEEE and APL papers
 
-## 📚 Related documents
+## Related documents
 - [[II Areas/02_Thesis/Thesis Structure & Chapter Outline\|Thesis Structure & Chapter Outline]]
 - [[II Areas/02_Thesis/Claim Ledger & Evidence Matrix\|Claim Ledger & Evidence Matrix]]
 - [[II Areas/02_Thesis/02_MOC\|02_Thesis MOC]]

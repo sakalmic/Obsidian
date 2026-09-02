@@ -3,17 +3,17 @@
 ---
 
 
-# 📑 Project / Paper: IEEE Transactions 2026
+# Project / Paper: IEEE Transactions 2026
 
-## 🎯 Manuscript objective
+## Manuscript objective
 Publish original results in a Web of Science Q1/Q2 journal, focusing on the dynamics of laser-induced discharges in gaseous dielectrics for ultrafast switching in electrical power systems.
 
-## 📋 Actionable Tasks
+## Actionable Tasks
 - [ ] Complete the COMSOL parametric study across multiple voltage levels
 - [ ] Compare the measured switching delays with the numerical predictions
 - [ ] Draft the methods section and experimental description
 - [ ] Submit the draft to the supervisor for the first review round
 
-## 🔗 Dissertation contribution
+## Dissertation contribution
 - Forms the core of [[II Areas/02_Thesis/Thesis Structure & Chapter Outline#Chapter 4\|Chapter 4 (Results & Validation)]].
 - Supports claims [[II Areas/02_Thesis/Claim Ledger & Evidence Matrix#CL-01\|CL-01]] and [[II Areas/02_Thesis/Claim Ledger & Evidence Matrix#CL-02\|CL-02]].
