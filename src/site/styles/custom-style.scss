@@ -499,8 +499,12 @@ a.tag {
   letter-spacing: 0.15em;
 }
 
-.filetree-sidebar > .site-title-link.is-home-active {
+.filetree-sidebar > .site-title-link {
+  padding: 0.8rem 0.85rem;
   border-radius: var(--radius-sm);
+}
+
+.filetree-sidebar > .site-title-link.is-home-active {
   background: rgba(255, 255, 255, 0.08);
 }
 
@@ -710,8 +714,12 @@ aside,
     font-size: 1.02rem !important;
   }
 
-  .navbar .site-title-link.is-home-active {
+  .navbar .site-title-link {
+    padding-inline: 0.7rem;
     border-radius: var(--radius-sm);
+  }
+
+  .navbar .site-title-link.is-home-active {
     background: var(--blue-soft);
   }
 
