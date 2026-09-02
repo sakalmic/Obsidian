@@ -21,6 +21,9 @@ const gardenDefaults = {
 };
 
 module.exports = {
+  navigationOrder: {
+    "/": ["_System", "System", "I Projects", "II Areas", "III Resources", "Keystones"],
+  },
   eleventyComputed: {
     layout: (data) => {
       if (data.tags.indexOf("gardenEntry") != -1) {
