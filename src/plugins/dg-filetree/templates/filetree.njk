@@ -17,7 +17,21 @@
                     <div class="foldername-wrapper align-icon">
                     <i x-show="isOpen" style="display: none;"  data-lucide="chevron-down"></i>
                     <i x-show="!isOpen"  data-lucide="chevron-right"></i>
-                    <span class="foldername">{{fileOrFolderName | replace("_", " ") | trim}}</span>
+                    <span class="foldername">
+                    {%- if step === 0 and (fileOrFolderName === "System" or fileOrFolderName === "_System") -%}
+                      <span class="spark-initial">S</span>ystem
+                    {%- elif step === 0 and fileOrFolderName === "I Projects" -%}
+                      I <span class="spark-initial">P</span>rojects
+                    {%- elif step === 0 and fileOrFolderName === "II Areas" -%}
+                      II <span class="spark-initial">A</span>reas
+                    {%- elif step === 0 and fileOrFolderName === "III Resources" -%}
+                      III <span class="spark-initial">R</span>esources
+                    {%- elif step === 0 and fileOrFolderName === "Keystones" -%}
+                      <span class="spark-initial">K</span>eystones
+                    {%- else -%}
+                      {{fileOrFolderName | replace("_", " ") | trim}}
+                    {%- endif -%}
+                    </span>
                     </div>
                     {% for fileOrFolderName, child in fileOrFolder %}
                         {{menuItem(fileOrFolderName, child, step+1, (currentPath+"/"+fileOrFolderName))}}
