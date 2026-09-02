@@ -600,6 +600,16 @@ a.tag {
   height: 220px;
 }
 
+.filetree-graph #global-graph-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  line-height: 1;
+}
+
 /* Search and secondary sidebar */
 .search-button,
 button {
@@ -701,7 +711,22 @@ aside,
     width: 100% !important;
     min-width: 0 !important;
     max-width: none !important;
+    height: 100vh !important;
     padding: 1.5rem 1rem 3rem !important;
+    overflow-y: auto !important;
+  }
+
+  .mobile-graph-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.35rem;
+    height: 2.35rem;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: var(--navy-deep);
+    cursor: pointer;
   }
 
   main.content {
