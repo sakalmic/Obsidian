@@ -21,7 +21,7 @@ This document defines the organisation and operating standards of the **Obsidian
 
 ## Folder structure
 
-<div class="folder-tree-container" style="overflow-x: auto; scrollbar-width: thin; -webkit-overflow-scrolling: touch; background: var(--background-secondary, #fffdf8); border: 1px solid var(--background-modifier-border, #d9d4c9); border-radius: 8px; padding: 1.1rem 1.25rem; font-family: var(--font-monospace, 'Consolas', monospace); font-size: 0.88em; line-height: 1.65; white-space: pre; color: var(--text-normal, #18242e); margin: 1rem 0;">
+<pre class="folder-tree-container" style="overflow-x: auto; scrollbar-width: thin; -webkit-overflow-scrolling: touch; background: var(--background-secondary, #fffdf8); border: 1px solid var(--background-modifier-border, #d9d4c9); border-radius: 8px; padding: 1.1rem 1.25rem; font-family: var(--font-monospace, 'Consolas', monospace); font-size: 0.88em; line-height: 1.65; white-space: pre; color: var(--text-normal, #18242e); margin: 1rem 0;">
 <span style="font-weight: 700; color: var(--text-normal, #18242e);">Obsidian-PhD/</span>
 ├── <span style="font-weight: 600; color: var(--text-normal, #18242e);">Home.md</span>                         <span style="color: var(--text-muted, #717b82); font-style: italic;"># Public research dashboard & entry point</span>
 ├── <span style="font-weight: 600; color: var(--text-normal, #18242e);">Keystones/</span>                      <span style="color: var(--text-muted, #717b82); font-style: italic;"># Core scientific contributions, claims & synthesis</span>
@@ -43,7 +43,7 @@ This document defines the organisation and operating standards of the **Obsidian
 │   └── <span style="font-weight: 600; color: var(--text-normal, #18242e);">Zettelkasten/</span>               <span style="color: var(--text-muted, #717b82); font-style: italic;"># Atomic permanent notes (YYYYMMDDHHmm - ...)</span>
 ├── <span style="color: var(--text-muted, #717b82); opacity: 0.45;">IV Archives/                    # Completed projects & closed study periods (private)</span>
 └── <span style="color: var(--text-muted, #717b82); opacity: 0.45;">TEMPLATES/                      # Reusable note structures for Templater (private)</span>
-</div>
+</pre>
 
 > [!note] **Vysvětlivky k viditelnosti složek (Digital Garden vs. lokální trezor):**
 > - **Výrazné / tučné písmo:** Složky a poznámky publikované na veřejném webu ([sakalmic-phd.vercel.app](https://sakalmic-phd.vercel.app/)).
