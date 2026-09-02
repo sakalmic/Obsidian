@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/home/","title":"Home","contentClasses":"phd-home","tags":["gardenEntry","type/moc","context/phd"],"dgHomeLink":true,"dgShowFileTree":true,"noteIcon":"","created":"2026-09-01","updated":"2026-09-01","dg-note-properties":{"title":"Home","aliases":["Home","Research Dashboard"],"tags":["gardenEntry","type/moc","context/phd"],"date":"2026-09-01","last_updated":"2026-09-01","dgHome":true,"dgShowFileTree":true}}
+{"dg-publish":true,"permalink":"/home/","title":"Home","tags":["gardenEntry","type/moc","context/phd"],"noteIcon":"","dg-note-properties":{"permalink":"/home/","title":"Home","contentClasses":"phd-home","tags":["gardenEntry","type/moc","context/phd"],"dgHomeLink":true,"dgShowFileTree":true,"noteIcon":"","created":"2026-09-01","updated":"2026-09-01"}}
 ---
+
 
 
 # Laser-Induced Plasma for Power-System Protection and Switching
@@ -72,4 +73,4 @@ This garden documents the development of ultrafast plasma-based switching and pr
 - **Evidence and traceability:** [[II Areas/02_Thesis/Claim Ledger & Evidence Matrix\|Claim Ledger & Evidence Matrix]]
 - **Dissertation structure:** [[II Areas/02_Thesis/Thesis Structure & Chapter Outline\|Thesis Structure & Chapter Outline]]
 - **Publication strategy:** [[II Areas/03_Publications/Publication Strategy & Targets\|Publication Strategy & Targets]]
-- **Research methodology:** [[System/Research Methodology & Workflows\|Research Methodology & Workflows]]
+- **Research methodology:** [[_System/Research Methodology & Workflows\|Research Methodology & Workflows]]
