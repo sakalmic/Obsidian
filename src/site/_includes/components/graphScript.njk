@@ -487,9 +487,6 @@ function openFullGraph() {
     openModal(fullGraphDataCache);
 }
 
-function openExpandedLocal() {
-    openModal(filterLocalGraphData(graphDataCache, localGraphDepth));
-}
 
 function closeFullGraph() {
     document.getElementById('full-graph').style.display = 'none';
@@ -500,7 +497,7 @@ function closeFullGraph() {
 }
 
 // Expose to Alpine
-window.__graph = { openFullGraph, closeFullGraph, openExpandedLocal, rerenderLocal: renderLocal, setLocalGraphDepth };
+window.__graph = { openFullGraph, closeFullGraph, rerenderLocal: renderLocal, setLocalGraphDepth };
 
 // Re-render when the style editor changes CSS variables
 document.addEventListener('forestry:css-changed', function() {
@@ -521,8 +518,7 @@ init();
             </div>
             {% endif %}
             <div class="ctrl-right">
-                <span id="global-graph-btn" x-on:click="showFullGraph = true; window.__graph.openFullGraph()"><i data-lucide="globe" aria-hidden="true"></i></span>
-                <span id="graph-fs-btn" x-on:click="showFullGraph = true; window.__graph.openExpandedLocal()"><i data-lucide="expand" aria-hidden="true"></i></span>
+                <button id="global-graph-btn" type="button" aria-label="Open full knowledge graph" title="Open full knowledge graph" x-on:click="showFullGraph = true; window.__graph.openFullGraph()"><i data-lucide="globe" aria-hidden="true"></i></button>
             </div>
         </div>
     </div>
