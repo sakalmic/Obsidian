@@ -551,6 +551,10 @@ a.tag {
   text-transform: uppercase;
 }
 
+.filetree-sidebar > .folder > div > .inner-folder > .foldername-wrapper .foldername::first-letter {
+  color: #d5a07c;
+}
+
 .foldername-wrapper svg {
   width: 15px !important;
   height: 15px !important;
