@@ -51,6 +51,12 @@
                     {% for imp in dynamics.filetree.afterTitle %}
                         {% include imp %}
                     {% endfor %}
+                    {% if settings.dgShowLocalGraph === true %}
+                    <button class="mobile-graph-button" type="button" aria-label="Show connected pages graph" title="Show graph"
+                            @click="showFilesMobile = true; $nextTick(() => document.querySelector('.filetree-graph')?.scrollIntoView({ behavior: 'smooth', block: 'start' }))">
+                        <i data-lucide="network" aria-hidden="true"></i>
+                    </button>
+                    {% endif %}
                 </div>
 
                 {% set slotName = "navbar.actions" %}{% include "components/pluginSlot.njk" %}
@@ -78,12 +84,6 @@
         {% endfor %}
         {% set slotName = "filetree.actions" %}{% include "components/pluginSlot.njk" %}
          <div class="folder" x-data="{isOpen: true}">
-               {# Place the garden entry above the folder hierarchy. #}
-               {%- for fileOrFolderName, fileOrFolder in filetree -%}
-                  {%- if fileOrFolder.isNote and fileOrFolder.permalink === "/" -%}
-                     {{menuItem(fileOrFolderName, fileOrFolder, 0, fileOrFolderName)}}
-                  {%- endif -%}
-               {%- endfor -%}
                {%- for fileOrFolderName, fileOrFolder in filetree -%}
                   {%- if not (fileOrFolder.isNote and fileOrFolder.permalink === "/") -%}
                      {{menuItem(fileOrFolderName, fileOrFolder, 0, fileOrFolderName)}}
