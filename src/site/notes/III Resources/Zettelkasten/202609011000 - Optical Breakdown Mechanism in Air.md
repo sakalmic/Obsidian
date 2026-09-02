@@ -24,5 +24,5 @@ where $\nu_i$ is the ionisation frequency, $\nu_a$ the attachment frequency and 
 ## Knowledge-graph connections
 - **Parent concept:** [[II Areas/01_Research/Laser-Induced Plasma Dynamics\|Laser-Induced Plasma Dynamics]] · [[II Areas/01_Research/01_MOC\|01_Research MOC]]
 - **Application:** [[II Areas/01_Research/Laser-Triggered Spark Gaps (LTSG)\|Laser-Triggered Spark Gaps (LTSG)]]
-- **Dissertation link:** [[II Areas/02_Thesis/Claim Ledger & Evidence Matrix#CL-02\|CL-02]] · [[II Areas/02_Thesis/Thesis Structure & Chapter Outline#Chapter 2\|Thesis Structure & Chapter Outline — Chapter 2]]
+- **Dissertation link:** [[II Areas/02_Thesis/Claim Ledger & Evidence Matrix#CL-02\|CL-02]] · [[II Areas/02_Thesis/Thesis Structure & Chapter Outline#Chapter 2\|Thesis Structure & Chapter Outline#Chapter 2]]
 - **Source literature:** [[III Resources/Literature/LN - Mikes2024 - Laser Spark Gaps\|LN - Mikes2024 - Laser Spark Gaps]]

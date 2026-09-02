@@ -7,7 +7,7 @@
 
 Index of reviewed scientific literature, research syntheses and bibliographic notes (`LN - ...`).
 
-| Literature note                                                                                                        | Authors                  | Year | Journal / conference    | DOI                            |
+| File                                                                                                                   | Authors                  | Year | Journal / conference    | DOI                            |
 | ---------------------------------------------------------------------------------------------------------------------- | ------------------------ | ---- | ----------------------- | ------------------------------ |
 | [[III Resources/Literature/LN - Sakala2025 - APL Lightning Protection\|LN - Sakala2025 - APL Lightning Protection]] | Michal Sakala, Jan Mikeš | 2025 | IEEE APL 2025           | 10.1109/APL65034.2025.11108944 |
 | [[III Resources/Literature/LN - Mikes2024 - Laser Spark Gaps\|LN - Mikes2024 - Laser Spark Gaps]]                   | Jan Mikeš, Michal Sakala | 2024 | ICOLSE 2024 Proceedings | 10.1109/ICOLSE.2024.1012345    |

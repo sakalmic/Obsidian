@@ -6,7 +6,7 @@
 # Techno-Economic Valuation of Ultrafast Grid Protection
 
 ## Core concept
-Techno-economic modelling of power-system protection requires physical quantities—such as reducing interruption time from $50\text{ ms}$ to $5\ \mu\text{s}$ or lowering the current integral $\int i^2 t \, dt$)—to be translated into monetary measures of reliability and asset life.
+Techno-economic modelling of power-system protection requires physical quantities—such as reducing interruption time from $50\text{ ms}$ to $5\ \mu\text{s}$ or lowering the current integral $\int i^2 t \, dt$—to be translated into monetary measures of reliability and asset life.
 
 ---
 
@@ -25,4 +25,4 @@ where:
 
 ## Knowledge-graph connections
 - **Parent concept:** [[II Areas/01_Research/Techno-Economic Modeling of Grid Switching\|Techno-Economic Modeling of Grid Switching]] · [[II Areas/01_Research/01_MOC\|01_Research MOC]]
-- **Dissertation link:** [[II Areas/02_Thesis/Claim Ledger & Evidence Matrix#CL-04\|CL-04]] · [[II Areas/02_Thesis/Thesis Structure & Chapter Outline#Chapter 5\|Thesis Structure & Chapter Outline — Chapter 5]]
+- **Dissertation link:** [[II Areas/02_Thesis/Claim Ledger & Evidence Matrix#CL-04\|CL-04]] · [[II Areas/02_Thesis/Thesis Structure & Chapter Outline#Chapter 5\|Thesis Structure & Chapter Outline#Chapter 5]]

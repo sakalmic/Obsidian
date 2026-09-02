@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/ii-areas/03-publications/03-moc/","title":"03_MOC: Publications & Conferences","tags":["type/moc","context/publications"],"dgHomeLink":true,"noteIcon":"","created":"2026-09-01","updated":"2026-09-01","dg-note-properties":{"title":"03_MOC: Publications & Conferences","aliases":["03_MOC","Publications MOC"],"tags":["type/moc","context/publications"],"date":"2026-09-01","last_updated":"2026-09-01"}}
 ---
 
+
 # 03_MOC: Publications & Conferences
 
 This map coordinates the doctoral publication pipeline, from early research concepts and conference papers to peer-reviewed Web of Science journal articles.
@@ -18,9 +19,9 @@ This map coordinates the doctoral publication pipeline, from early research conc
 
 ## Manuscript pipeline
 
-| Manuscript | Target venue | Status | Submission deadline |
-| :--- | :--- | :---: | :---: |
-| [[I Projects/Paper - IEEE Transactions 2026\|IEEE Transactions manuscript]] | IEEE Transactions on Power Delivery / Plasma Science | In progress | 2026-12-15 |
+| Manuscript                                                                       | Target venue                                         | Status      | Submission deadline |
+| -------------------------------------------------------------------------------- | ---------------------------------------------------- | ----------- | ------------------- |
+| [[I Projects/Paper - IEEE Transactions 2026\|Paper - IEEE Transactions 2026]] | IEEE Transactions on Power Delivery / Plasma Science | in-progress | December 15, 2026   |
 
 { .block-language-dataview}
 

@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/ii-areas/02-thesis/claim-ledger-and-evidence-matrix/","title":"Claim Ledger & Evidence Matrix","tags":["type/study","context/thesis","theme/methodology","status/in-progress"],"dgHomeLink":true,"noteIcon":"","created":"2026-09-01","updated":"2026-09-01","dg-note-properties":{"title":"Claim Ledger & Evidence Matrix","aliases":["Claim Ledger","Evidence Matrix"],"tags":["type/study","context/thesis","theme/methodology","status/in-progress"],"status":"in-progress","date":"2026-09-01","last_updated":"2026-09-01"}}
 ---
 
+
 # Claim Ledger & Evidence Matrix
 
 This matrix safeguards the **evidence-based integrity** of the dissertation. Every principal scientific claim must be traceable to primary experimental or simulation data and, where appropriate, to a peer-reviewed publication.
@@ -22,5 +23,5 @@ This matrix safeguards the **evidence-based integrity** of the dissertation. Eve
 ## Related notes
 
 - [[II Areas/02_Thesis/Thesis Structure & Chapter Outline\|Thesis Structure & Chapter Outline]]
-- [[I Projects/Paper - IEEE Transactions 2026\|IEEE Transactions manuscript]]
+- [[I Projects/Paper - IEEE Transactions 2026\|Paper - IEEE Transactions 2026]]
 - [[II Areas/01_Research/Techno-Economic Modeling of Grid Switching\|Techno-Economic Modeling of Grid Switching]]

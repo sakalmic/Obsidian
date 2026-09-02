@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/system/research-methodology-and-workflows/","tags":["type/guide","context/phd","theme/system"],"dgHomeLink":true,"noteIcon":"","created":"2026-09-01","updated":"2026-09-01","dg-note-properties":{"aliases":["Research Methodology & Workflows","Scientific Workflow"],"tags":["type/guide","context/phd","theme/system"],"date":"2026-09-01","last_updated":"2026-09-01"}}
 ---
 
+
 # Research Methodology & Workflows
 
 This document defines the scientific and knowledge-management workflows used throughout **Obsidian-PhD**.

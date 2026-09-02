@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/ii-areas/02-thesis/02-moc/","title":"02_MOC: Dissertation","tags":["type/moc","context/thesis"],"dgHomeLink":true,"noteIcon":"","created":"2026-09-01","updated":"2026-09-01","dg-note-properties":{"title":"02_MOC: Dissertation","aliases":["02_MOC","Thesis MOC"],"tags":["type/moc","context/thesis"],"date":"2026-09-01","last_updated":"2026-09-01"}}
 ---
 
+
 # 02_MOC: Dissertation
 
 This map is the central workspace for planning and writing *Laser-Induced Plasma Structures for Protection and Switching in Electrical Power Engineering: Physical Dynamics and Techno-Economic Modeling*.

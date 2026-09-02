@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/ii-areas/02-thesis/thesis-structure-and-chapter-outline/","title":"Thesis Structure & Chapter Outline","tags":["type/chapter","context/thesis","status/in-progress"],"dgHomeLink":true,"noteIcon":"","created":"2026-09-01","updated":"2026-09-01","dg-note-properties":{"title":"Thesis Structure & Chapter Outline","aliases":["Thesis Structure","Chapter Outline"],"tags":["type/chapter","context/thesis","status/in-progress"],"status":"in-progress","date":"2026-09-01","last_updated":"2026-09-01"}}
 ---
 
+
 # Thesis Structure & Chapter Outline
 
 Doctoral dissertation: **Laser-Induced Plasma Structures for Protection and Switching in Electrical Power Engineering: Physical Dynamics and Techno-Economic Modeling**

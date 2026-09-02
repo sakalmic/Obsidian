@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/system/ph-d-vault-architecture-guide/","tags":["type/guide","context/phd","theme/system"],"dgHomeLink":true,"noteIcon":"","created":"2026-09-01","updated":"2026-09-01","dg-note-properties":{"aliases":["PhD Vault Architecture Guide","System Guide"],"tags":["type/guide","context/phd","theme/system"],"date":"2026-09-01","last_updated":"2026-09-01"}}
 ---
 
+
 # PhD Vault Architecture Guide
 
 This document defines the organisation and operating standards of the **Obsidian-PhD** vault. The system supports doctoral research at CTU FEE in laser-induced plasma, electrical power engineering and techno-economic modelling, as well as dissertation writing and selective publication through Digital Garden.
@@ -47,6 +48,6 @@ Obsidian-PhD/
 | [[II Areas/01_Research/01_MOC\|01_Research]] | Research & Methodology | Plasma physics, LTSG, COMSOL, diagnostics and techno-economics | Public |
 | [[II Areas/02_Thesis/02_MOC\|02_Dissertation]] | Dissertation | Structure, claims, hypotheses and LaTeX integration | Public |
 | [[II Areas/03_Publications/03_MOC\|03_Publications]] | Publications & Conferences | Manuscripts, venues and conference planning | Public |
-| 04_Administration | Administration & ISP | Study obligations, meetings and deadlines | Private |
-| 05_Teaching | Teaching & Supervision | Courses and supervised theses | Private |
-| 06_Grants | Grants & Funding | Applications, budgets and travel | Private |
+| [[II Areas/04_Administration/04_MOC\|04_Administration]] | Administration & ISP | Study obligations, meetings and deadlines | Private |
+| [[II Areas/05_Teaching/05_MOC\|05_Teaching]] | Teaching & Supervision | Courses and supervised theses | Private |
+| [[II Areas/06_Grants_Funding/06_MOC\|06_Grants]] | Grants & Funding | Applications, budgets and travel | Private |

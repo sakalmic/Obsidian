@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/home/","title":"Home","tags":["gardenEntry","type/moc","context/phd"],"dgHomeLink":true,"dgShowFileTree":true,"noteIcon":"","created":"2026-09-01","updated":"2026-09-01","dg-content-classes":"phd-home","dg-note-properties":{"title":"Home","aliases":["Home","Research Dashboard"],"tags":["gardenEntry","type/moc","context/phd"],"date":"2026-09-01","last_updated":"2026-09-01","dgHome":true,"dgShowFileTree":true,"dg-content-classes":"phd-home"}}
+{"dg-publish":true,"permalink":"/home/","title":"Home","contentClasses":"phd-home","tags":["gardenEntry","type/moc","context/phd"],"dgHomeLink":true,"dgShowFileTree":true,"noteIcon":"","created":"2026-09-01","updated":"2026-09-01","dg-note-properties":{"title":"Home","aliases":["Home","Research Dashboard"],"tags":["gardenEntry","type/moc","context/phd"],"date":"2026-09-01","last_updated":"2026-09-01","dgHome":true,"dgShowFileTree":true}}
 ---
+
 
 # Laser-Induced Plasma for Power-System Protection and Switching
 
@@ -30,10 +31,10 @@ This garden documents the development of ultrafast plasma-based switching and pr
 
 ## Current public work
 
-| Project | Priority | Status | Updated |
-| :--- | :---: | :---: | :---: |
-| [[I Projects/Dissertation Manuscript\|Dissertation Manuscript]] | High | In progress | 2026-09-01 |
-| [[I Projects/Paper - IEEE Transactions 2026\|IEEE Transactions manuscript]] | High | In progress | 2026-09-01 |
+| Project                                                                          | Priority | Status      | Updated    |
+| -------------------------------------------------------------------------------- | -------- | ----------- | ---------- |
+| [[I Projects/Dissertation Manuscript\|Dissertation Manuscript]]               | high     | in-progress | 2026-09-02 |
+| [[I Projects/Paper - IEEE Transactions 2026\|Paper - IEEE Transactions 2026]] | high     | in-progress | 2026-09-02 |
 
 { .block-language-dataview}
 
@@ -41,9 +42,9 @@ This garden documents the development of ultrafast plasma-based switching and pr
 
 ## Publication pipeline
 
-| Manuscript | Target venue | Status | Deadline |
-| :--- | :--- | :---: | :---: |
-| [[I Projects/Paper - IEEE Transactions 2026\|IEEE Transactions manuscript]] | IEEE Transactions on Power Delivery / Plasma Science | In progress | 2026-12-15 |
+| Manuscript                                                                       | Target venue                                         | Status      | Deadline          |
+| -------------------------------------------------------------------------------- | ---------------------------------------------------- | ----------- | ----------------- |
+| [[I Projects/Paper - IEEE Transactions 2026\|Paper - IEEE Transactions 2026]] | IEEE Transactions on Power Delivery / Plasma Science | in-progress | December 15, 2026 |
 
 { .block-language-dataview}
 
@@ -51,12 +52,16 @@ This garden documents the development of ultrafast plasma-based switching and pr
 
 ## Latest research notes
 
-| Note | Focus | Status |
-| :--- | :--- | :---: |
-| [[III Resources/Zettelkasten/202609011030 - Techno-Economic Valuation of Ultrafast Grid Protection\|Techno-Economic Valuation of Ultrafast Grid Protection]] | Techno-economics | Evergreen |
-| [[III Resources/Zettelkasten/202609011015 - Arc Quenching Dynamics in Hybrid Breakers\|Arc Quenching Dynamics in Hybrid Breakers]] | Arc quenching | Evergreen |
-| [[III Resources/Zettelkasten/202609011000 - Optical Breakdown Mechanism in Air\|Optical Breakdown Mechanism in Air]] | Breakdown physics | Evergreen |
-| [[III Resources/Literature/LN - Sakala2025 - APL Lightning Protection\|Advanced Plasma Guidance for Lightning Protection]] | Literature | Evergreen |
+| Note                                                                                                                                                                           | Updated    | Status |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | ------ |
+| [[III Resources/Zettelkasten/202609011030 - Techno-Economic Valuation of Ultrafast Grid Protection\|202609011030 - Techno-Economic Valuation of Ultrafast Grid Protection]] | 2026-09-01 | \-     |
+| [[III Resources/Zettelkasten/202609011015 - Arc Quenching Dynamics in Hybrid Breakers\|202609011015 - Arc Quenching Dynamics in Hybrid Breakers]]                           | 2026-09-01 | \-     |
+| [[III Resources/Zettelkasten/202609011000 - Optical Breakdown Mechanism in Air\|202609011000 - Optical Breakdown Mechanism in Air]]                                         | 2026-09-01 | \-     |
+| [[III Resources/Zettelkasten/Zettelkasten Index\|Zettelkasten Index]]                                                                                                       | 2026-09-01 | \-     |
+| [[III Resources/Literature/LN - Sakala2025 - APL Lightning Protection\|LN - Sakala2025 - APL Lightning Protection]]                                                         | 2026-09-01 | \-     |
+| [[III Resources/Literature/LN - Mikes2024 - Laser Spark Gaps\|LN - Mikes2024 - Laser Spark Gaps]]                                                                           | 2026-09-01 | \-     |
+| [[III Resources/Literature/Literature Index\|Literature Index]]                                                                                                             | 2026-09-01 | \-     |
+| [[III Resources/Conferences_and_Events/Academic Conferences Directory\|Academic Conferences Directory]]                                                                     | 2026-09-01 | \-     |
 
 { .block-language-dataview}
 

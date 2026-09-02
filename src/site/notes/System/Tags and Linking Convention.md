@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/system/tags-and-linking-convention/","tags":["type/guide","context/phd","theme/system"],"dgHomeLink":true,"noteIcon":"","created":"2026-09-01","updated":"2026-09-01","dg-note-properties":{"aliases":["Tags and Linking Convention","Tagging Rules"],"tags":["type/guide","context/phd","theme/system"],"date":"2026-09-01","last_updated":"2026-09-01"}}
 ---
 
+
 # Tags and Linking Convention
 
 This guide defines the required conventions for tagging and linking notes in the doctoral vault. The goal is reliable Dataview queries, a consistent knowledge graph and clean public navigation.

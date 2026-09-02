@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/i-projects/dissertation-manuscript/","tags":["type/project","context/thesis","theme/plasma-dynamics","priority/high","status/in-progress"],"dgHomeLink":true,"noteIcon":"","created":"2026-09-01","updated":"2026-09-01","dg-note-properties":{"aliases":["Project - Dissertation Manuscript"],"tags":["type/project","context/thesis","theme/plasma-dynamics","priority/high","status/in-progress"],"date":"2026-09-01","last_updated":"2026-09-01"}}
+{"dg-publish":true,"permalink":"/i-projects/dissertation-manuscript/","tags":["type/project","context/thesis","theme/plasma-dynamics","priority/high","status/in-progress"],"dgHomeLink":true,"noteIcon":"","created":"2026-09-01","updated":"2026-09-01","dg-note-properties":{"aliases":["Project - Dissertation Manuscript"],"tags":["type/project","context/thesis","theme/plasma-dynamics","priority/high","status/in-progress"],"priority":"high","status":"in-progress","date":"2026-09-01","last_updated":"2026-09-01"}}
 ---
 
 

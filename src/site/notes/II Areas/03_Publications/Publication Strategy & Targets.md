@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/ii-areas/03-publications/publication-strategy-and-targets/","title":"Publication Strategy & Targets","tags":["type/study","context/publications","status/in-progress"],"dgHomeLink":true,"noteIcon":"","created":"2026-09-01","updated":"2026-09-01","dg-note-properties":{"title":"Publication Strategy & Targets","aliases":["Publication Strategy & Targets","Publication Strategy"],"tags":["type/study","context/publications","status/in-progress"],"status":"in-progress","date":"2026-09-01","last_updated":"2026-09-01"}}
 ---
 
+
 # Publication Strategy & Targets
 
 Publication plan supporting the dissertation requirements of the *Economics of Energy and Electrical Engineering* doctoral programme at CTU FEE.
@@ -31,5 +32,5 @@ Publication plan supporting the dissertation requirements of the *Economics of E
 ## Related notes
 
 - [[II Areas/03_Publications/Conference Pipeline\|Conference Pipeline]]
-- [[I Projects/Paper - IEEE Transactions 2026\|IEEE Transactions manuscript]]
+- [[I Projects/Paper - IEEE Transactions 2026\|Paper - IEEE Transactions 2026]]
 - [[II Areas/03_Publications/03_MOC\|03_Publications MOC]]
