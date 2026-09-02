@@ -24,7 +24,6 @@ This document defines the organisation and operating standards of the **Obsidian
 <pre class="folder-tree-container" style="overflow-x: auto; scrollbar-width: thin; -webkit-overflow-scrolling: touch; background: #0c1822; border: 1px solid #1f303f; border-radius: 8px; padding: 1.1rem 1.25rem; font-family: var(--font-monospace, 'Consolas', monospace); font-size: 0.88em; line-height: 1.65; white-space: pre; color: #ffffff; margin: 1rem 0;">
 <span style="color: #ffffff; font-weight: 700;">Obsidian-PhD/</span>
 <span style="color: #ffffff;">├── Home.md                         # Public research dashboard & entry point</span>
-<span style="color: #ffffff;">├── Keystones/                      # Core scientific contributions, claims & synthesis</span>
 <span style="color: #8c9ba5;">├── _</span><span style="color: #ffffff;">System/                        # Vault architecture, tagging & publishing guides</span>
 <span style="color: #8c9ba5;">├── _Inbox/                         # Fleeting notes, rapid captures & raw clippings (private)</span>
 <span style="color: #8c9ba5;">├── _Daily/                         # Daily research logs & time blocks (private)</span>
@@ -42,13 +41,13 @@ This document defines the organisation and operating standards of the **Obsidian
 <span style="color: #ffffff;">│   ├── Literature/                 # Structured literature notes (LN - AuthorYear)</span>
 <span style="color: #ffffff;">│   └── Zettelkasten/               # Atomic permanent notes (YYYYMMDDHHmm - ...)</span>
 <span style="color: #8c9ba5;">├── IV Archives/                    # Completed projects & closed study periods (private)</span>
+<span style="color: #ffffff;">├── Keystones/                      # Core scientific contributions, claims & synthesis</span>
 <span style="color: #8c9ba5;">└── TEMPLATES/                      # Reusable note structures for Templater (private)</span>
 </pre>
 
-> [!note] **Vysvětlivky k viditelnosti složek (Digital Garden vs. lokální trezor):**
-> - <span style="color: #ffffff; background: #0c1822; padding: 2px 6px; border-radius: 4px; font-family: monospace;">**Bílé písmo (celý řádek):**</span> Složky a poznámky publikované na veřejném webu ([sakalmic-phd.vercel.app](https://sakalmic-phd.vercel.app/)).
-> - <span style="color: #8c9ba5; background: #0c1822; padding: 2px 6px; border-radius: 4px; font-family: monospace;">**Světle šedé písmo:**</span> Privátní složky a interní agenda (zůstávají pouze lokálně v Obsidianu).
-> - <span style="background: #0c1822; padding: 2px 6px; border-radius: 4px; font-family: monospace;"><span style="color: #8c9ba5;">**_**</span><span style="color: #ffffff;">**System:**</span></span> Šedé podtržítko značí lokální systémový název ve filesystému, zatímco obsah složky je vypublikován pod URL cestou `/system/`.
+> [!note] **Folder Visibility (Digital Garden vs. Local Workspace):**
+> - **Bright / White lines:** Public folders and notes published to the digital garden ([sakalmic-phd.vercel.app](https://sakalmic-phd.vercel.app/)).
+> - **Muted / Gray lines:** Private workspace areas and internal administration (remain strictly local in Obsidian).
 
 ---
 
