@@ -501,14 +501,12 @@ a.tag {
 
 .filetree-sidebar > .site-title-link.is-home-active {
   padding: 0.8rem 0.85rem;
-  border: 1px solid rgba(213, 160, 124, 0.48);
   border-radius: var(--radius-sm);
-  background: rgba(168, 90, 52, 0.14);
-  box-shadow: inset 3px 0 0 var(--copper);
+  background: rgba(255, 255, 255, 0.08);
 }
 
 .filetree-sidebar > .site-title-link.is-home-active h1 {
-  color: #d5a07c !important;
+  color: #fffaf0 !important;
 }
 
 .filetree-sidebar .folder {
@@ -713,8 +711,14 @@ aside,
     font-size: 1.02rem !important;
   }
 
+  .navbar .site-title-link.is-home-active {
+    padding-inline: 0.7rem;
+    border-radius: var(--radius-sm);
+    background: var(--blue-soft);
+  }
+
   .navbar .site-title-link.is-home-active h1 {
-    color: var(--copper) !important;
+    color: var(--navy-deep) !important;
   }
 
   .filetree-wrapper {
