@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/system/tags-and-linking-convention/","tags":["type/guide","context/phd","theme/system"],"dgHomeLink":true,"noteIcon":"","created":"2026-09-01","updated":"2026-09-01","dg-note-properties":{"aliases":["Tags and Linking Convention","Tagging Rules"],"tags":["type/guide","context/phd","theme/system"],"date":"2026-09-01","last_updated":"2026-09-01"}}
+{"dg-publish":true,"permalink":"/system/tags-and-linking-convention/","tags":["type/guide","context/phd","theme/system"],"dgHomeLink":true,"noteIcon":"","created":"2026-09-01","updated":"2026-09-02","dg-note-properties":{"aliases":["Tags and Linking Convention","Tagging Rules"],"tags":["type/guide","context/phd","theme/system"],"date":"2026-09-01","last_updated":"2026-09-02"}}
 ---
 
 
@@ -92,7 +92,16 @@ Research themes are organized hierarchically under `#theme/<pillar>/<topic>` mat
 
 ## 6. Internal links and public navigation
 
-1. Use descriptive link labels instead of exposing raw file names.
-2. Prefix literature notes with `LN - ` and permanent notes with `YYYYMMDDHHmm - `.
-3. Link dissertation claims by their stable IDs, such as `CL-01`.
-4. Public notes may link only to other notes with `dg-publish: true`; private destinations should be described as private workspace items rather than linked.
+1. **Descriptive link labels:** Use natural language labels in prose (e.g. `[[Laser-Induced Plasma Dynamics|plasma channel dynamics]]`) rather than raw paths.
+2. **Standardized prefixes:** Prefix literature notes with `LN - ` (e.g. `LN - Mikes2024 - Laser Spark Gaps`) and permanent zettels with `YYYYMMDDHHmm - ` (e.g. `202609011000 - Optical Breakdown Mechanism in Air`).
+3. **Traceable claims:** Link dissertation claims by their permanent alphanumeric IDs, such as `[[Claim Ledger & Evidence Matrix#CL-01|CL-01]]`.
+4. **Public–private link hygiene:** Public notes (`dg-publish: true`) must link only to other public notes. References to private administrative notes or meetings should be formatted as plain text rather than active wikilinks to prevent 404 dead links on Vercel.
+5. **Model A conceptual up-linking:** In our flat folder structure, hierarchy is expressed through upward wikilinks. When creating atomic notes, simulation logs, or literature reviews, link up to the canonical pillar note (e.g. `[[Laser-Induced Plasma Dynamics]]` or `pillar: "[[Laser-Triggered Spark Gaps (LTSG)]]"`). This automatically populates Obsidian's backlink panel and Digital Garden's web backlink footer.
+6. **Hierarchical Dataview queries:** In MOCs and dashboard notes, query entire pillars using hierarchical tag matching:
+   | Note                                                                                                                           | Status |
+| ------------------------------------------------------------------------------------------------------------------------------ | ------ |
+| [[II Areas/01_Research/Laser-Induced Plasma Dynamics\|Laser-Induced Plasma Dynamics]]                                       | \-     |
+| [[II Areas/01_Research/Theory - Laser-Triggered Breakdown and Switching\|Theory - Laser-Triggered Breakdown and Switching]] | \-     |
+
+{ .block-language-dataview}
+7. **Aliases for fluid writing:** Define standard aliases in frontmatter (e.g. `aliases: [LTSG, Laser-Triggered Spark Gaps]`) so autocomplete finds notes effortlessly during drafting.
