@@ -21,28 +21,28 @@ This document defines the organisation and operating standards of the **Obsidian
 
 ## Folder structure
 
-<pre class="folder-tree-container" style="overflow-x: auto; scrollbar-width: thin; -webkit-overflow-scrolling: touch; background: #0c1822; border: 1px solid #1f303f; border-radius: 8px; padding: 1.1rem 1.25rem; font-family: var(--font-monospace, 'Consolas', monospace); font-size: 0.88em; line-height: 1.65; white-space: pre; color: #ffffff; margin: 1rem 0;">
+<pre class="folder-tree-container" style="overflow-x: auto; scrollbar-width: thin; -webkit-overflow-scrolling: touch; background: #0c1822; border: 1px solid #1f303f; border-radius: 8px; padding: 0.85rem 1rem; font-family: var(--font-monospace, 'Consolas', monospace); font-size: 0.76em; line-height: 1.55; white-space: pre; color: #ffffff; margin: 0.9rem 0;">
 <span style="color: #ffffff; font-weight: 700;">Obsidian-PhD/</span>
-<span style="color: #ffffff;">├── Home.md                         # Public research dashboard & entry point</span>
-<span style="color: #8c9ba5;">├── _</span><span style="color: #ffffff;">System/                        # Vault architecture, tagging & publishing guides</span>
-<span style="color: #8c9ba5;">├── _Inbox/                         # Fleeting notes, rapid captures & raw clippings (private)</span>
-<span style="color: #8c9ba5;">├── _Daily/                         # Daily research logs & time blocks (private)</span>
-<span style="color: #ffffff;">├── I Projects/                     # Active manuscripts, COMSOL models & milestones</span>
-<span style="color: #ffffff;">├── II Areas/                       # Long-term academic spheres of responsibility (Model A flat)</span>
-<span style="color: #ffffff;">│   ├── 01_Research/                # 4 scientific pillars: plasma, switching, diagnostics, techno-economics</span>
-<span style="color: #ffffff;">│   ├── 02_Thesis/                  # Monograph architecture, claim ledger & LaTeX links</span>
-<span style="color: #ffffff;">│   ├── 03_Publications/            # Journal pipeline, conference targets & authorship</span>
-<span style="color: #8c9ba5;">│   ├── 04_Administration/          # ISP, KOS credits, regulations & supervisor syncs (private)</span>
-<span style="color: #8c9ba5;">│   ├── 05_Teaching/                # Laboratory courses, seminars & thesis supervision (private)</span>
-<span style="color: #8c9ba5;">│   └── 06_Grants_Funding/          # SGS grants, GAČR proposals & mobility budgets (private)</span>
-<span style="color: #ffffff;">├── III Resources/                  # Reusable knowledge base</span>
-<span style="color: #ffffff;">│   ├── Conferences_and_Events/     # Academic conference directory & deadlines</span>
-<span style="color: #8c9ba5;">│   ├── Data_and_Simulations/       # Measurement datasets & raw COMSOL files (private)</span>
-<span style="color: #ffffff;">│   ├── Literature/                 # Structured literature notes (LN - AuthorYear)</span>
-<span style="color: #ffffff;">│   └── Zettelkasten/               # Atomic permanent notes (YYYYMMDDHHmm - ...)</span>
-<span style="color: #8c9ba5;">├── IV Archives/                    # Completed projects & closed study periods (private)</span>
-<span style="color: #ffffff;">├── Keystones/                      # Core scientific contributions, claims & synthesis</span>
-<span style="color: #8c9ba5;">└── TEMPLATES/                      # Reusable note structures for Templater (private)</span>
+<span style="color: #ffffff;">├── Home.md                       # Public research dashboard & entry point</span>
+<span style="color: #8c9ba5;">├── _</span><span style="color: #ffffff;">System/                      # Vault architecture, tagging & publishing guides</span>
+<span style="color: #8c9ba5;">├── _Inbox/                       # Fleeting notes, rapid captures & raw clippings (private)</span>
+<span style="color: #8c9ba5;">├── _Daily/                       # Daily research logs & time blocks (private)</span>
+<span style="color: #ffffff;">├── I Projects/                   # Active manuscripts, COMSOL models & milestones</span>
+<span style="color: #ffffff;">├── II Areas/                     # Long-term academic spheres of responsibility (Model A flat)</span>
+<span style="color: #ffffff;">│   ├── 01_Research/              # 4 scientific pillars: physics, engineering, methods, economics</span>
+<span style="color: #ffffff;">│   ├── 02_Thesis/                # Monograph architecture, claim ledger & LaTeX links</span>
+<span style="color: #ffffff;">│   ├── 03_Publications/          # Journal pipeline, conference targets & authorship</span>
+<span style="color: #8c9ba5;">│   ├── 04_Administration/        # ISP, KOS credits, regulations & supervisor syncs (private)</span>
+<span style="color: #8c9ba5;">│   ├── 05_Teaching/              # Laboratory courses, seminars & thesis supervision (private)</span>
+<span style="color: #8c9ba5;">│   └── 06_Grants_Funding/        # SGS grants, GAČR proposals & mobility budgets (private)</span>
+<span style="color: #ffffff;">├── III Resources/                # Reusable knowledge base</span>
+<span style="color: #ffffff;">│   ├── Conferences_and_Events/   # Academic conference directory & deadlines</span>
+<span style="color: #8c9ba5;">│   ├── Data_and_Simulations/     # Measurement datasets & raw COMSOL files (private)</span>
+<span style="color: #ffffff;">│   ├── Literature/               # Structured literature notes (LN - AuthorYear)</span>
+<span style="color: #ffffff;">│   └── Zettelkasten/             # Atomic permanent notes (YYYYMMDDHHmm - ...)</span>
+<span style="color: #8c9ba5;">├── IV Archives/                  # Completed projects & closed study periods (private)</span>
+<span style="color: #ffffff;">├── Keystones/                    # Core scientific contributions, claims & synthesis</span>
+<span style="color: #8c9ba5;">└── TEMPLATES/                    # Reusable note structures for Templater (private)</span>
 </pre>
 
 > [!note] **Folder Visibility (Digital Garden vs. Local Workspace):**
