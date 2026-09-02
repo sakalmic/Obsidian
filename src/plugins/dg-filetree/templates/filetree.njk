@@ -90,6 +90,11 @@
                   {%- endif -%}
                {%- endfor -%}
          </div>
+         {% if settings.dgShowLocalGraph === true %}
+           <div class="filetree-graph">
+             {% include "components/graphScript.njk" %}
+           </div>
+         {% endif %}
       </nav>
       </div>
     </div>
