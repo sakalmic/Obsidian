@@ -49,27 +49,32 @@ Every new note should include the relevant tags from these dimensions:
 
 ---
 
-## 4. Theme tags
+## 4. Theme tags (2-tier hierarchical taxonomy)
 
-### Plasma and laser switching
+Research themes are organized hierarchically under `#theme/<pillar>/<topic>` matching the dissertation pillars:
 
-- `#theme/plasma-dynamics`
-- `#theme/laser-triggering`
-- `#theme/breakdown-physics`
-- `#theme/optical-diagnostics`
+### Pillar 1 · Discharge Physics & Optical Breakdown
+- `#theme/physics/optical-breakdown` — multiphoton, cascade/avalanche, threshold intensity, seed electron generation
+- `#theme/physics/plasma-dynamics` — hydrodynamic expansion, shock-wave propagation, electron temperature, thermal relaxation
+- `#theme/physics/gaseous-dielectrics` — SF6 alternatives, synthetic air, N2/O2 mixtures, dielectric recovery
 
-### Power systems and switching
+### Pillar 2 · High-Voltage Switching & Arc Quenching
+- `#theme/engineering/ltsg` — laser-triggered spark gap design, electrode geometry, trigger delay, jitter reduction
+- `#theme/engineering/arc-quenching` — thermal deionisation, magnetic/laser arc steering, hybrid mechanical-plasma interruption
+- `#theme/engineering/power-grid` — fast transmission/distribution protection, transient recovery voltage, overvoltage mitigation
 
-- `#theme/electrical-power`
-- `#theme/arc-quenching`
-- `#theme/power-grid`
-- `#theme/hybrid-breakers`
+### Pillar 3 · Experimental Diagnostics, Statistics & Simulation
+- `#theme/methods/diagnostics` — ICCD imaging, timing synchronisation, B-dot/Rogowski probes, calibrated voltage dividers, EMP shielding
+- `#theme/methods/statistics` — U50 estimation, logistic/probit regression, delay censoring, Weibull analysis, jitter characterisation
+- `#theme/methods/comsol-multiphysics` — 2D/3D axisymmetric models, drift-diffusion kinetics, hydrodynamic coupling, mesh refinement
 
-### Modelling and economics
+### Pillar 4 · Techno-Economic Grid Assessment
+- `#theme/economics/asset-lifecycle` — switching contact erosion reduction ($I^2t$), circuit-breaker lifetime extension
+- `#theme/economics/grid-reliability` — SAIDI, SAIFI, avoided cascading outage costs, resilience with renewable penetration
+- `#theme/economics/cost-benefit` — LCC, CAPEX/OPEX of laser/optical subsystems versus SF6 environmental compliance costs
 
-- `#theme/comsol-simulation`
-- `#theme/techno-economics`
-- `#theme/methodology`
+### Research Extensions & Strategy
+- `#theme/roadmap` — strategic research roadmaps, experimental campaigns, and long-term milestones (2026–2028)
 
 ---
 

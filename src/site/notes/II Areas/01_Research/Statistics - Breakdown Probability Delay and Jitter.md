@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/ii-areas/01-research/statistics-breakdown-probability-delay-and-jitter/","title":"Statistics - Breakdown Probability, Delay and Jitter","tags":["type/study","context/research","theme/statistics","theme/laser-triggering","status/evergreen"],"dgHomeLink":true,"noteIcon":"","created":"2026-09-02","updated":"2026-09-02","dg-note-properties":{"title":"Statistics - Breakdown Probability, Delay and Jitter","aliases":["LTSG Statistics","Breakdown Statistics"],"tags":["type/study","context/research","theme/statistics","theme/laser-triggering","status/evergreen"],"date":"2026-09-02","last_updated":"2026-09-02"}}
+{"dg-publish":true,"permalink":"/ii-areas/01-research/statistics-breakdown-probability-delay-and-jitter/","title":"Statistics - Breakdown Probability, Delay and Jitter","tags":["type/study","context/research","theme/methods/statistics","theme/engineering/ltsg","status/evergreen"],"dgHomeLink":true,"noteIcon":"","created":"2026-09-02","updated":"2026-09-02","dg-note-properties":{"title":"Statistics - Breakdown Probability, Delay and Jitter","aliases":["LTSG Statistics","Breakdown Statistics"],"tags":["type/study","context/research","theme/methods/statistics","theme/engineering/ltsg","status/evergreen"],"date":"2026-09-02","last_updated":"2026-09-02"}}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/ii-areas/01-research/techno-economic-modeling-of-grid-switching/","title":"Techno-Economic Modeling of Grid Switching","tags":["type/study","context/research","theme/techno-economics","status/evergreen"],"dgHomeLink":true,"noteIcon":"","created":"2026-09-01","updated":"2026-09-01","dg-note-properties":{"title":"Techno-Economic Modeling of Grid Switching","aliases":["Techno-Economic Modeling of Grid Switching","Techno-Economics in Power Engineering"],"tags":["type/study","context/research","theme/techno-economics","status/evergreen"],"date":"2026-09-01","last_updated":"2026-09-01"}}
+{"dg-publish":true,"permalink":"/ii-areas/01-research/techno-economic-modeling-of-grid-switching/","title":"Techno-Economic Modeling of Grid Switching","tags":["type/study","context/research","theme/economics/grid-reliability","theme/economics/asset-lifecycle","theme/economics/cost-benefit","status/evergreen"],"dgHomeLink":true,"noteIcon":"","created":"2026-09-01","updated":"2026-09-02","dg-note-properties":{"title":"Techno-Economic Modeling of Grid Switching","aliases":["Techno-Economic Modeling of Grid Switching","Techno-Economics in Power Engineering"],"tags":["type/study","context/research","theme/economics/grid-reliability","theme/economics/asset-lifecycle","theme/economics/cost-benefit","status/evergreen"],"date":"2026-09-01","last_updated":"2026-09-02"}}
 ---
 
 
@@ -21,5 +21,7 @@ The dissertation connects discharge physics with economic evaluation within the 
 ---
 
 ## Related permanent notes
+- [[II Areas/01_Research/High-Voltage Arc Quenching & Protection\|High-Voltage Arc Quenching & Protection]]
 - [[III Resources/Zettelkasten/202609011030 - Techno-Economic Valuation of Ultrafast Grid Protection\|202609011030 - Techno-Economic Valuation of Ultrafast Grid Protection]]
+- [[II Areas/02_Thesis/Claim Ledger & Evidence Matrix\|Claim Ledger & Evidence Matrix]]
 - [[II Areas/02_Thesis/Thesis Structure & Chapter Outline#Chapter 5\|Thesis Structure & Chapter Outline#Chapter 5]]

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/ii-areas/01-research/laser-triggered-spark-gaps-ltsg/","title":"Laser-Triggered Spark Gaps (LTSG)","tags":["type/study","context/research","theme/laser-triggering","status/evergreen"],"dgHomeLink":true,"noteIcon":"","created":"2026-09-01","updated":"2026-09-01","dg-note-properties":{"title":"Laser-Triggered Spark Gaps (LTSG)","aliases":["Laser-Triggered Spark Gaps","LTSG"],"tags":["type/study","context/research","theme/laser-triggering","status/evergreen"],"date":"2026-09-01","last_updated":"2026-09-01"}}
+{"dg-publish":true,"permalink":"/ii-areas/01-research/laser-triggered-spark-gaps-ltsg/","title":"Laser-Triggered Spark Gaps (LTSG)","tags":["type/study","context/research","theme/engineering/ltsg","status/evergreen"],"dgHomeLink":true,"noteIcon":"","created":"2026-09-01","updated":"2026-09-02","dg-note-properties":{"title":"Laser-Triggered Spark Gaps (LTSG)","aliases":["Laser-Triggered Spark Gaps","LTSG"],"tags":["type/study","context/research","theme/engineering/ltsg","status/evergreen"],"date":"2026-09-01","last_updated":"2026-09-02"}}
 ---
 
 
@@ -18,5 +18,8 @@ Laser-triggered spark gaps (LTSGs) are high-voltage switches capable of commutat
 ---
 
 ## Related notes
+- [[II Areas/01_Research/Theory - Laser-Triggered Breakdown and Switching\|Theory - Laser-Triggered Breakdown and Switching]]
+- [[II Areas/01_Research/Diagnostics - Timing EMP and Radiation\|Diagnostics - Timing EMP and Radiation]]
+- [[II Areas/01_Research/Statistics - Breakdown Probability Delay and Jitter\|Statistics - Breakdown Probability Delay and Jitter]]
 - [[II Areas/01_Research/Laser-Induced Plasma Dynamics\|Laser-Induced Plasma Dynamics]]
 - [[II Areas/01_Research/High-Voltage Arc Quenching & Protection\|High-Voltage Arc Quenching & Protection]]

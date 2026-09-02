@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/ii-areas/01-research/high-voltage-arc-quenching-and-protection/","title":"High-Voltage Arc Quenching & Protection","tags":["type/study","context/research","theme/arc-quenching","status/evergreen"],"dgHomeLink":true,"noteIcon":"","created":"2026-09-01","updated":"2026-09-01","dg-note-properties":{"title":"High-Voltage Arc Quenching & Protection","aliases":["High-Voltage Arc Quenching & Protection"],"tags":["type/study","context/research","theme/arc-quenching","status/evergreen"],"date":"2026-09-01","last_updated":"2026-09-01"}}
+{"dg-publish":true,"permalink":"/ii-areas/01-research/high-voltage-arc-quenching-and-protection/","title":"High-Voltage Arc Quenching & Protection","tags":["type/study","context/research","theme/engineering/arc-quenching","theme/engineering/power-grid","status/evergreen"],"dgHomeLink":true,"noteIcon":"","created":"2026-09-01","updated":"2026-09-02","dg-note-properties":{"title":"High-Voltage Arc Quenching & Protection","aliases":["High-Voltage Arc Quenching & Protection"],"tags":["type/study","context/research","theme/engineering/arc-quenching","theme/engineering/power-grid","status/evergreen"],"date":"2026-09-01","last_updated":"2026-09-02"}}
 ---
 
 
@@ -19,5 +19,6 @@ Rapid suppression and quenching of electrical arcs during short circuits and lig
 
 ## Related notes
 - [[II Areas/01_Research/Laser-Induced Plasma Dynamics\|Laser-Induced Plasma Dynamics]]
+- [[II Areas/01_Research/Laser-Triggered Spark Gaps (LTSG)\|Laser-Triggered Spark Gaps (LTSG)]]
 - [[II Areas/01_Research/Techno-Economic Modeling of Grid Switching\|Techno-Economic Modeling of Grid Switching]]
 - [[III Resources/Zettelkasten/202609011015 - Arc Quenching Dynamics in Hybrid Breakers\|202609011015 - Arc Quenching Dynamics in Hybrid Breakers]]

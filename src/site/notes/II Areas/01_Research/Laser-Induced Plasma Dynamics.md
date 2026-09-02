@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/ii-areas/01-research/laser-induced-plasma-dynamics/","title":"Laser-Induced Plasma Dynamics","tags":["type/study","context/research","theme/plasma-dynamics","status/evergreen"],"dgHomeLink":true,"noteIcon":"","created":"2026-09-01","updated":"2026-09-01","dg-note-properties":{"title":"Laser-Induced Plasma Dynamics","aliases":["Laser-Induced Plasma Dynamics"],"tags":["type/study","context/research","theme/plasma-dynamics","status/evergreen"],"date":"2026-09-01","last_updated":"2026-09-01"}}
+{"dg-publish":true,"permalink":"/ii-areas/01-research/laser-induced-plasma-dynamics/","title":"Laser-Induced Plasma Dynamics","tags":["type/study","context/research","theme/physics/plasma-dynamics","theme/physics/optical-breakdown","status/evergreen"],"dgHomeLink":true,"noteIcon":"","created":"2026-09-01","updated":"2026-09-02","dg-note-properties":{"title":"Laser-Induced Plasma Dynamics","aliases":["Laser-Induced Plasma Dynamics"],"tags":["type/study","context/research","theme/physics/plasma-dynamics","theme/physics/optical-breakdown","status/evergreen"],"date":"2026-09-01","last_updated":"2026-09-02"}}
 ---
 
 
@@ -18,6 +18,8 @@ Laser-induced breakdown (LIB) is a nonlinear optical and plasma process in which
 ---
 
 ## Related concepts and literature
+- [[II Areas/01_Research/Theory - Laser-Triggered Breakdown and Switching\|Theory - Laser-Triggered Breakdown and Switching]]
 - [[II Areas/01_Research/Laser-Triggered Spark Gaps (LTSG)\|Laser-Triggered Spark Gaps (LTSG)]]
+- [[II Areas/01_Research/Diagnostics - Timing EMP and Radiation\|Diagnostics - Timing EMP and Radiation]]
 - [[III Resources/Zettelkasten/202609011000 - Optical Breakdown Mechanism in Air\|202609011000 - Optical Breakdown Mechanism in Air]]
 - [[III Resources/Literature/LN - Mikes2024 - Laser Spark Gaps\|LN - Mikes2024 - Laser Spark Gaps]]

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/ii-areas/01-research/diagnostics-timing-emp-and-radiation/","title":"Diagnostics - Timing, EMP and Radiation","tags":["type/study","context/research","theme/diagnostics","theme/emp","theme/radiation","status/evergreen"],"dgHomeLink":true,"noteIcon":"","created":"2026-09-02","updated":"2026-09-02","dg-note-properties":{"title":"Diagnostics - Timing, EMP and Radiation","aliases":["LTSG Diagnostics","EMP and Radiation Diagnostics"],"tags":["type/study","context/research","theme/diagnostics","theme/emp","theme/radiation","status/evergreen"],"date":"2026-09-02","last_updated":"2026-09-02"}}
+{"dg-publish":true,"permalink":"/ii-areas/01-research/diagnostics-timing-emp-and-radiation/","title":"Diagnostics - Timing, EMP and Radiation","tags":["type/study","context/research","theme/methods/diagnostics","theme/engineering/ltsg","status/evergreen"],"dgHomeLink":true,"noteIcon":"","created":"2026-09-02","updated":"2026-09-02","dg-note-properties":{"title":"Diagnostics - Timing, EMP and Radiation","aliases":["LTSG Diagnostics","EMP and Radiation Diagnostics"],"tags":["type/study","context/research","theme/methods/diagnostics","theme/engineering/ltsg","status/evergreen"],"date":"2026-09-02","last_updated":"2026-09-02"}}
 ---
 
 
