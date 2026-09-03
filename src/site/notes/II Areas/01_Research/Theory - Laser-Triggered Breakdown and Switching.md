@@ -25,6 +25,18 @@ The dissertation should therefore distinguish at least four timescales:
 - hydrodynamic density-channel evolution and streamer formation: tens of ns-µs;
 - leader/arc formation, circuit commutation and recovery: µs-ms depending on the circuit.
 
+### Permanent-note theory map
+
+The atomic derivations, assumptions and measurement consequences are maintained separately:
+
+- **Optics and seed production:** [[Peak Laser Intensity Requires Spatial Temporal and Uncertainty Definitions\|Peak Laser Intensity Requires Spatial Temporal and Uncertainty Definitions]] → [[Keldysh Parameter Separates Strong-Field Ionization Regimes\|Keldysh Parameter Separates Strong-Field Ionization Regimes]] / [[Avalanche Ionization Can Dominate Nanosecond Breakdown\|Avalanche Ionization Can Dominate Nanosecond Breakdown]]
+- **Electron kinetics:** [[Reduced Electric Field Governs Electron Kinetics\|Reduced Electric Field Governs Electron Kinetics]] → [[Electron Energy Distribution Determines Transport Coefficients\|Electron Energy Distribution Determines Transport Coefficients]] → [[Electron Attachment Recombination and Diffusion Erase Plasma Memory\|Electron Attachment Recombination and Diffusion Erase Plasma Memory]]
+- **Discharge transition:** [[Townsend Avalanche Is Exponential but Not Yet a Streamer\|Townsend Avalanche Is Exponential but Not Yet a Streamer]] → [[Space Charge Marks the Avalanche to Streamer Transition\|Space Charge Marks the Avalanche to Streamer Transition]] → [[Photoionization Enables Positive Streamer Propagation in Air\|Photoionization Enables Positive Streamer Propagation in Air]]
+- **Delayed channel:** [[Hydrodynamic Density Depression Creates Electrical Memory\|Hydrodynamic Density Depression Creates Electrical Memory]] and [[Competing Timescales Determine the Triggering Regime\|Competing Timescales Determine the Triggering Regime]]
+- **Geometry and history:** [[Electrode Geometry and Polarity Shape the Local Field\|Electrode Geometry and Polarity Shape the Local Field]] and [[Electrode Conditioning Creates History Dependence\|Electrode Conditioning Creates History Dependence]]
+- **Measurement and inference:** [[Timing Jitter Must Be De-Embedded from the Measurement Chain\|Timing Jitter Must Be De-Embedded from the Measurement Chain]], [[Measurement Uncertainty Must Propagate Through Derived Quantities\|Measurement Uncertainty Must Propagate Through Derived Quantities]] and [[Predictive Validation Must Be Separated from Model Calibration\|Predictive Validation Must Be Separated from Model Calibration]]
+- **Post-breakdown dynamics:** [[Plasma and External Circuit Form One Dynamical System\|Plasma and External Circuit Form One Dynamical System]]
+
 ## 2. Laser field and focal intensity
 
 For a spatially Gaussian beam and a temporally Gaussian pulse, a useful first estimate of peak intensity is

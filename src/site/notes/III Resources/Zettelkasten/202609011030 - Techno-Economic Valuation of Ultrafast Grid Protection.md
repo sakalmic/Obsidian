@@ -23,8 +23,18 @@ where:
 
 The model should propagate distributions, not only point estimates. At minimum vary trigger success, false-trigger probability, component lifetime, discount rate, maintenance cost, outage value and incumbent-switch performance. Report break-even boundaries and dominant sensitivities; calculate payback only for named use cases with traceable inputs.
 
+For scenario $s$ with probability $p_s$ and discounted cash flow $C_{s,t}$,
+
+$$
+\operatorname{ENPV}=\sum_s p_s\sum_{t=0}^{T}\frac{C_{s,t}}{(1+r)^t}.
+$$
+
+Uncertain physical performance must enter before economic aggregation. Monte Carlo samples should preserve correlations—for example, faster interruption, lower let-through energy and longer component life may share the same underlying switching performance and must not be sampled independently without justification. Report the probability of positive NPV and break-even surfaces, not only mean NPV.
+
 ---
 
 ## Knowledge-graph connections
 - **Parent concept:** [[II Areas/01_Research/Techno-Economic Modeling of Grid Switching\|Techno-Economic Modeling of Grid Switching]] · [[II Areas/01_Research/01_MOC\|01_Research MOC]]
+- **Physical prerequisites:** [[Plasma and External Circuit Form One Dynamical System\|Plasma and External Circuit Form One Dynamical System]] · [[Arc Conductance and Recovery Compete After Current Zero\|Arc Conductance and Recovery Compete After Current Zero]]
+- **Uncertainty:** [[Measurement Uncertainty Must Propagate Through Derived Quantities\|Measurement Uncertainty Must Propagate Through Derived Quantities]]
 - **Dissertation link:** [[II Areas/02_Thesis/Claim Ledger & Evidence Matrix#EX-ECO-01\|EX-ECO-01]] · [[II Areas/02_Thesis/Thesis Structure & Chapter Outline#Chapter 6: Pulsed-Power Application and Conditional Techno-Economics\|Chapter 6]]

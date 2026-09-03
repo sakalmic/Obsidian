@@ -23,6 +23,15 @@ The times are regime-dependent and must be measured for the present apparatus. R
 
 The working model combines electron balance, drift-diffusion, Poisson's equation and reduced gas heating/density evolution. See [[II Areas/01_Research/Theory - Laser-Triggered Breakdown and Switching#4. Electron balance and reduced electric field\|Theory - Laser-Triggered Breakdown and Switching#4. Electron balance and reduced electric field]] for equations, assumptions and model tiers.
 
+The model chain is decomposed into permanent notes:
+
+1. [[Peak Laser Intensity Requires Spatial Temporal and Uncertainty Definitions\|Peak Laser Intensity Requires Spatial Temporal and Uncertainty Definitions]]
+2. [[Keldysh Parameter Separates Strong-Field Ionization Regimes\|Keldysh Parameter Separates Strong-Field Ionization Regimes]] and [[Avalanche Ionization Can Dominate Nanosecond Breakdown\|Avalanche Ionization Can Dominate Nanosecond Breakdown]]
+3. [[Reduced Electric Field Governs Electron Kinetics\|Reduced Electric Field Governs Electron Kinetics]] and [[Electron Energy Distribution Determines Transport Coefficients\|Electron Energy Distribution Determines Transport Coefficients]]
+4. [[Electron Attachment Recombination and Diffusion Erase Plasma Memory\|Electron Attachment Recombination and Diffusion Erase Plasma Memory]]
+5. [[Hydrodynamic Density Depression Creates Electrical Memory\|Hydrodynamic Density Depression Creates Electrical Memory]]
+6. [[Space Charge Marks the Avalanche to Streamer Transition\|Space Charge Marks the Avalanche to Streamer Transition]]
+
 ## Measurement consequences
 
 - Measure pulse energy, duration and waist rather than relying on nominal intensity.
@@ -39,4 +48,6 @@ The working model combines electron balance, drift-diffusion, Poisson's equation
 - [[II Areas/01_Research/Diagnostics - Timing EMP and Radiation\|Diagnostics - Timing EMP and Radiation]]
 - [[I Projects/LTSG Core Research Package 2026-2028\|LTSG Core Research Package 2026-2028]]
 - [[III Resources/Zettelkasten/202609011000 - Optical Breakdown Mechanism in Air\|202609011000 - Optical Breakdown Mechanism in Air]]
+- [[Competing Timescales Determine the Triggering Regime\|Competing Timescales Determine the Triggering Regime]]
+- [[Kerr Self-Focusing Creates Extended Filamentary Channels\|Kerr Self-Focusing Creates Extended Filamentary Channels]]
 - [[III Resources/Literature/LN - Mikes2024 - Laser Spark Gaps\|LN - Mikes2024 - Laser Spark Gaps]]

@@ -17,6 +17,8 @@ $$
 $$
 An LTSG could contribute to the timing of an auxiliary commutation pulse, but the switch alone does not create an artificial current zero. That system-level outcome additionally requires a commutation circuit, sufficient opposing current, insulation recovery and acceptable recovery-voltage stress. The core PhD campaign therefore measures trigger probability, delay, jitter, recovery and erosion first; breaker claims remain conditional on a later demonstrator.
 
+The coupled thermal/electrical mechanism is developed in [[Arc Conductance and Recovery Compete After Current Zero\|Arc Conductance and Recovery Compete After Current Zero]]. Near current zero, a Mayr-type conductance model can be used as an identified black-box model, but its cooling power and time constant must be estimated from the specific interrupter; they are not transferable constants.
+
 ## Demonstrator evidence needed
 
 - a complete equivalent circuit and energy balance;
@@ -30,4 +32,11 @@ An LTSG could contribute to the timing of an auxiliary commutation pulse, but th
 ## Knowledge-graph connections
 - **Parent concept:** [[II Areas/01_Research/High-Voltage Arc Quenching & Protection\|High-Voltage Arc Quenching & Protection]] · [[II Areas/01_Research/01_MOC\|01_Research MOC]]
 - **Application:** [[II Areas/01_Research/Techno-Economic Modeling of Grid Switching\|Techno-Economic Modeling of Grid Switching]]
+- **Physical model:** [[Arc Conductance and Recovery Compete After Current Zero\|Arc Conductance and Recovery Compete After Current Zero]] · [[Plasma and External Circuit Form One Dynamical System\|Plasma and External Circuit Form One Dynamical System]]
 - **Dissertation link:** [[II Areas/02_Thesis/Claim Ledger & Evidence Matrix#EX-APP-01\|EX-APP-01]] · [[II Areas/01_Research/Research Extensions Roadmap#E9 - Power-engineering demonstrator\|E9 demonstrator]]
+
+## Anchor sources
+
+- Ramus et al., breaker arc models and TRV, [doi:10.2478/aee-2015-0034](https://doi.org/10.2478/aee-2015-0034).
+- Bento, Bento and Cardoso, hybrid DC breaker architectures, [doi:10.1109/OJIES.2023.3320900](https://doi.org/10.1109/OJIES.2023.3320900).
+- IEC 62271-100:2021+AMD1:2024, [official record](https://webstore.iec.ch/en/publication/62785).
