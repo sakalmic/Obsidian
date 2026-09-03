@@ -804,6 +804,19 @@ aside,
     overflow-y: auto !important;
   }
 
+  .filetree-sidebar > .site-title-link {
+    position: sticky;
+    top: 0;
+    z-index: 4;
+    margin: 0 0 1rem !important;
+    background: var(--navy-deep);
+    box-shadow: 0 0.65rem 1rem rgba(8, 24, 36, 0.28);
+  }
+
+  .filetree-sidebar > .site-title-link.is-home-active {
+    background: rgba(255, 255, 255, 0.08);
+  }
+
   .mobile-menu-button,
   .mobile-graph-button {
     display: inline-flex;
