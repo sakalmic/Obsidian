@@ -1,107 +1,161 @@
 ---
-{"dg-publish":true,"permalink":"/system/tags-and-linking-convention/","tags":["type/guide","context/phd","theme/system"],"dgHomeLink":true,"noteIcon":"","created":"2026-09-01","updated":"2026-09-02","dg-note-properties":{"aliases":["Tags and Linking Convention","Tagging Rules"],"tags":["type/guide","context/phd","theme/system"],"date":"2026-09-01","last_updated":"2026-09-02"}}
+{"dg-publish":true,"permalink":"/system/tags-and-linking-convention/","title":"Properties, Tags and Linking Convention","tags":["topic/system/metadata"],"dgHomeLink":true,"noteIcon":"","created":"2026-09-01","updated":"2026-09-03","dg-note-properties":{"title":"Properties, Tags and Linking Convention","aliases":["Tags and Linking Convention","Tagging Rules"],"type":"guide","status":"evergreen","context":"phd","topics":["topic/system/metadata"],"tags":["topic/system/metadata"],"date":"2026-09-01","last_updated":"2026-09-03"}}
 ---
 
 
-# Tags and Linking Convention
+# Properties, Tags and Linking Convention
 
-This guide defines the required conventions for tagging and linking notes in the doctoral vault. The goal is reliable Dataview queries, a consistent knowledge graph and clean public navigation.
+The vault uses **properties for workflow state and relationships** and **tags only for topical discovery**. This prevents the same fact from being represented simultaneously by a folder, a tag and a duplicated text field.
 
----
+## Required properties by note type
 
-## 1. Required tag dimensions
+### Common properties
 
-Every new note should include the relevant tags from these dimensions:
+```yaml
+type: experiment
+status: active
+context: research
+project: LTSG-Core
+work_package: WP3
+claims:
+  - CL-01
+  - CL-03
+topics:
+  - topic/ltsg/breakdown
+  - topic/ltsg/channel
+tags:
+  - topic/ltsg/breakdown
+  - topic/ltsg/channel
+created: 2026-09-03
+last_updated: 2026-09-03
+```
 
-1. **Type:** `#type/...`
-2. **Context:** `#context/...`
-3. **Theme:** `#theme/...`
-4. **Status and priority:** `#status/...`, `#priority/...`
+`topics` is the queryable property. The identical topical values may also remain in `tags` for native Obsidian tag navigation and Digital Garden compatibility.
 
----
+### Projects and manuscripts
 
-## 2. Type tags
+- `project_id`
+- `type: project` or `type: manuscript`
+- `status`
+- `priority`
+- `due`
+- `definition_of_done`
+- `parent_project` where applicable
 
-- `#type/project` — active research, publication or study project
-- `#type/literature` — structured note on a paper, book or proceedings item
-- `#type/permanent` — atomic Zettelkasten note
-- `#type/fleeting` — rapidly captured observation or idea
-- `#type/daily` — daily research log
-- `#type/chapter` — dissertation chapter or subsection
-- `#type/meeting` — meeting record
-- `#type/paper` — manuscript and peer-review tracker
-- `#type/experiment` — simulation or laboratory protocol
-- `#type/grant` — grant application or report
-- `#type/teaching` — course or supervision note
-- `#type/moc` — Map of Content
+### Protocols, experiments and calibrations
 
----
+- `protocol_id` and `protocol_version`
+- `experiment_id` or `calibration_id`
+- `project`
+- `work_package`
+- `claims`
+- `evidence_state`
+- `dataset_id`
+- `operator`
+- `date_performed`
 
-## 3. Context tags
+### Datasets and analyses
 
-- `#context/phd` — general doctoral context
-- `#context/research` — scientific research and experiments
-- `#context/thesis` — dissertation planning and writing
-- `#context/publications` — papers and conferences
-- `#context/admin` — study administration and regulations
-- `#context/teaching` — teaching and supervision
-- `#context/grants` — funding and grant administration
+- `dataset_id`
+- `storage_location`
+- `checksum` or immutable version identifier
+- `protocol_version`
+- `qc_state`
+- `analysis_id`
+- `code_commit`
+- `data_freeze`
+- `claims`
 
----
+### Claims
 
-## 4. Theme tags (2-tier hierarchical taxonomy)
+- `claim_id`
+- `contribution`
+- `claim_role: primary` or `supporting`
+- `status: hypothesis`, `in-progress`, `supported`, `falsified-bounded`
+- `work_packages`
+- `datasets`
+- `analyses`
+- `manuscripts`
+- `chapters`
 
-Research themes are organized hierarchically under `#theme/<pillar>/<topic>` matching the dissertation pillars:
+## Controlled vocabularies
 
-### Pillar 1 · Discharge Physics & Optical Breakdown
-- `#theme/physics/optical-breakdown` — multiphoton, cascade/avalanche, threshold intensity, seed electron generation
-- `#theme/physics/plasma-dynamics` — hydrodynamic expansion, shock-wave propagation, electron temperature, thermal relaxation
-- `#theme/physics/gaseous-dielectrics` — SF6 alternatives, synthetic air, N2/O2 mixtures, dielectric recovery
+### Type
 
-### Pillar 2 · High-Voltage Switching & Arc Quenching
-- `#theme/engineering/ltsg` — laser-triggered spark gap design, electrode geometry, trigger delay, jitter reduction
-- `#theme/engineering/arc-quenching` — thermal deionisation, magnetic/laser arc steering, hybrid mechanical-plasma interruption
-- `#theme/engineering/power-grid` — fast transmission/distribution protection, transient recovery voltage, overvoltage mitigation
+`moc` · `guide` · `project` · `roadmap` · `synthesis` · `method` · `literature` · `concept` · `protocol` · `calibration` · `experiment` · `simulation` · `dataset` · `analysis` · `claim` · `manuscript` · `chapter` · `meeting` · `daily` · `administration` · `teaching` · `grant`
 
-### Pillar 3 · Experimental Diagnostics, Statistics & Simulation
-- `#theme/methods/diagnostics` — ICCD imaging, timing synchronisation, B-dot/Rogowski probes, calibrated voltage dividers, EMP shielding
-- `#theme/methods/statistics` — U50 estimation, logistic/probit regression, delay censoring, Weibull analysis, jitter characterisation
-- `#theme/methods/comsol-multiphysics` — 2D/3D axisymmetric models, drift-diffusion kinetics, hydrodynamic coupling, mesh refinement
+### General status
 
-### Pillar 4 · Techno-Economic Grid Assessment
-- `#theme/economics/asset-lifecycle` — switching contact erosion reduction ($I^2t$), circuit-breaker lifetime extension
-- `#theme/economics/grid-reliability` — SAIDI, SAIFI, avoided cascading outage costs, resilience with renewable penetration
-- `#theme/economics/cost-benefit` — LCC, CAPEX/OPEX of laser/optical subsystems versus SF6 environmental compliance costs
+`inbox` · `idea` · `planned` · `active` · `blocked` · `review` · `submitted` · `revision` · `complete` · `archived` · `evergreen`
 
-### Research Extensions & Strategy
-- `#theme/roadmap` — strategic research roadmaps, experimental campaigns, and long-term milestones (2026–2028)
+### Evidence state
 
----
+`planned` → `protocol-frozen` → `collected` → `qc-passed` → `analysed` → `replicated` → `published`
 
-## 5. Status and priority tags
+An unsuccessful or negative experiment can still reach `analysed`. Evidence state describes processing maturity, not whether the hypothesis was confirmed.
 
-### Status
+## Canonical topical taxonomy
 
-`#status/idea` · `#status/planning` · `#status/in-progress` · `#status/draft` · `#status/submitted` · `#status/revision` · `#status/published` · `#status/completed` · `#status/evergreen`
+- `topic/ltsg/breakdown`
+- `topic/ltsg/channel`
+- `topic/ltsg/timing`
+- `topic/ltsg/metrology`
+- `topic/ltsg/statistics`
+- `topic/ltsg/model`
+- `topic/ltsg/emp`
+- `topic/ltsg/radiation`
+- `topic/ltsg/application`
+- `topic/ltsg/economics`
+- `topic/system/vault`
+- `topic/system/metadata`
+- `topic/system/workflow`
 
-### Priority
+Use the narrowest useful topical tag. Do not create synonyms such as both `theme/comsol-simulation` and `theme/methods/comsol-multiphysics`.
 
-`#priority/critical` · `#priority/high` · `#priority/normal` · `#priority/low` · `#priority/lowest`
+## Legacy tag mapping
 
----
+| Legacy tag | Canonical topic |
+| --- | --- |
+| `theme/laser-triggering`, `theme/engineering/ltsg` | `topic/ltsg/breakdown` |
+| `theme/plasma-dynamics`, `theme/physics/plasma-dynamics` | `topic/ltsg/channel` |
+| `theme/optical-diagnostics`, `theme/methods/diagnostics` | `topic/ltsg/metrology` |
+| `theme/comsol-simulation`, `theme/methods/comsol-multiphysics` | `topic/ltsg/model` |
+| `theme/methods/statistics` | `topic/ltsg/statistics` |
+| `theme/emp` | `topic/ltsg/emp` |
+| `theme/radiation` | `topic/ltsg/radiation` |
+| `theme/techno-economics` | `topic/ltsg/economics` |
+| `theme/engineering/power-grid`, `theme/arc-quenching` | `topic/ltsg/application` |
 
-## 6. Internal links and public navigation
+## Linking rules
 
-1. **Descriptive link labels:** Use natural language labels in prose (e.g. `[[Laser-Induced Plasma Dynamics|plasma channel dynamics]]`) rather than raw paths.
-2. **Standardized prefixes:** Prefix literature notes with `LN - ` (e.g. `LN - Mikes2024 - Laser Spark Gaps`) and permanent zettels with `YYYYMMDDHHmm - ` (e.g. `202609011000 - Optical Breakdown Mechanism in Air`).
-3. **Traceable claims:** Link dissertation claims by their permanent alphanumeric IDs, such as `[[Claim Ledger & Evidence Matrix#CL-01|CL-01]]`.
-4. **Public–private link hygiene:** Public notes (`dg-publish: true`) must link only to other public notes. References to private administrative notes or meetings should be formatted as plain text rather than active wikilinks to prevent 404 dead links on Vercel.
-5. **Model A conceptual up-linking:** In our flat folder structure, hierarchy is expressed through upward wikilinks. When creating atomic notes, simulation logs, or literature reviews, link up to the canonical pillar note (e.g. `[[Laser-Induced Plasma Dynamics]]` or `pillar: "[[Laser-Triggered Spark Gaps (LTSG)]]"`). This automatically populates Obsidian's backlink panel and Digital Garden's web backlink footer.
-6. **Hierarchical Dataview queries:** In MOCs and dashboard notes, query entire pillars using hierarchical tag matching:
-   | Note                                                                                                                           | Status |
-| ------------------------------------------------------------------------------------------------------------------------------ | ------ |
-| [[II Areas/01_Research/Laser-Induced Plasma Dynamics\|Laser-Induced Plasma Dynamics]]                                       | \-     |
-| [[II Areas/01_Research/Theory - Laser-Triggered Breakdown and Switching\|Theory - Laser-Triggered Breakdown and Switching]] | \-     |
+1. Every evidence note links upward through properties: project → WP → CL.
+2. Literature notes link to the concepts and claims they constrain, not merely to a generic MOC.
+3. Claim IDs are permanent and never reused. Link to the atomic note, for example `[[CL-03 - Channel state versus pulse energy]]`.
+4. Public notes link only to public notes. Private evidence may be referenced in public prose by a non-sensitive identifier without exposing its path.
+5. Use descriptive labels in prose and aliases for common abbreviations.
+6. Template placeholder links must be replaced before a note leaves the inbox.
+
+## Dataview examples
+
+Active evidence for CL-03:
+
+| File | type | evidence_state | dataset_id | last_updated |
+| ---- | ---- | -------------- | ---------- | ------------ |
 
 { .block-language-dataview}
-7. **Aliases for fluid writing:** Define standard aliases in frontmatter (e.g. `aliases: [LTSG, Laser-Triggered Spark Gaps]`) so autocomplete finds notes effortlessly during drafting.
+
+Upcoming projects:
+
+| File                                                                                                                           | priority | due                | status      |
+| ------------------------------------------------------------------------------------------------------------------------------ | -------- | ------------------ | ----------- |
+| [[I Projects/Grant SGS 2026-2027\|Grant SGS 2026-2027]]                                                                     | high     | \-                 | in-progress |
+| [[I Projects/Teaching & Labs Support\|Teaching & Labs Support]]                                                             | normal   | \-                 | in-progress |
+| [[I Projects/Minimum Dissertation Study & Research Discussion 2026\|Minimum Dissertation Study & Research Discussion 2026]] | critical | September 24, 2026 | active      |
+| [[I Projects/ISP & Milestone Tracking\|ISP & Milestone Tracking]]                                                           | critical | August 31, 2027    | active      |
+| [[I Projects/Experimental Diagnostics Campaign\|Experimental Diagnostics Campaign]]                                         | high     | October 31, 2027   | active      |
+| [[I Projects/Paper - IEEE Transactions 2026\|Paper - IEEE Transactions 2026]]                                               | high     | November 30, 2027  | active      |
+| [[I Projects/COMSOL Plasma Simulation Model\|COMSOL Plasma Simulation Model]]                                               | high     | February 29, 2028  | active      |
+| [[I Projects/LTSG Core Research Package 2026-2028\|LTSG Core Research Package 2026-2028]]                                   | critical | April 30, 2028     | active      |
+| [[I Projects/Dissertation Manuscript\|Dissertation Manuscript]]                                                             | high     | August 31, 2028    | active      |
+
+{ .block-language-dataview}

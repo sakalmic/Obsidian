@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/ii-areas/01-research/research-extensions-roadmap/","title":"Research Extensions Roadmap","tags":["type/study","context/research","theme/roadmap","status/planned"],"dgHomeLink":true,"noteIcon":"","created":"2026-09-02","updated":"2026-09-02","dg-note-properties":{"title":"Research Extensions Roadmap","aliases":["LTSG Extensions","Dissertation Extensions"],"tags":["type/study","context/research","theme/roadmap","status/planned"],"date":"2026-09-02","last_updated":"2026-09-02"}}
+{"dg-publish":true,"permalink":"/ii-areas/01-research/research-extensions-roadmap/","title":"Research Extensions Roadmap","tags":["topic/ltsg/emp","topic/ltsg/radiation","topic/ltsg/application","topic/ltsg/economics"],"dgHomeLink":true,"noteIcon":"","created":"2026-09-02","updated":"2026-09-03","dg-note-properties":{"title":"Research Extensions Roadmap","aliases":["LTSG Extensions","Dissertation Extensions"],"type":"roadmap","status":"planned","context":"research","topics":["topic/ltsg/emp","topic/ltsg/radiation","topic/ltsg/application","topic/ltsg/economics"],"tags":["topic/ltsg/emp","topic/ltsg/radiation","topic/ltsg/application","topic/ltsg/economics"],"date":"2026-09-02","last_updated":"2026-09-03"}}
 ---
 
 
@@ -150,4 +150,3 @@ The core package is [[I Projects/LTSG Core Research Package 2026-2028\|LTSG Core
 - [[II Areas/01_Research/Diagnostics - Timing EMP and Radiation\|Diagnostics - Timing EMP and Radiation]]
 - [[II Areas/01_Research/Techno-Economic Modeling of Grid Switching\|Techno-Economic Modeling of Grid Switching]]
 - [[II Areas/01_Research/High-Voltage Arc Quenching & Protection\|High-Voltage Arc Quenching & Protection]]
-

@@ -1,77 +1,100 @@
 ---
-{"dg-publish":true,"permalink":"/system/ph-d-vault-architecture-guide/","tags":["type/guide","context/phd","theme/system"],"dgHomeLink":true,"noteIcon":"","created":"2026-09-01","updated":"2026-09-02","dg-note-properties":{"aliases":["PhD Vault Architecture Guide","System Guide"],"tags":["type/guide","context/phd","theme/system"],"date":"2026-09-01","last_updated":"2026-09-02"}}
+{"dg-publish":true,"permalink":"/system/ph-d-vault-architecture-guide/","title":"PhD Vault Architecture Guide","tags":["topic/system/vault"],"dgHomeLink":true,"noteIcon":"","created":"2026-09-01","updated":"2026-09-03","dg-note-properties":{"title":"PhD Vault Architecture Guide","aliases":["System Guide"],"type":"guide","status":"evergreen","context":"phd","topics":["topic/system/vault"],"tags":["topic/system/vault"],"date":"2026-09-01","last_updated":"2026-09-03"}}
 ---
 
 
 # PhD Vault Architecture Guide
 
-This document defines the organisation and operating standards of the **Obsidian-PhD** vault. The system supports doctoral research at CTU FEE in laser-induced plasma, electrical power engineering and techno-economic modelling, as well as dissertation writing and selective publication through Digital Garden.
+This document defines the canonical architecture of **Obsidian-PhD**. The vault must support four connected outcomes: a defensible dissertation, reproducible evidence, timely publications and completion of doctoral obligations.
 
----
+## Architecture decision
 
-## Design principles
+The existing PARA structure is retained. Public notes are not moved merely for cosmetic reasons because their paths may be used as published URLs. Classification is handled primarily through properties and links, while folders represent workflow responsibility.
 
-1. **Controlled depth:** Main information should remain no more than one or two navigation steps away. Maps of Content, index notes and tags provide the primary routes through the vault.
-2. **Model A flat folder taxonomy:** Academic areas (specifically `II Areas/01_Research/`) employ a **flat folder structure**. Rather than rigid subdirectories that cause single-inheritance friction and break web links upon refactoring, multi-dimensional classification is driven by 2-tier hierarchical tags (`#theme/<pillar>/<topic>`) and automated Dataview MOC dashboards.
-3. **Clear public–private boundary:** Public research notes use `dg-publish: true`; administration, budgets, student records and meeting minutes remain private with `dg-publish: false`.
-4. **Direct connection to the dissertation:** Thesis notes, the claim ledger and experimental records map directly to the LaTeX monograph under `PhD/thesis`.
-5. **Stable naming and clean slugs:** Predictable English file names ensure human-readable links in Obsidian and clean, permanent URLs on the public garden (`sakalmic-phd.vercel.app`).
+```text
+Obsidian-PhD/
+├── Home.md
+├── _Inbox/                         rapid capture; process within seven days
+├── _Daily/                         daily research log and decisions
+├── _System/                        canonical rules, workflow and publishing guides
+├── I Projects/                     time-bounded outcomes with deadlines
+├── II Areas/                       long-lived responsibilities and synthesis
+│   ├── 01_Research/
+│   ├── 02_Thesis/
+│   │   └── Claims/                 one atomic note per stable CL identifier
+│   ├── 03_Publications/
+│   ├── 04_Administration/
+│   ├── 05_Teaching/
+│   └── 06_Grants_Funding/
+├── III Resources/
+│   ├── Literature/                 one source note per paper, book or thesis
+│   ├── Zettelkasten/               atomic concepts written in the author's words
+│   ├── Methods/                    reusable protocols, statistics and SOPs
+│   ├── Evidence/
+│   │   ├── Calibrations/
+│   │   ├── Experiments/
+│   │   ├── Simulations/
+│   │   ├── Dataset Manifests/
+│   │   └── Analysis Records/
+│   ├── Data_and_Simulations/       legacy indexes and external data pointers
+│   └── Conferences_and_Events/
+├── IV Archives/                    completed or superseded records
+├── Keystones/                      legacy location; do not add new notes
+└── TEMPLATES/
+```
 
----
+## Canonical sources of truth
 
-## Folder structure
+| Question | Canonical note |
+| --- | --- |
+| What is the active scientific programme and schedule? | [[I Projects/LTSG Core Research Package 2026-2028\|LTSG Core Research Package 2026-2028]] |
+| What must be delivered in the next three weeks? | [[I Projects/Minimum Dissertation Study & Research Discussion 2026\|Minimum Dissertation Study & Research Discussion 2026]] |
+| What is the dissertation title and chapter structure? | [[II Areas/02_Thesis/Thesis Structure & Chapter Outline\|Thesis Structure & Chapter Outline]] |
+| Which scientific assertions are allowed? | [[II Areas/02_Thesis/Claim Ledger & Evidence Matrix\|Claim Ledger & Evidence Matrix]] and atomic CL notes |
+| How is evidence generated and promoted? | [[_System/Research Methodology & Workflows\|Research Methodology & Workflows]] |
+| Which metadata are valid? | [[_System/Tags and Linking Convention\|Tags and Linking Convention]] |
+| What are the doctoral deadlines? | [[I Projects/ISP & Milestone Tracking\|ISP & Milestone Tracking]] |
 
-<pre class="folder-tree-container" style="overflow-x: auto; scrollbar-width: thin; -webkit-overflow-scrolling: touch; background: #0c1822; border: 1px solid #1f303f; border-radius: 8px; padding: 0.85rem 1rem; font-family: var(--font-monospace, 'Consolas', monospace); font-size: 0.76em; line-height: 1.55; white-space: pre; color: #ffffff; margin: 0.9rem 0;">
-<span style="color: #ffffff; font-weight: 700;">Obsidian-PhD/</span>
-<span style="color: #ffffff;">├── Home.md                       # Public research dashboard & entry point</span>
-<span style="color: #8c9ba5;">├── _</span><span style="color: #ffffff;">System/                      # Vault architecture, tagging & publishing guides</span>
-<span style="color: #8c9ba5;">├── _Inbox/                       # Fleeting notes, rapid captures & raw clippings (private)</span>
-<span style="color: #8c9ba5;">├── _Daily/                       # Daily research logs & time blocks (private)</span>
-<span style="color: #ffffff;">├── I Projects/                   # Active manuscripts, COMSOL models & milestones</span>
-<span style="color: #ffffff;">├── II Areas/                     # Long-term academic spheres of responsibility (Model A flat)</span>
-<span style="color: #ffffff;">│   ├── 01_Research/              # 4 scientific pillars: physics, engineering, methods, economics</span>
-<span style="color: #ffffff;">│   ├── 02_Thesis/                # Monograph architecture, claim ledger & LaTeX links</span>
-<span style="color: #ffffff;">│   ├── 03_Publications/          # Journal pipeline, conference targets & authorship</span>
-<span style="color: #8c9ba5;">│   ├── 04_Administration/        # ISP, KOS credits, regulations & supervisor syncs (private)</span>
-<span style="color: #8c9ba5;">│   ├── 05_Teaching/              # Laboratory courses, seminars & thesis supervision (private)</span>
-<span style="color: #8c9ba5;">│   └── 06_Grants_Funding/        # SGS grants, GAČR proposals & mobility budgets (private)</span>
-<span style="color: #ffffff;">├── III Resources/                # Reusable knowledge base</span>
-<span style="color: #ffffff;">│   ├── Conferences_and_Events/   # Academic conference directory & deadlines</span>
-<span style="color: #8c9ba5;">│   ├── Data_and_Simulations/     # Measurement datasets & raw COMSOL files (private)</span>
-<span style="color: #ffffff;">│   ├── Literature/               # Structured literature notes (LN - AuthorYear)</span>
-<span style="color: #ffffff;">│   └── Zettelkasten/             # Atomic permanent notes (YYYYMMDDHHmm - ...)</span>
-<span style="color: #8c9ba5;">├── IV Archives/                  # Completed projects & closed study periods (private)</span>
-<span style="color: #ffffff;">├── Keystones/                    # Core scientific contributions, claims & synthesis</span>
-<span style="color: #8c9ba5;">└── TEMPLATES/                    # Reusable note structures for Templater (private)</span>
-</pre>
+Other notes link to or embed these sections. They must not maintain independent copies of the same schedule or claim status.
 
-> [!note] **Folder Visibility (Digital Garden vs. Local Workspace):**
-> - **Bright / White lines:** Public folders and notes published to the digital garden ([sakalmic-phd.vercel.app](https://sakalmic-phd.vercel.app/)).
-> - **Muted / Gray lines:** Private workspace areas and internal administration (remain strictly local in Obsidian).
+## Folder responsibilities
 
----
+### I Projects
 
-## Research Pillar Architecture (`II Areas/01_Research/`)
+A project has a deadline, deliverable and finish condition. Examples are the minimum study, an experimental campaign, a manuscript or the dissertation submission. A project note must contain `due`, `status`, `project_id` and a definition of done.
 
-To preserve clean URLs on Vercel and prevent classification fragmentation, notes in `01_Research/` are categorized into **four scientific pillars** via hierarchical tags rather than folders:
+### II Areas
 
-| Pillar | Focus | Tag Hierarchy | Canonical Anchor Notes |
-| :--- | :--- | :--- | :--- |
-| **Pillar 1** | **Discharge Physics & Optical Breakdown** | `#theme/physics/...` | [[II Areas/01_Research/Laser-Induced Plasma Dynamics\|Laser-Induced Plasma Dynamics]]<br>[[II Areas/01_Research/Theory - Laser-Triggered Breakdown and Switching\|Theory - Laser-Triggered Breakdown and Switching]] |
-| **Pillar 2** | **High-Voltage Switching & Arc Quenching** | `#theme/engineering/...` | [[II Areas/01_Research/Laser-Triggered Spark Gaps (LTSG)\|Laser-Triggered Spark Gaps (LTSG)]]<br>[[II Areas/01_Research/High-Voltage Arc Quenching & Protection\|High-Voltage Arc Quenching & Protection]] |
-| **Pillar 3** | **Diagnostics, Statistics & Simulation** | `#theme/methods/...` | [[II Areas/01_Research/Diagnostics - Timing EMP and Radiation\|Diagnostics - Timing EMP and Radiation]]<br>[[II Areas/01_Research/Statistics - Breakdown Probability Delay and Jitter\|Statistics - Breakdown Probability Delay and Jitter]]<br>[[I Projects/COMSOL Plasma Simulation Model\|COMSOL Plasma Simulation Model]] |
-| **Pillar 4** | **Techno-Economic Grid Assessment** | `#theme/economics/...` | [[II Areas/01_Research/Techno-Economic Modeling of Grid Switching\|Techno-Economic Modeling of Grid Switching]] |
-| **Roadmap** | **Campaign Strategy & Activation Gates** | `#theme/roadmap` | [[II Areas/01_Research/Research Extensions Roadmap\|Research Extensions Roadmap]]<br>[[I Projects/LTSG Core Research Package 2026-2028\|LTSG Core Research Package 2026-2028]] |
+Areas contain living syntheses and long-term responsibilities. Research notes explain what is known; they do not serve as task boards. Thesis claims are atomic notes under `02_Thesis/Claims/` and are aggregated by the claim ledger.
 
----
+### III Resources
 
-## Maps of Content
+Resources are reusable inputs. Raw binary data, COMSOL projects and large waveforms remain in their controlled external storage. Obsidian stores a manifest with location, checksum or immutable identifier, protocol version, QC state and linked claims.
 
-| Map | Area | Scope | Visibility |
-| :--- | :--- | :--- | :---: |
-| [[II Areas/01_Research/01_MOC\|01_Research]] | Research & Methodology | 4-pillar automated dashboard, theory, diagnostics, literature and permanent concepts | Public |
-| [[II Areas/02_Thesis/02_MOC\|02_Dissertation]] | Dissertation | Monograph outline, claim ledger, evidence matrix and LaTeX sync | Public |
-| [[II Areas/03_Publications/03_MOC\|03_Publications]] | Publications & Conferences | Active papers, target venues, conference pipeline and authorship shares | Public |
-| [[II Areas/04_Administration/04_MOC\|04_Administration]] | Administration & ISP | Study plan milestones, KOS exams, supervisor sync log and directives | Private |
-| [[II Areas/05_Teaching/05_MOC\|05_Teaching]] | Teaching & Supervision | Laboratory teaching, seminar courses and supervised theses (BP/DP) | Private |
-| [[II Areas/06_Grants_Funding/06_MOC\|06_Grants]] | Grants & Funding | SGS competition, external grant proposals and conference travel support | Private |
+### IV Archives
+
+Completed projects, superseded protocols and abandoned hypotheses are archived rather than deleted. Stable IDs are never reused.
+
+## Public and private boundary
+
+- `dg-publish: true` is an explicit publication decision, not a default.
+- Administrative, personal, safety-sensitive, raw-data and internal review notes remain private.
+- Before moving a public note, assign a stable `permalink` or preserve its path.
+- Public notes must not expose private dataset locations, credentials, personal records or unapproved preliminary results.
+
+## Migration policy
+
+1. New templates and active core notes use the property schema immediately.
+2. Legacy `type/...`, `context/...`, `status/...` and `priority/...` tags may remain temporarily for compatibility, but no new note should introduce them.
+3. Migrate an old note when it is next substantively edited.
+4. Update dashboards to query properties rather than legacy tags.
+5. Do not perform a mass path rename until public permalinks and backlinks have been checked.
+
+## Weekly architecture check
+
+- Inbox older than seven days is empty or explicitly deferred.
+- Every active project has a next action and due date.
+- Every new experiment links to a protocol, dataset manifest and at least one CL.
+- No claim is marked supported without QC-passed evidence and an uncertainty statement.
+- Duplicate schedules and copied task lists are replaced by links or embeds.
+

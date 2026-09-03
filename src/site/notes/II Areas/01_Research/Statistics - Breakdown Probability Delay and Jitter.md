@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/ii-areas/01-research/statistics-breakdown-probability-delay-and-jitter/","title":"Statistics - Breakdown Probability, Delay and Jitter","tags":["type/study","context/research","theme/methods/statistics","theme/engineering/ltsg","status/evergreen"],"dgHomeLink":true,"noteIcon":"","created":"2026-09-02","updated":"2026-09-02","dg-note-properties":{"title":"Statistics - Breakdown Probability, Delay and Jitter","aliases":["LTSG Statistics","Breakdown Statistics"],"tags":["type/study","context/research","theme/methods/statistics","theme/engineering/ltsg","status/evergreen"],"date":"2026-09-02","last_updated":"2026-09-02"}}
+{"dg-publish":true,"permalink":"/ii-areas/01-research/statistics-breakdown-probability-delay-and-jitter/","title":"Statistics - Breakdown Probability, Delay and Jitter","tags":["topic/ltsg/statistics","topic/ltsg/timing"],"dgHomeLink":true,"noteIcon":"","created":"2026-09-02","updated":"2026-09-03","dg-note-properties":{"title":"Statistics - Breakdown Probability, Delay and Jitter","aliases":["LTSG Statistics","Breakdown Statistics"],"type":"method","status":"evergreen","context":"research","topics":["topic/ltsg/statistics","topic/ltsg/timing"],"tags":["topic/ltsg/statistics","topic/ltsg/timing"],"date":"2026-09-02","last_updated":"2026-09-03"}}
 ---
 
 
@@ -154,4 +154,3 @@ Physics failures must not be relabelled as technical failures. Predeclare tolera
 - [[II Areas/01_Research/Theory - Laser-Triggered Breakdown and Switching\|Theory - Laser-Triggered Breakdown and Switching]]
 - [[III Resources/Data_and_Simulations/Experimental Measurements Archive\|Experimental Measurements Archive]]
 - [[II Areas/02_Thesis/Claim Ledger & Evidence Matrix\|Claim Ledger & Evidence Matrix]]
-

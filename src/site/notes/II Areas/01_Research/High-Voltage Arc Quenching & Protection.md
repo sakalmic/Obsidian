@@ -1,12 +1,12 @@
 ---
-{"dg-publish":true,"permalink":"/ii-areas/01-research/high-voltage-arc-quenching-and-protection/","title":"High-Voltage Arc Quenching & Protection","tags":["type/study","context/research","theme/engineering/arc-quenching","theme/engineering/power-grid","status/evergreen"],"dgHomeLink":true,"noteIcon":"","created":"2026-09-01","updated":"2026-09-02","dg-note-properties":{"title":"High-Voltage Arc Quenching & Protection","aliases":["High-Voltage Arc Quenching & Protection"],"tags":["type/study","context/research","theme/engineering/arc-quenching","theme/engineering/power-grid","status/evergreen"],"date":"2026-09-01","last_updated":"2026-09-02"}}
+{"dg-publish":true,"permalink":"/ii-areas/01-research/high-voltage-arc-quenching-and-protection/","title":"High-Voltage Arc Quenching & Protection","tags":["topic/ltsg/application"],"dgHomeLink":true,"noteIcon":"","created":"2026-09-01","updated":"2026-09-03","dg-note-properties":{"title":"High-Voltage Arc Quenching & Protection","aliases":["High-Voltage Arc Quenching & Protection"],"type":"synthesis","status":"planned","context":"research","topics":["topic/ltsg/application"],"tags":["topic/ltsg/application"],"date":"2026-09-01","last_updated":"2026-09-03"}}
 ---
 
 
 # High-Voltage Arc Quenching & Protection
 
 ## Relevance to grid protection
-Rapid suppression and quenching of electrical arcs during short circuits and lightning overvoltages is a critical requirement for modern power systems with a high share of renewable generation.
+Rapid suppression and quenching of electrical arcs is important to power-system protection, but laser-triggered **closing** of a spark gap is not equivalent to current interruption or arc quenching. This note is an application synthesis and does not define a core dissertation claim unless a current-zero/recovery experiment is activated.
 
 ---
 

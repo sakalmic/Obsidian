@@ -1,19 +1,19 @@
 ---
-{"dg-publish":true,"permalink":"/home/","title":"Home","tags":["gardenEntry","type/moc","context/phd"],"noteIcon":"","dg-note-properties":{"permalink":"/home/","title":"Home","contentClasses":"phd-home","tags":["gardenEntry","type/moc","context/phd"],"dgHomeLink":true,"dgShowFileTree":true,"noteIcon":"","created":"2026-09-01","updated":"2026-09-01"}}
+{"dg-publish":true,"permalink":"/home/","title":"Home","tags":["gardenEntry","topic/ltsg/breakdown"],"noteIcon":"","dg-note-properties":{"permalink":"/home/","title":"Home","contentClasses":"phd-home","tags":["gardenEntry","topic/ltsg/breakdown"],"type":"moc","status":"active","context":"phd","topics":["topic/ltsg/breakdown","topic/ltsg/channel","topic/ltsg/model"],"dgHomeLink":true,"dgShowFileTree":true,"noteIcon":"","created":"2026-09-01","updated":"2026-09-03"}}
 ---
 
 
 
-# Laser-Induced Plasma for Power-System Protection and Switching
+# Laser-Controlled High-Voltage Breakdown
 
 > [!abstract] **Doctoral research profile**
 > - **Researcher:** Ing. Michal Sakala
 > - **Supervisor:** doc. Ing. Jan Mikeš, Ph.D.
 > - **Affiliation:** Department of Economics, Management and Humanities, Faculty of Electrical Engineering, Czech Technical University in Prague
-> - **Dissertation:** *Laser-Induced Plasma Structures for Protection and Switching in Electrical Power Engineering: Physical Dynamics and Techno-Economic Modeling*
+> - **Proposed dissertation:** *Laser-Controlled Breakdown in Atmospheric-Pressure High-Voltage Gaps: Plasma-Channel Diagnostics, Stochastic Switching Dynamics, and Predictive Modelling*
 > - **Programme:** Economics of Energy and Electrical Engineering · 2024–2028
 
-This garden documents the development of ultrafast plasma-based switching and protection concepts, from discharge physics and multiphysics simulation to experimental validation and techno-economic assessment.
+This garden documents a reproducible investigation of how measured laser-channel state controls the probability, delay and jitter of atmospheric-pressure high-voltage breakdown, together with held-out validation of a reduced predictive model. Power-system applications and economics remain conditional extensions.
 
 ---
 
@@ -34,8 +34,8 @@ This garden documents the development of ultrafast plasma-based switching and pr
 
 | Project                                                                          | Priority | Status      | Updated    |
 | -------------------------------------------------------------------------------- | -------- | ----------- | ---------- |
-| [[I Projects/Dissertation Manuscript\|Dissertation Manuscript]]               | high     | in-progress | 2026-09-02 |
-| [[I Projects/Paper - IEEE Transactions 2026\|Paper - IEEE Transactions 2026]] | high     | in-progress | 2026-09-02 |
+| [[I Projects/Dissertation Manuscript\|Dissertation Manuscript]]               | high     | active | 2026-09-03 |
+| [[I Projects/Paper - IEEE Transactions 2026\|Paper 1 - Channel-State-Dependent Laser Triggering]] | high | active | 2026-09-03 |
 
 { .block-language-dataview}
 
@@ -45,7 +45,7 @@ This garden documents the development of ultrafast plasma-based switching and pr
 
 | Manuscript                                                                       | Target venue                                         | Status      | Deadline          |
 | -------------------------------------------------------------------------------- | ---------------------------------------------------- | ----------- | ----------------- |
-| [[I Projects/Paper - IEEE Transactions 2026\|Paper - IEEE Transactions 2026]] | IEEE Transactions on Power Delivery / Plasma Science | in-progress | December 15, 2026 |
+| [[I Projects/Paper - IEEE Transactions 2026\|Paper 1 - Channel-State-Dependent Laser Triggering]] | Venue selected after WP3 | active | November 30, 2027 |
 
 { .block-language-dataview}
 

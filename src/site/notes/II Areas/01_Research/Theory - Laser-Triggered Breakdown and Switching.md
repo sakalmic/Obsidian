@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/ii-areas/01-research/theory-laser-triggered-breakdown-and-switching/","title":"Theory - Laser-Triggered Breakdown and Switching","tags":["type/study","context/research","theme/physics/optical-breakdown","theme/physics/plasma-dynamics","theme/engineering/ltsg","status/evergreen"],"dgHomeLink":true,"noteIcon":"","created":"2026-09-02","updated":"2026-09-02","dg-note-properties":{"title":"Theory - Laser-Triggered Breakdown and Switching","aliases":["LTSG Theory","Laser-Triggered Breakdown Theory"],"tags":["type/study","context/research","theme/physics/optical-breakdown","theme/physics/plasma-dynamics","theme/engineering/ltsg","status/evergreen"],"date":"2026-09-02","last_updated":"2026-09-02"}}
+{"dg-publish":true,"permalink":"/ii-areas/01-research/theory-laser-triggered-breakdown-and-switching/","title":"Theory - Laser-Triggered Breakdown and Switching","tags":["topic/ltsg/breakdown","topic/ltsg/channel"],"dgHomeLink":true,"noteIcon":"","created":"2026-09-02","updated":"2026-09-03","dg-note-properties":{"title":"Theory - Laser-Triggered Breakdown and Switching","aliases":["LTSG Theory","Laser-Triggered Breakdown Theory"],"type":"synthesis","status":"evergreen","context":"research","topics":["topic/ltsg/breakdown","topic/ltsg/channel"],"tags":["topic/ltsg/breakdown","topic/ltsg/channel"],"date":"2026-09-02","last_updated":"2026-09-03"}}
 ---
 
 
@@ -243,4 +243,3 @@ Mandatory controls are therefore:
 - Z. Gao et al., *Investigation of laser induced air breakdown thresholds at 1064, 532, 355, 266 and 248 nm*, [doi:10.1117/12.2539007](https://doi.org/10.1117/12.2539007).
 - A. Houard et al., *Laser-guided lightning*, [doi:10.1038/s41566-022-01139-z](https://doi.org/10.1038/s41566-022-01139-z).
 - K. Dehne et al., *Picosecond laser filament-guided electrical discharges in air at 1 kHz repetition rate*, [doi:10.1364/OE.506547](https://doi.org/10.1364/OE.506547).
-

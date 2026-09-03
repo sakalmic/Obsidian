@@ -1,36 +1,59 @@
 ---
-{"dg-publish":true,"permalink":"/ii-areas/02-thesis/02-moc/","title":"02_MOC: Dissertation","tags":["type/moc","context/thesis"],"dgHomeLink":true,"noteIcon":"","created":"2026-09-01","updated":"2026-09-01","dg-note-properties":{"title":"02_MOC: Dissertation","aliases":["02_MOC","Thesis MOC"],"tags":["type/moc","context/thesis"],"date":"2026-09-01","last_updated":"2026-09-01"}}
+{"dg-publish":true,"permalink":"/ii-areas/02-thesis/02-moc/","title":"02_MOC: Dissertation","tags":["topic/ltsg/breakdown","topic/ltsg/model"],"dgHomeLink":true,"noteIcon":"","created":"2026-09-01","updated":"2026-09-03","dg-note-properties":{"title":"02_MOC: Dissertation","aliases":["02_MOC","Thesis MOC"],"type":"moc","status":"active","context":"thesis","topics":["topic/ltsg/breakdown","topic/ltsg/model"],"tags":["topic/ltsg/breakdown","topic/ltsg/model"],"date":"2026-09-01","last_updated":"2026-09-03"}}
 ---
 
 
 # 02_MOC: Dissertation
 
-This map is the central workspace for planning and writing *Laser-Induced Plasma Structures for Protection and Switching in Electrical Power Engineering: Physical Dynamics and Techno-Economic Modeling*.
+Central workspace for the proposed dissertation **Laser-Controlled Breakdown in Atmospheric-Pressure High-Voltage Gaps: Plasma-Channel Diagnostics, Stochastic Switching Dynamics, and Predictive Modelling**.
 
----
+## Immediate critical project
 
-## Core components and quality control
+- [[I Projects/Minimum Dissertation Study & Research Discussion 2026\|Minimum and professional discussion — three-week scope-freeze sprint]]
 
-- [[II Areas/02_Thesis/Thesis Structure & Chapter Outline\|Dissertation structure and chapter outline]]
-- [[II Areas/02_Thesis/Claim Ledger & Evidence Matrix\|Claim ledger and evidence matrix]]
-- State doctoral examination and minimum-thesis planning — private workspace
+## Dissertation spine
 
----
+- [[II Areas/02_Thesis/Thesis Structure & Chapter Outline\|Thesis Structure & Chapter Outline]]
+- [[I Projects/Dissertation Manuscript\|Dissertation Manuscript]]
+- [[II Areas/02_Thesis/Claim Ledger & Evidence Matrix\|Claim Ledger & Evidence Matrix]]
+- [[I Projects/LTSG Core Research Package 2026-2028\|LTSG Core Research Package 2026-2028]]
+- [[_System/Research Methodology & Workflows\|Research Methodology & Workflows]]
 
-## LaTeX synchronisation (`PhD/thesis/`)
+## Atomic claims
 
-Texts and mathematical formulations developed in Obsidian are transferred to the LaTeX repository:
+| Claim                                                                                                                                   | Contribution          | Role       | State      |
+| --------------------------------------------------------------------------------------------------------------------------------------- | --------------------- | ---------- | ---------- |
+| [[II Areas/02_Thesis/Claims/CL-01 - Laser-assisted breakdown probability\|CL-01 - Laser-assisted breakdown probability]]             | C-A                   | primary    | hypothesis |
+| [[II Areas/02_Thesis/Claims/CL-02 - Delay and jitter response\|CL-02 - Delay and jitter response]]                                   | C-A                   | primary    | hypothesis |
+| [[II Areas/02_Thesis/Claims/CL-03 - Channel state versus pulse energy\|CL-03 - Channel state versus pulse energy]]                   | C-B                   | primary    | hypothesis |
+| [[II Areas/02_Thesis/Claims/CL-04 - Polarity and field geometry\|CL-04 - Polarity and field geometry]]                               | Supporting robustness | supporting | hypothesis |
+| [[II Areas/02_Thesis/Claims/CL-05 - Reduced predictive model\|CL-05 - Reduced predictive model]]                                     | C-C                   | primary    | hypothesis |
+| [[II Areas/02_Thesis/Claims/CL-06 - Reproducible optical and electrical stages\|CL-06 - Reproducible optical and electrical stages]] | C-B                   | primary    | hypothesis |
 
-- `PhD/thesis/main.tex` — monograph entry point
-- `PhD/thesis/chapters/` — individual chapters
-- `PhD/thesis/references.bib` — bibliographic database
-- `PhD/thesis/figures/` — vector figures and diagrams
+{ .block-language-dataview}
 
----
+## Evidence status
+
+| Evidence                                                                                         | Type | State | Claims |
+| ------------------------------------------------------------------------------------------------ | ---- | ----- | ------ |
+| [[III Resources/Evidence/Calibrations/Calibrations Index\|Calibrations Index]]                | moc  | \-    | \-     |
+| [[III Resources/Evidence/Experiments/Experiments Index\|Experiments Index]]                   | moc  | \-    | \-     |
+| [[III Resources/Evidence/Simulations/Simulations Index\|Simulations Index]]                   | moc  | \-    | \-     |
+| [[III Resources/Evidence/Dataset Manifests/Dataset Manifests Index\|Dataset Manifests Index]] | moc  | \-    | \-     |
+| [[III Resources/Evidence/Analysis Records/Analysis Records Index\|Analysis Records Index]]    | moc  | \-    | \-     |
+| [[III Resources/Evidence/Evidence Index\|Evidence Index]]                                     | moc  | \-    | \-     |
+
+{ .block-language-dataview}
+
+## Administration
+
+- State Doctoral Examination and minimum planning — private workspace.
+- [[I Projects/ISP & Milestone Tracking\|ISP, SDZ, publication and internationalisation critical path]] — private workspace.
 
 ## Dissertation status
 
-- **Current stage:** research consolidation and numerical-model development
-- **Primary manuscript:** [[I Projects/Dissertation Manuscript\|Dissertation Manuscript]]
-- **Evidence control:** [[II Areas/02_Thesis/Claim Ledger & Evidence Matrix\|Claim Ledger & Evidence Matrix]]
-- **Working language:** English
+- **Current stage:** topic freeze and minimum discussion preparation.
+- **Next gate:** September 2026 discussion approves or revises title, question and C-A to C-C.
+- **Preferred SDZ target:** June 2027, subject to written confirmation.
+- **Working language:** English; Czech and English formal summaries as required.
+
