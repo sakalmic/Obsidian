@@ -817,6 +817,10 @@ aside,
     background: rgba(255, 255, 255, 0.08);
   }
 
+  .filetree-sidebar > .site-title-link h1 {
+    display: block !important;
+  }
+
   .mobile-menu-button,
   .mobile-graph-button {
     display: inline-flex;
