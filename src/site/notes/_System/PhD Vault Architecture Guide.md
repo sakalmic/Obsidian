@@ -44,7 +44,7 @@ The existing PARA structure is retained. Public notes are not moved merely for c
 </pre>
 
 > [!info] **Visibility in this diagram**
-> - **White rows** identify folders that contain notes selected for the public Digital Garden.
+> - <span style="background: #0c1822; color: #ffffff; border-radius: 3px; padding: 0.08rem 0.35rem;">White rows</span> identify folders that contain notes selected for the public Digital Garden.
 > - <span style="background: #0c1822; color: #cbd5dc; border-radius: 3px; padding: 0.08rem 0.35rem;">Light-grey rows</span> identify unpublished working folders that remain only in the local Obsidian vault.
 > - The colour is an orientation aid, not a publication control. A note is published only when its frontmatter explicitly contains `dg-publish: true`; a folder can therefore contain both public and local notes.
 

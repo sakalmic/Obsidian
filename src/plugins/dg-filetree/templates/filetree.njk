@@ -35,7 +35,10 @@
         <div x-show.important="!isDesktop" style="display: none;">
             <nav class="navbar">
                 <div class="navbar-inner">
-                    <span style="font-size: 1.5rem; margin-right: 10px;" @click="showFilesMobile=!showFilesMobile"><i  data-lucide="menu"></i></span>
+                    <button class="mobile-menu-button" type="button" aria-label="Show navigation"
+                            @click="showFilesMobile=!showFilesMobile; if (showFilesMobile) $nextTick(() => { const sidebar = document.querySelector('.filetree-sidebar'); if (sidebar) sidebar.scrollTop = 0; setTimeout(() => window.__graph?.rerenderLocal(), 80); })">
+                        <i data-lucide="menu" aria-hidden="true"></i>
+                    </button>
                     {% for imp in dynamics.filetree.beforeTitle %}
                         {% include imp %}
                     {% endfor %}
@@ -45,7 +48,7 @@
                     </a>
                     {% else %}
                     <a href="/" class="site-title-link{{ ' is-home-active' if permalink === '/' }}" style="text-decoration: none; text-align: center;"{% if permalink === '/' %} aria-current="page"{% endif %}>
-                            <h1 style="margin: 15px !important;">{{meta.siteName}}</h1>
+                            <h1>{{meta.siteName}}</h1>
                     </a>
                     {% endif %}
                     {% for imp in dynamics.filetree.afterTitle %}
@@ -53,7 +56,7 @@
                     {% endfor %}
                     {% if settings.dgShowLocalGraph === true %}
                     <button class="mobile-graph-button" type="button" aria-label="Show connected pages graph" title="Show graph"
-                            @click="showFilesMobile = true; $nextTick(() => document.querySelector('.filetree-graph')?.scrollIntoView({ behavior: 'smooth', block: 'start' }))">
+                            @click="showFilesMobile = true; $nextTick(() => setTimeout(() => { window.__graph?.rerenderLocal(); document.querySelector('.filetree-graph')?.scrollIntoView({ behavior: 'smooth', block: 'start' }); }, 80))">
                         <i data-lucide="network" aria-hidden="true"></i>
                     </button>
                     {% endif %}

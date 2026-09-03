@@ -448,15 +448,23 @@ let fullGraphDataCache = null;
 let localGraphCleanup = null;
 let globalGraphCleanup = null;
 let localGraphDepth = 1;
+let localGraphObserver = null;
+let lastLocalGraphWidth = 0;
 
 async function init() {
     const { graphData, fullGraphData } = await fetchGraphData();
     graphDataCache = graphData;
     fullGraphDataCache = fullGraphData;
+    observeLocalGraphVisibility();
     renderLocal();
 }
 
 function renderLocal() {
+    const container = document.getElementById('link-graph');
+    const width = Math.round(container?.getBoundingClientRect().width || 0);
+    if (!container || width === 0 || !graphDataCache) return;
+    lastLocalGraphWidth = width;
+
     if (localGraphCleanup) {
         localGraphCleanup();
         localGraphCleanup = null;
@@ -464,6 +472,19 @@ function renderLocal() {
     const data = filterLocalGraphData(graphDataCache, localGraphDepth);
     const cleanup = renderGraph(data, 'link-graph', false);
     localGraphCleanup = cleanup;
+}
+
+function observeLocalGraphVisibility() {
+    const container = document.getElementById('link-graph');
+    if (!container || typeof ResizeObserver === 'undefined') return;
+
+    localGraphObserver?.disconnect();
+    localGraphObserver = new ResizeObserver(entries => {
+        const width = Math.round(entries[0]?.contentRect.width || 0);
+        if (width === 0 || width === lastLocalGraphWidth || !graphDataCache) return;
+        requestAnimationFrame(renderLocal);
+    });
+    localGraphObserver.observe(container);
 }
 
 function setLocalGraphDepth(depth) {
