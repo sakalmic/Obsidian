@@ -842,16 +842,52 @@ aside,
     height: 1.45rem;
   }
 
-  .filetree-graph #link-graph {
-    position: relative;
-    min-height: 220px;
+  .filetree-graph {
+    padding-top: 0.85rem;
   }
 
-  .filetree-graph #link-graph canvas {
-    display: block !important;
-    width: 100% !important;
-    height: 100% !important;
-    opacity: 1 !important;
+  .filetree-graph .graph {
+    min-height: 0 !important;
+    border: 0;
+    background: transparent;
+  }
+
+  .filetree-graph .graph-title-container {
+    position: static;
+  }
+
+  .filetree-graph #link-graph,
+  .filetree-graph #graph-controls .ctrl-left {
+    display: none !important;
+  }
+
+  .filetree-graph #graph-controls {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    background: transparent;
+    box-shadow: none;
+  }
+
+  .filetree-graph #global-graph-btn {
+    display: inline-flex;
+    width: 100%;
+    min-height: 44px;
+    padding: 0.7rem 1rem;
+    justify-content: center;
+    gap: 0.55rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: var(--radius-sm);
+    background: rgba(255, 255, 255, 0.075);
+    color: #f7f3ea;
+    font-family: var(--font-interface);
+    font-size: 0.78rem;
+    font-weight: 650;
+  }
+
+  .filetree-graph #global-graph-btn::after {
+    content: "Open full graph";
   }
 
   main.content {
