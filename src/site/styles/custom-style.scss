@@ -705,28 +705,55 @@ aside,
   }
 
   body {
-    padding-left: 304px !important;
+    padding-left: 288px !important;
   }
 
   .filetree-wrapper {
     position: fixed !important;
     inset: 0 auto 0 0 !important;
     z-index: 100 !important;
-    width: 304px !important;
-    min-width: 304px !important;
-    max-width: 304px !important;
+    width: 288px !important;
+    min-width: 288px !important;
+    max-width: 288px !important;
     height: 100vh !important;
     border-right: 1px solid rgba(255, 255, 255, 0.08) !important;
   }
 
   .filetree-sidebar {
+    display: flex !important;
+    flex-direction: column;
     width: 100% !important;
     min-width: 0 !important;
     max-width: none !important;
     height: 100% !important;
-    padding: 2rem 1.05rem 3rem !important;
+    padding: 1.5rem 0.9rem 1rem !important;
+    overflow: hidden !important;
+  }
+
+  .filetree-sidebar > .site-title-link {
+    width: calc(100% - 1.1rem);
+    margin: 0.25rem 0.55rem 1.35rem !important;
+    padding-inline: 0.85rem !important;
+  }
+
+  .filetree-sidebar > .folder {
+    flex: 1 1 auto;
+    min-height: 0;
+    padding-right: 0.2rem;
     overflow-y: auto !important;
     scrollbar-color: rgba(255, 255, 255, 0.2) transparent;
+  }
+
+  .filetree-graph {
+    flex: 0 0 auto;
+    margin-top: 0.8rem;
+    padding-top: 0.8rem;
+  }
+
+  .filetree-graph .graph,
+  .filetree-graph #link-graph {
+    height: 150px !important;
+    min-height: 150px !important;
   }
 }
 
