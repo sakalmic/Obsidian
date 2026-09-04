@@ -106,16 +106,16 @@ function safeReturnPath(request: Request) {
 function loginPage(returnTo: string, invalidPassword = false) {
 	const action = `${LOGIN_PATH}?returnTo=${encodeURIComponent(returnTo)}`;
 	const error = invalidPassword
-		? '<p class="error" role="alert">Zadané heslo není správné.</p>'
+		? '<p class="error" role="alert">The password you entered is incorrect.</p>'
 		: "";
 
 	return `<!doctype html>
-<html lang="cs">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex,nofollow,noarchive">
-  <title>Soukromý výzkumný vault</title>
+  <title>Private Research Vault</title>
   <style>
     :root { color-scheme: light; font-family: Inter, ui-sans-serif, system-ui, sans-serif; }
     * { box-sizing: border-box; }
@@ -137,14 +137,14 @@ function loginPage(returnTo: string, invalidPassword = false) {
   <main>
     <p class="eyebrow">CTU · Doctoral Research</p>
     <h1>Michal Sakala | PhD</h1>
-    <p class="intro">Tento výzkumný web není veřejný. Pro pokračování zadejte přístupové heslo.</p>
+    <p class="intro">This research website is private. Enter the access password to continue.</p>
     ${error}
     <form method="post" action="${action}">
-      <label for="password">Přístupové heslo</label>
+      <label for="password">Access password</label>
       <input id="password" name="password" type="password" required autofocus autocomplete="current-password">
-      <button type="submit">Odemknout web</button>
+      <button type="submit">Unlock website</button>
     </form>
-    <small>Přihlášení je uloženo pouze v zabezpečené cookie tohoto prohlížeče.</small>
+    <small>Your session is stored only in a secure cookie in this browser.</small>
   </main>
 </body>
 </html>`;
@@ -164,7 +164,7 @@ function loginResponse(request: Request, invalidPassword = false) {
 
 function unavailableResponse() {
 	return new Response(
-		"Přístup k webu není nakonfigurován. Vlastník musí ve Vercelu nastavit SITE_PASSWORD.",
+		"Website access is not configured. The owner must set SITE_PASSWORD in Vercel.",
 		{ status: 503, headers: securityHeaders("text/plain; charset=utf-8") },
 	);
 }

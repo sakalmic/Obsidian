@@ -23,7 +23,7 @@ describe("site access middleware", () => {
 		);
 
 		expect(response.status).toBe(401);
-		expect(await response.text()).toContain("Přístupové heslo");
+		expect(await response.text()).toContain("Access password");
 		expect(response.headers.get("x-robots-tag")).toContain("noindex");
 	});
 
@@ -37,7 +37,7 @@ describe("site access middleware", () => {
 		);
 
 		expect(response.status).toBe(401);
-		expect(await response.text()).toContain("není správné");
+		expect(await response.text()).toContain("is incorrect");
 		expect(response.headers.get("set-cookie")).toBeNull();
 	});
 
